@@ -13,11 +13,14 @@ import Automaton.Pair;
 import Automaton.State;
 import Automaton.Transition;
 import Automaton.VariableSubstitution;
+import Automaton.VariableSubstitutionDefinition;
 import log.Event;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -37,6 +40,7 @@ public class PDDLGenerator {
   private final ArrayList<DeclareConstraint> constraints;
   private ArrayList<Automaton> constraintAutomatons;
   private List<List<State>> goalAutomatonStates;
+  private List<Condition> allReformedConditions;
   private State finalTraceState;
   // private final ArrayList<Transition> relevantTransitions;
 
@@ -63,6 +67,7 @@ public class PDDLGenerator {
     this.constraints = model.getDeclareConstraints();
     this.constraintAutomatons = new ArrayList<>();
     this.goalAutomatonStates = new ArrayList<>();
+    this.allReformedConditions = new LinkedList<>();
     this.prepareAutomatonStates();
   }
   private void prepareAutomatonStates() {
@@ -81,16 +86,18 @@ public class PDDLGenerator {
     }
   }
 
-  public String defineProblem(ArrayList<Event> listOfEvents, Map<String, Integer> assignments, Set<VariableSubstitution> substitutions) {
+  public String defineProblem(ArrayList<Event> listOfEvents, Set<VariableSubstitutionDefinition> substitutions) {
 
     Map<Event, Map<Attribute, String>> attributes = this.parseEvents(listOfEvents);
     List<State> finalAutomatonStates = new ArrayList<>();
+    List<Condition> allReformedConditions = this.getAllReformedConditions();
+    Map<Integer, String> mappingVariables = this.getMappingVariables(substitutions, attributes, allReformedConditions);
 
     StringBuilder s = new StringBuilder();
     s.append(PDDLGenerator.HEADER_STRING);
-    s.append(this.buildObjectsString(attributes, assignments));
+    s.append(this.buildObjectsString(attributes, mappingVariables));
 
-    s.append(this.buildSubstitutionValues(assignments, substitutions));
+    s.append(this.buildSubstitutionValues(mappingVariables, substitutions));
     s.append(this.buildActionCosts());
     s.append(this.buildTraceDeclaration(listOfEvents, attributes));
     s.append(this.buildAutomatons(finalAutomatonStates));
@@ -98,6 +105,49 @@ public class PDDLGenerator {
     s.append(this.buildGoals());
     s.append(PDDLGenerator.FOOTER_STRING);
     return s.toString();
+  }
+
+  private List<Condition> getAllReformedConditions() {
+
+    List<Condition> list = new LinkedList<>();
+
+    for (Automaton aut : this.constraintAutomatons) {
+      for (Transition t : aut.getTransitions()) {
+        list.addAll(t.getReformedConditions());
+      }
+    }
+    return list;
+  }
+
+  private Map<Integer, String> getMappingVariables(
+    Set<VariableSubstitutionDefinition> substitutions,
+    Map<Event, Map<Attribute, String>> attributes,
+    List<Condition> conditions
+  ) {
+    
+    // Create set of all values present in the problem
+    Set<Integer> distinctValues = new HashSet<>();
+    Map<Integer, String> map = new HashMap<>();
+    
+    substitutions.forEach(x -> 
+      distinctValues.addAll(x.substitutionValues)
+    );
+    attributes.values().forEach(x -> {
+      x.values().forEach(y ->
+        distinctValues.add(Integer.valueOf(y))
+      );}
+    );
+    conditions.forEach(x -> 
+      distinctValues.add(x.value)
+    );
+
+    // Create variable names for each distinct value
+    int i = 0;
+    for (Integer value : distinctValues) {
+      map.put(value, "v" + i++);
+    }
+    
+    return map;
   }
 
   private Map<Event, Map<Attribute, String>> parseEvents(ArrayList<Event> events) {

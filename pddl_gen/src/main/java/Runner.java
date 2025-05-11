@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.Set;
 
-import Automaton.VariableSubstitution;
+import Automaton.VariableSubstitutionDefinition;
 import translations.IOManager;
 import translations.PDDLGenerator;
 import log.LogFile;
@@ -48,8 +48,8 @@ public class Runner {
     DeclareModel model = ioManager.readDeclareModel(modelString); // OKAY!
     model.assignCosts(ioManager.readCostModel(costsString)); // OKAY!
 
-    Map<String, Integer> variableAssignments = ioManager.readVariableAssignments(variablesString);
-    Set<VariableSubstitution> substitutions = ioManager.readVariablesSubstitutions(substitutionsString);
+    // Map<String, Integer> variableAssignments = ioManager.readVariableAssignments(variablesString);
+    Set<VariableSubstitutionDefinition> substitutions = ioManager.readVariablesSubstitutions(substitutionsString);
 
     System.out.println("Model: " + model);
 
@@ -61,7 +61,7 @@ public class Runner {
     // PDDLGenerator pddlGenerator = new PDDLGenerator(model, ltlFormula);
     PDDLGenerator pddlGenerator = new PDDLGenerator(model);
     String domain = pddlGenerator.defineDomain();
-    ArrayList<String> problems = log.generateProblems(pddlGenerator, variableAssignments, substitutions);
+    ArrayList<String> problems = log.generateProblems(pddlGenerator, substitutions);
     int i = 1;
     for (String problem : problems) {
       IOManager.getInstance().exportProblemPDDL(problem, i);

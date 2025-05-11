@@ -5,7 +5,7 @@ import model.DeclareModel;
 import org.deckfour.xes.model.XLog;
 import org.deckfour.xes.model.XTrace;
 
-import Automaton.VariableSubstitution;
+import Automaton.VariableSubstitutionDefinition;
 import translations.PDDLGenerator;
 
 import java.util.ArrayList;
@@ -36,10 +36,10 @@ public class LogFile {
     return newTraces;
   }
   
-  public ArrayList<String> generateProblems(PDDLGenerator pddlGenerator, Map<String, Integer> assignments, Set<VariableSubstitution> substitutions) {
+  public ArrayList<String> generateProblems(PDDLGenerator pddlGenerator, Set<VariableSubstitutionDefinition> substitutions) {
     ArrayList<String> problems = new ArrayList<>();
     for (Trace trace : traces) {
-      problems.add(pddlGenerator.defineProblem(trace.getTrace(), assignments, substitutions));
+      problems.add(pddlGenerator.defineProblem(trace.getTrace(), substitutions));
     }
     return problems;
   }

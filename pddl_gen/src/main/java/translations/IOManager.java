@@ -7,7 +7,7 @@ import org.deckfour.xes.model.XLog;
 import org.processmining.ltl2automaton.plugins.automaton.Automaton;
 import org.processmining.ltl2automaton.plugins.automaton.DOTExporter;
 
-import Automaton.VariableSubstitution;
+import Automaton.VariableSubstitutionDefinition;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -108,8 +108,8 @@ public class IOManager {
 
     return map;
   }
-  public Set<VariableSubstitution> readVariablesSubstitutions(String fileName) {
-    HashSet<VariableSubstitution> set = new HashSet<>();
+  public Set<VariableSubstitutionDefinition> readVariablesSubstitutions(String fileName) {
+    HashSet<VariableSubstitutionDefinition> set = new HashSet<>();
 
     File assignmentFile = new File(this.inputFolder + fileName);
     try (Scanner scanner = new Scanner(assignmentFile)) {
@@ -119,14 +119,20 @@ public class IOManager {
         if (line.isEmpty()) continue;
 
         String[] read = line.split(" ");
-        if (read.length != 3) {
+        if (read.length <= 2) {
           throw new Error("Parsing error!");
         }
 
-        VariableSubstitution va = new VariableSubstitution();
-        va.variableName = read[0];
-        va.activityName = read[1];
-        va.categoryName = read[2];
+        VariableSubstitutionDefinition va = new VariableSubstitutionDefinition();
+        va.activityName = read[0];
+        va.categoryName = read[1];
+        
+        int i = 2;
+        va.substitutionValues = new ArrayList<>();
+        while (i < read.length) {
+          va.substitutionValues.add(Integer.valueOf(read[i]));
+          i++;
+        }
 
         set.add(va);
       }
