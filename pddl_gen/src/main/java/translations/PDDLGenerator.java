@@ -12,7 +12,6 @@ import Automaton.Automaton;
 import Automaton.Pair;
 import Automaton.State;
 import Automaton.Transition;
-import Automaton.VariableSubstitution;
 import Automaton.VariableSubstitutionDefinition;
 import log.Event;
 
@@ -40,7 +39,6 @@ public class PDDLGenerator {
   private final ArrayList<DeclareConstraint> constraints;
   private ArrayList<Automaton> constraintAutomatons;
   private List<List<State>> goalAutomatonStates;
-  private List<Condition> allReformedConditions;
   private State finalTraceState;
   // private final ArrayList<Transition> relevantTransitions;
 
@@ -67,7 +65,6 @@ public class PDDLGenerator {
     this.constraints = model.getDeclareConstraints();
     this.constraintAutomatons = new ArrayList<>();
     this.goalAutomatonStates = new ArrayList<>();
-    this.allReformedConditions = new LinkedList<>();
     this.prepareAutomatonStates();
   }
   private void prepareAutomatonStates() {
@@ -98,9 +95,9 @@ public class PDDLGenerator {
     s.append(this.buildObjectsString(attributes, mappingVariables));
 
     s.append(this.buildSubstitutionValues(mappingVariables, substitutions));
-    s.append(this.buildActionCosts());
-    s.append(this.buildTraceDeclaration(listOfEvents, attributes));
-    s.append(this.buildAutomatons(finalAutomatonStates));
+    s.append(this.buildActionCosts(mappingVariables));
+    s.append(this.buildTraceDeclaration(listOfEvents, attributes, mappingVariables));
+    s.append(this.buildAutomatons(finalAutomatonStates, mappingVariables));
 
     s.append(this.buildGoals());
     s.append(PDDLGenerator.FOOTER_STRING);
@@ -113,7 +110,10 @@ public class PDDLGenerator {
 
     for (Automaton aut : this.constraintAutomatons) {
       for (Transition t : aut.getTransitions()) {
-        list.addAll(t.getReformedConditions());
+        List<Condition> reformConditions = t.getReformedConditions();
+        if (reformConditions != null) {
+          list.addAll(t.getReformedConditions());
+        }
       }
     }
     return list;
@@ -133,10 +133,11 @@ public class PDDLGenerator {
       distinctValues.addAll(x.substitutionValues)
     );
     attributes.values().forEach(x -> {
-      x.values().forEach(y ->
-        distinctValues.add(Integer.valueOf(y))
-      );}
-    );
+      x.values().forEach(y -> {
+        y = y.replaceAll("[a-zA-Z]", ""); // UGLY!
+        distinctValues.add(Integer.valueOf(y));
+      });
+    });
     conditions.forEach(x -> 
       distinctValues.add(x.value)
     );
@@ -165,7 +166,7 @@ public class PDDLGenerator {
     return assignments;
   }
 
-  private StringBuilder buildObjectsString(Map<Event, Map<Attribute, String>> attributeAssignments, Map<String, Integer> variables) {
+  private StringBuilder buildObjectsString(Map<Event, Map<Attribute, String>> attributeAssignments, Map<Integer, String> variables) {
     StringBuilder b = new StringBuilder();
     b.append("  (:objects\n");
 
@@ -201,14 +202,14 @@ public class PDDLGenerator {
     b.append("- parameter_name\n");
 
     b.append("    ");
-    variables.keySet().forEach(x -> b.append(x + " "));
+    variables.values().forEach(x -> b.append(x + " "));
     b.append("- value_name\n");
 
     b.append("  )\n");
     return b;
   }
 
-  private StringBuilder buildSubstitutionValues(Map<String, Integer> variables, Set<VariableSubstitution> substitutions) {
+  private StringBuilder buildSubstitutionValues(Map<Integer, String> variables, Set<VariableSubstitutionDefinition> substitutions) {
     StringBuilder b = new StringBuilder();
 
     b.append("  (:init\n\n");
@@ -216,34 +217,41 @@ public class PDDLGenerator {
     b.append("    (= (total_cost) 0)\n\n");
     b.append("    ;; SUBSTITUTION VARIABLES\n");
 
-    for (Map.Entry<String, Integer> entry : variables.entrySet()) {
-      b.append("    (= (variable_value " + entry.getKey() + ") " + entry.getValue() + ")\n");
+    for (Map.Entry<Integer, String> entry : variables.entrySet()) {
+      b.append("    (= (variable_value " + entry.getValue() + ") " + entry.getKey() + ")\n");
     }
     b.append("\n");
-    for (VariableSubstitution sub : substitutions) {
-      b.append("    (has_substitution_value " + sub.variableName + " " + sub.activityName + " " + sub.categoryName + ")\n");
+    for (VariableSubstitutionDefinition sub : substitutions) {
+
+      for (Integer value : sub.substitutionValues) {
+        b.append("    (has_substitution_value " 
+          + sub.activityName + " " 
+          + sub.categoryName + " " 
+          + variables.get(value) 
+          + ")\n");
+      }
     }
     b.append("\n");
 
     return b;
   }
-  private StringBuilder buildActionCosts() {
+  private StringBuilder buildActionCosts(Map<Integer, String> variables) {
     StringBuilder b = new StringBuilder();
     b.append("    ; Action costs\n");
 
     for (Map.Entry<Pair<Activity, CostEnum>, Integer> cost : this.costs.entrySet()) {
       switch (cost.getKey().getValue()) {
         case CHANGE:
-          b.append("    (= (change_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          b.append("    (change_cost " + cost.getKey().getKey().getName() + " " + variables.get(cost.getValue()) + ")\n");
           break;
         case ADD:
-          b.append("    (= (add_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          b.append("    (add_cost " + cost.getKey().getKey().getName() + " " + variables.get(cost.getValue()) + ")\n");
           break;
         case SET:
-          b.append("    (= (set_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          b.append("    (set_cost " + cost.getKey().getKey().getName() + " " + variables.get(cost.getValue()) + ")\n");
           break;
         case DELETE:
-          b.append("    (= (delete_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          b.append("    (delete_cost " + cost.getKey().getKey().getName() + " " + variables.get(cost.getValue()) + ")\n");
           break;
       }
     }
@@ -251,7 +259,7 @@ public class PDDLGenerator {
 
     return b;
   }
-  private StringBuilder buildTraceDeclaration(List<Event> events, Map<Event, Map<Attribute, String>> assignments) {
+  private StringBuilder buildTraceDeclaration(List<Event> events, Map<Event, Map<Attribute, String>> assignments, Map<Integer, String> variables) {
     StringBuilder b = new StringBuilder();
     b.append("    ;; TRACE DECLARATION\n");
 
@@ -285,8 +293,10 @@ public class PDDLGenerator {
         String value = singleAssignment.getValue();
         value = value.replaceAll("[a-zA-Z]", ""); // Remove chars, use as if numbers (in case of enum types)
 
-        b.append("    (has_parameter " + activity + " " + singleAssignment.getKey().getName() + " " + cur.getName() + " " + nextName + ")\n");
-        b.append("    (= (trace_parameter " + activity + " " + singleAssignment.getKey().getName() + " " + cur.getName() + " " + nextName + ") " + value + ")\n");
+        // NOTE With this definition, a trace parameter might be able to have more values for the same (activity, attribute) pair which is not senseful.
+        // Be careful here.
+        b.append("    (has_parameter " + activity + " " + singleAssignment.getKey().getName() + " " + cur.getName() + " " + nextName + " " + variables.get(Integer.valueOf(value)) + ")\n");
+        // b.append("    (= (trace_parameter " + activity + " " + singleAssignment.getKey().getName() + " " + cur.getName() + " " + nextName + ") " + value + ")\n");
       }
       b.append("\n");
     }
@@ -294,7 +304,7 @@ public class PDDLGenerator {
     return b;
   }
 
-  public StringBuilder buildAutomatons(List<State> finalAutomatonStates) {
+  public StringBuilder buildAutomatons(List<State> finalAutomatonStates, Map<Integer, String> variables) {
     StringBuilder b = new StringBuilder();
     b.append("    ;; AUTOMATON STATES\n");
 
@@ -315,7 +325,7 @@ public class PDDLGenerator {
         List<Condition> conditions = t.getReformedConditions();
         if (conditions != null) {
           for (Condition c : conditions) {
-            b.append(this.getConditionString(t, c));
+            b.append(this.getConditionString(t, c, variables));
           }
         }
       }
@@ -327,27 +337,27 @@ public class PDDLGenerator {
     b.append("  )\n");
     return b;
   }
-  private StringBuilder getConditionString(Transition t, Condition c) {
+  private StringBuilder getConditionString(Transition t, Condition c, Map<Integer, String> variables) {
     StringBuilder b = new StringBuilder();
 
     if (c.operator == null) return b;
 
     switch (c.operator) {
       case BIGGER_OR_EQUAL:
-        b.append("    (has_maj_c " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ")\n");
-        b.append("    (= (majority_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ") " + c.value + ")\n");
+        b.append("    (has_maj_c " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + " " + variables.get(c.value) + ")\n");
+        // b.append("    (= (majority_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ") " + c.value + ")\n");
         break;
       case LESS_OR_EQUAL:
-        b.append("    (has_min_c " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ")\n");
-        b.append("    (= (minority_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ") " + c.value + ")\n");
+        b.append("    (has_min_c " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + " " + variables.get(c.value) + ")\n");
+        // b.append("    (= (minority_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ") " + c.value + ")\n");
         break;
       case EQUAL:
-        b.append("    (has_eq_c " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ")\n");
-        b.append("    (= (equality_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ") " + c.value + ")\n");
+        b.append("    (has_eq_c " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + " " + variables.get(c.value) + ")\n");
+        // b.append("    (= (equality_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ") " + c.value + ")\n");
         break;
       case NOT_EQUAL:
-        b.append("    (has_ineq_c " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ")\n");
-        b.append("    (= (inequality_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ") " + c.value + ")\n");
+        b.append("    (has_ineq_c " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + " " + variables.get(c.value) + ")\n");
+        // b.append("    (= (inequality_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ") " + c.value + ")\n");
         break;
 
       default:
@@ -408,12 +418,12 @@ public class PDDLGenerator {
         "    (cur_s_state ?s - automaton_state)\n" + //
         "\n" + //
         "    ;; PARAMETER AND CONSTRAINT DECLARATION\n" + //
-        "    (has_parameter ?a - activity ?pn - parameter_name ?t1 - trace_state ?t2 - trace_state)\n" + //
-        "    (has_maj_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state)\n" + //
-        "    (has_min_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state)\n" + //
-        "    (has_interval_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state)\n" + //
-        "    (has_eq_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state)\n" + //
-        "    (has_ineq_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state)\n" + //
+        "    (has_parameter ?a - activity ?pn - parameter_name ?t1 - trace_state ?t2 - trace_state ?v - )\n" + //
+        "    (has_maj_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state ?v - )\n" + //
+        "    (has_min_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state ?v - )\n" + //
+        "    (has_interval_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state ?v - )\n" + //
+        "    (has_eq_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state ?v - )\n" + //
+        "    (has_ineq_c ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state ?v - )\n" + //
         "\n" + //
         "    (invalid ?s1 - automaton_state ?a - activity ?s2 - automaton_state)\n" + //
         "    (complete_sync ?a - activity)\n" + //
