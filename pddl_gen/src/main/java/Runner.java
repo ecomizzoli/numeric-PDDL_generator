@@ -54,13 +54,14 @@ public class Runner {
     System.out.println("Model: " + model);
 
     LogFile log = ioManager.readLog(traceString, model); // OKAY!
+    String domainWithPlaceholders = ioManager.readDomain();
     
     ioManager.exportModel(model);
 
     // If formula exists, define and write PDDL problems.
     // PDDLGenerator pddlGenerator = new PDDLGenerator(model, ltlFormula);
     PDDLGenerator pddlGenerator = new PDDLGenerator(model);
-    String domain = pddlGenerator.defineDomain();
+    String domain = pddlGenerator.defineDomain(domainWithPlaceholders);
     ArrayList<String> problems = log.generateProblems(pddlGenerator, substitutions);
     int i = 1;
     for (String problem : problems) {

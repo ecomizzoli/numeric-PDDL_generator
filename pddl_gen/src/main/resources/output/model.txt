@@ -213,5 +213,3 @@ integer of type integer with bounds: [0.0, 100.0]
 This model contains following constraints:
 [template=Response, activationActivity=a1, activationCondition=A.integer > 10 , targetActivity=a2, targetCondition=T.integer < 10 ]
 [template=Response, activationActivity=a3, activationCondition=A.categorical is c1 , targetActivity=a4, targetCondition=T.categorical is c2 ]
-[template=Response, activationActivity=a5, activationCondition=A.categorical is c3 , targetActivity=a7, targetCondition=T.integer > 10 ]
-[template=Chain_Response, activationActivity=a6, activationCondition=A.integer > 10 , targetActivity=a7, targetCondition=T.integer > 10 ]

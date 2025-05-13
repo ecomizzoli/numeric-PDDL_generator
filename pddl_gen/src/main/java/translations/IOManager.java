@@ -10,6 +10,7 @@ import org.processmining.ltl2automaton.plugins.automaton.DOTExporter;
 import Automaton.VariableSubstitutionDefinition;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
@@ -22,6 +23,7 @@ public class IOManager {
   private String projectPrefix = "";
   private String resourcesFolder;
   private String inputFolder;
+  private String libFolder;
   private String outputFolder;
   private String pddlFolder;
   //private String alignmentFolder = outputFolder + "alignments" + File.separator;
@@ -40,6 +42,7 @@ public class IOManager {
   private void setPaths() {
     this.resourcesFolder = this.projectPrefix + "src" + File.separator + "main" + File.separator + "resources" + File.separator;
     this.inputFolder = resourcesFolder + "input" + File.separator;
+    this.libFolder = resourcesFolder + "lib" + File.separator;
     this.outputFolder = resourcesFolder + "output" + File.separator;
     this.pddlFolder = outputFolder + "pddl" + File.separator;
 
@@ -83,6 +86,23 @@ public class IOManager {
       System.out.println("Error reading the declare file");
     }
     return lines;
+  }
+
+  public String readDomain() {
+    StringBuilder sb = new StringBuilder();
+
+    File domain = new File(this.libFolder + "domain.pddl");
+    Scanner s;
+    try {
+      s = new Scanner(domain);
+      while (s.hasNextLine()) {
+        sb.append(s.nextLine() + "\n");
+      }
+    } catch (FileNotFoundException e) {
+      System.err.println("Domain file with placeholders not found!");
+      e.printStackTrace();
+    }
+    return sb.toString();
   }
 
   public Map<String, Integer> readVariableAssignments(String fileName) {
