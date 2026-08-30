@@ -1,6 +1,11 @@
-This model contains 10 activities:
+This model contains 12 activities:
 
 ActivityC=> My attributes are: 
+categorical of type enum with values: [c1, c2, c3]
+
+
+
+ActivityD=> My attributes are: 
 categorical of type enum with values: [c1, c2, c3]
 
 
@@ -10,7 +15,17 @@ categorical of type enum with values: [c1, c2, c3]
 
 
 
+ActivityO=> My attributes are: 
+categorical of type enum with values: [c1, c2, c3]
+
+
+
 ActivityP=> My attributes are: 
+integer of type integer with bounds: [0.0, 100.0]
+
+
+
+ActivityQ=> My attributes are: 
 integer of type integer with bounds: [0.0, 100.0]
 
 
@@ -20,17 +35,9 @@ integer of type integer with bounds: [0.0, 100.0]
 
 
 
-ActivityB=> My attributes are: 
+ActivityM=> My attributes are: 
 categorical of type enum with values: [c1, c2, c3]
 
-
-
-ActivityK=> My attributes are: 
-integer of type integer with bounds: [0.0, 100.0]
-
-
-
-ActivityL=> My attributes are: 
 
 
 ActivityN=> My attributes are: 
@@ -43,16 +50,21 @@ integer of type integer with bounds: [0.0, 100.0]
 
 
 
-ActivityAC=> My attributes are: 
+ActivityH=> My attributes are: 
+integer of type integer with bounds: [0.0, 100.0]
+
+
+
+ActivityJ=> My attributes are: 
 categorical of type enum with values: [c1, c2, c3]
 
 
 
 This model contains following constraints:
-[template=Absence, activationActivity=ActivityK, activationCondition=A.integer < 20 , targetActivity=null, targetCondition=null]
-[template=Existence, activationActivity=ActivityB, activationCondition=A.categorical is c2 , targetActivity=null, targetCondition=null]
+[template=Absence, activationActivity=ActivityN, activationCondition=A.integer < 20 , targetActivity=null, targetCondition=null]
+[template=Existence, activationActivity=ActivityJ, activationCondition=A.categorical is c2 , targetActivity=null, targetCondition=null]
 [template=Response, activationActivity=ActivityG, activationCondition=A.integer > 10 , targetActivity=ActivityP, targetCondition=T.integer < 10 ]
-[template=Precedence, activationActivity=ActivityAC, activationCondition=A.categorical is c1 , targetActivity=ActivityF, targetCondition=T.categorical is c2 ]
-[template=Not_Response, activationActivity=ActivityL, activationCondition=null, targetActivity=ActivityL, targetCondition=null]
+[template=Precedence, activationActivity=ActivityD, activationCondition=A.categorical is c1 , targetActivity=ActivityF, targetCondition=T.categorical is c2 ]
+[template=Not_Response, activationActivity=ActivityM, activationCondition=A.categorical is c2 , targetActivity=ActivityO, targetCondition=T.categorical is c1 ]
 [template=Chain_Response, activationActivity=ActivityA, activationCondition=A.integer < 5 , targetActivity=ActivityC, targetCondition=T.categorical is c1 ]
-[template=Response, activationActivity=ActivityP, activationCondition=A.integer > 10 , targetActivity=ActivityN, targetCondition=T.integer > 10 ]
+[template=Response, activationActivity=ActivityH, activationCondition=A.integer > 10 , targetActivity=ActivityQ, targetCondition=T.integer > 10 ]

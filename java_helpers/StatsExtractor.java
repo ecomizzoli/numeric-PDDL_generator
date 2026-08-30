@@ -25,7 +25,7 @@ public class StatsExtractor {
   private ArrayList<Integer> statesNumbers;
   private ArrayList<Double> timesSpent;
   private ArrayList<Integer> maximumResidentSizes;
-  private ArrayList<Integer> searchTimes;
+  private ArrayList<Double> searchTimes;
 
   private double costAvg;
   private double planLengthAvg;
@@ -96,16 +96,18 @@ public class StatsExtractor {
 
     // Order for all is: ff, enhsp, pddl4j
     this.costPatterns = List.of(
-      Pattern.compile("plan cost: (\\d+\\.\\d+)"),
+      Pattern.compile("Plan\\scost: (\\d+\\.*\\d*)"),
       Pattern.compile("Metric \\(Search\\):(\\d+\\.\\d+)")
       // PDDL4J
     );
     this.planLengthPatterns = List.of(
-      Pattern.compile("^\\s+(\\d+):[\\s\\w]+$"),
-      Pattern.compile("(\\d+\\.\\d+):\\s\\([\\w\\s\\-]+\\)")
+      //Pattern.compile("^\\s+(\\d+):[\\s\\w]+$"),
+      Pattern.compile("Plan length: (\\d+) step\\(s\\)"),
+      //Pattern.compile("(\\d+\\.\\d+):\\s\\([\\w\\s\\-]+\\)")
+      Pattern.compile("(\\d+[\\.\\d]*):\\s(\\([\\w\\s\\-]+\\)|[-\\w]*\\s\\[\\d+\\.\\d\\])")
     );
     this.statesPatterns = List.of(
-      Pattern.compile("\\sevaluating (\\d+) states"),
+      Pattern.compile("\\sEvaluated (\\d+) state\\(s\\)"),
       Pattern.compile("States Evaluated:(\\d+)")
     );
     this.timesSpentPatterns = List.of(
@@ -115,7 +117,8 @@ public class StatsExtractor {
       Pattern.compile("\\s*Maximum resident set size \\(kbytes\\):\\s(\\d+)")
     );
     this.searchTimePatterns = List.of(
-      Pattern.compile("Search\\sTime\\s\\(msec\\):\\s(\\d*)")
+      Pattern.compile("Search\\sTime\\s\\(msec\\):\\s(\\d*)"),
+      Pattern.compile("Search\\stime:\\s(\\d*\\.\\d*)s")
     );
   }
 
@@ -136,7 +139,7 @@ public class StatsExtractor {
       this.handleParse(line, this.statesPatterns, this.statesNumbers, Integer.class, false, false);
       this.handleParse(line, this.timesSpentPatterns, this.timesSpent, Double.class, true, false);
       this.handleParse(line, this.mrsPatterns, this.maximumResidentSizes, Integer.class, false, true);
-      this.handleParse(line, this.searchTimePatterns, this.searchTimes, Integer.class, false, true);
+      this.handleParse(line, this.searchTimePatterns, this.searchTimes, Double.class, false, true);
     }
   }
   private boolean crashed(String line) {
@@ -248,7 +251,7 @@ public class StatsExtractor {
     this.completionRate = (this.costs.size() / (double) this.numOfTraces) * 100;
 
     this.searchTimeAvg = this.searchTimes.stream()
-      .mapToInt(v -> v)
+      .mapToDouble(v -> v)
       .average()
       .orElse(-1);
 

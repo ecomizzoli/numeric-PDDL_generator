@@ -1,5 +1,11 @@
 package model;
 import model.DeclareModel;
+import model.Activity;
+import model.Attribute;
+import model.Condition;
+import model.CostEnum;
+import model.DeclareConstraint;
+import model.DeclareModel;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -7,7 +13,9 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+//import java.util.concurrent.locks.Condition;
 
 import org.processmining.models.graphbased.directed.petrinetwithdata.newImpl.DataElement;
 import org.processmining.plugins.declareminer.PossibleNodes;
@@ -35,6 +43,7 @@ public class MixedModel {
 	public ArrayList<String> allAutomatonStates;
 	public HashMap<String, Activity> activityObjects;
 	public ArrayList<String> allPetriNetStates;
+	private Map<Pair<Activity, CostEnum>, Integer> costs;
 	
     
 
@@ -314,5 +323,36 @@ public class MixedModel {
 	return activityObjectMap;
   }
     
+  public Map<Pair<Activity, CostEnum>, Integer> getCosts() {
+    return this.costs;
+  }
 
+  public void assignCosts(List<String[]> costsList) {
+    //Activity a;
+	String sa;
+	Activity a;
+    Integer[] costsArray = new Integer[4];
+
+    this.costs = new HashMap<>();
+    Set<Activity> seenActivities = new HashSet<>();
+
+    for (String[] costs : costsList) {
+      sa = this.activities.get(costs[0]);
+      if (sa == null) {
+        throw new Error("Activity not found! What I parsed: " + costs[0]);
+      }
+	  a = new Activity(sa);
+      seenActivities.add(a);
+      for (int i = 1; i < costs.length; i++) {
+        costsArray[i-1] = Integer.valueOf(costs[i]);
+      }
+      this.costs.put(new Pair<Activity, CostEnum>(a, CostEnum.CHANGE), costsArray[0]);
+      this.costs.put(new Pair<Activity, CostEnum>(a, CostEnum.ADD), costsArray[1]);
+      this.costs.put(new Pair<Activity, CostEnum>(a, CostEnum.SET), costsArray[2]);
+      this.costs.put(new Pair<Activity, CostEnum>(a, CostEnum.DELETE), costsArray[3]);
+    }
+
+    // TODO Implement handling of missing activities
+    // Set<Activity> undefinedActivities = new HashSet<>();
+  }
 }

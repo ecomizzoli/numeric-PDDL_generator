@@ -9,6 +9,7 @@ import model.DeclareModel;
 
 import org.deckfour.xes.extension.std.XConceptExtension;
 import Automaton.Automaton;
+import Automaton.Pair;
 import Automaton.State;
 import Automaton.Transition;
 import Automaton.VariableSubstitution;
@@ -29,7 +30,7 @@ public class PDDLGenerator {
   private static final int SET_DEFAULT_COST = 1;
   private static final int DELETE_DEFAULT_COST = 2;
 
-  private final Map<CostEnum, Integer> costs;
+  private final Map<Pair<Activity, CostEnum>, Integer> costs;
   
   // NOTE Define action costs above ^^^
   private final HashMap<String, Activity> activities;
@@ -37,7 +38,7 @@ public class PDDLGenerator {
   private ArrayList<Automaton> constraintAutomatons;
   private List<List<State>> goalAutomatonStates;
   private State finalTraceState;
-  // private final ArrayList<Transition> relevantTransitions;
+  // private final ArrayList<Transition> relevantTransitions;ss
 
   private static final String HEADER_STRING = 
     "(define (problem prob-trace)\n" + 
@@ -51,17 +52,11 @@ public class PDDLGenerator {
   public PDDLGenerator(DeclareModel model) throws Exception {
 
     // Get set costs, or use default ones
-    Map<CostEnum, Integer> costs = model.getCosts();
+    Map<Pair<Activity, CostEnum>, Integer> costs = model.getCosts();
     if (costs != null) {
       this.costs = costs;
     } else {
-      costs = new HashMap<>();
-      costs.put(CostEnum.CHANGE, CHANGE_DEFAULT_COST);
-      costs.put(CostEnum.ADD, ADD_DEFAULT_COST);
-      costs.put(CostEnum.SET, SET_DEFAULT_COST);
-      costs.put(CostEnum.DELETE, DELETE_DEFAULT_COST);
-
-      this.costs = costs;
+      this.costs = null;
     }
 
     this.activities = model.getActivities();
@@ -96,6 +91,7 @@ public class PDDLGenerator {
     s.append(this.buildObjectsString(attributes, assignments));
 
     s.append(this.buildSubstitutionValues(assignments, substitutions));
+    s.append(this.buildActionCosts());
     s.append(this.buildTraceDeclaration(listOfEvents, attributes));
     s.append(this.buildAutomatons(finalAutomatonStates));
 
@@ -181,6 +177,30 @@ public class PDDLGenerator {
 
     return b;
   }
+  private StringBuilder buildActionCosts() {
+    StringBuilder b = new StringBuilder();
+    b.append("    ; Action costs\n");
+
+    for (Map.Entry<Pair<Activity, CostEnum>, Integer> cost : this.costs.entrySet()) {
+      switch (cost.getKey().getValue()) {
+        case CHANGE:
+          b.append("    (= (change_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          break;
+        case ADD:
+          b.append("    (= (add_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          break;
+        case SET:
+          b.append("    (= (set_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          break;
+        case DELETE:
+          b.append("    (= (delete_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          break;
+      }
+    }
+    b.append("\n");
+
+    return b;
+  }
   private StringBuilder buildTraceDeclaration(List<Event> events, Map<Event, Map<Attribute, String>> assignments) {
     StringBuilder b = new StringBuilder();
     b.append("    ;; TRACE DECLARATION\n");
@@ -246,6 +266,7 @@ public class PDDLGenerator {
         if (conditions != null) {
           for (Condition c : conditions) {
             b.append(this.getConditionString(t, c));
+            b.append(this.getHasConditionString(t, c));
           }
         }
       }
@@ -286,6 +307,18 @@ public class PDDLGenerator {
 
     return b;
   }
+
+  private StringBuilder getHasConditionString(Transition t, Condition c) {
+    StringBuilder b = new StringBuilder();
+
+    if (c.operator == null) return b;
+    b.append("    (has_constraint " + c.activity + " " + c.parameterName + " " + t.getActiviationState().name + " " + t.getTargetState().name + ")\n");
+
+
+  return b;
+  }
+
+
   private StringBuilder buildGoals() {
     StringBuilder b = new StringBuilder();
 
@@ -322,23 +355,6 @@ public class PDDLGenerator {
         "\n" + //
         "  (:types activity automaton_state trace_state parameter_name value_name)\n" + //
         "\n" + //
-        "  ; ; Constants for prob\n" + //
-        "  ; (:constants\n" + //
-        "  ;   t0 t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 - trace_state\n" + //
-        "  ;   s10 s11 s20 s21 s30 s31 s40 s41 s50 s51 s60 s61 s62 s70 s71 s72 s73 s80 s81 s82 - automaton_state\n" + //
-        "  ;   A B C D E F G - activity\n" + //
-        "  ;   x y z - parameter_name\n" + //
-        "  ;   a_x20 a_x40 a_y4 a_y6 a_z0 a_z1 c40 c30 c20 d10 d20 d40 e_x20 e_z0 e_z1 - value_name\n" + //
-        "  ; )\n" + //
-        "\n" + //
-        "  ; ; Constants for prob2\n" + //
-        "  ; (:constants\n" + //
-        "  ;   t0 t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 - trace_state\n" + //
-        "  ;   s10 s11 s20 s21 s30 s31 s40 s41 s50 s51 s52 s60 s61 s62 s70 s71 s80 s81 s100 s101 - automaton_state\n" + //
-        "  ;   a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 - activity\n" + //
-        "  ;   int cat - parameter_name\n" + //
-        "  ;   int5 int10 int15 cat1 cat2 cat3 - value_name\n" + //
-        "  ; )\n" + //
         "\n" + //
         "  ;; Majority: >=\n" + //
         "  ;; Minority: <=\n" + //
@@ -392,6 +408,12 @@ public class PDDLGenerator {
         "    (interval_constraint_higher ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state)\n" + //
         "    (equality_constraint ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state)\n" + //
         "    (inequality_constraint ?a - activity ?pn - parameter_name ?s1 - automaton_state ?s2 - automaton_state)\n" + //
+        "\n" + //
+        "    ; Costs\n" + //
+        "    (change_cost ?a - activity)\n" + //
+        "    (add_cost ?a - activity)\n" + //
+        "    (set_cost ?a - activity)\n" + //
+        "    (delete_cost ?a - activity)\n" + //
         "\n" + //
         "    ;; VARIABLES SUBSTITUTION / ADDITION\n" + //
         "    (variable_value ?var - value_name)\n" + //
@@ -551,7 +573,7 @@ public class PDDLGenerator {
         "    )\n" + //
         "    :effect (and \n" + //
         "      (after_change)\n" + //
-        "      (increase (total_cost) " + this.costs.get(CostEnum.CHANGE) + ")\n" + //
+        "      (increase (total_cost) (change_cost ?a))\n" + //
         "      (has_parameter ?a ?pn ?t1 ?t2)\n" + //
         "      (assign (trace_parameter ?a ?pn ?t1 ?t2) (variable_value ?vn))\n" + //
         "  ))\n" + //
@@ -568,7 +590,7 @@ public class PDDLGenerator {
         "      (not (after_add))\n" + //
         "    )\n" + //
         "    :effect (and \n" + //
-        "      (increase (total_cost) " + this.costs.get(CostEnum.ADD) + ")\n" + //
+        "      (increase (total_cost) (add_cost ?a))\n" + //
         "      (adding_value ?a ?t1)\n" + //
         "      (after_add)\n" + //
         "  ))\n" + //
@@ -585,7 +607,7 @@ public class PDDLGenerator {
         "      (has_substitution_value ?vn ?a ?pn)\n" + //
         "    )\n" + //
         "    :effect (and \n" + //
-        "      (increase (total_cost) " + this.costs.get(CostEnum.SET) + ")\n" + //
+        "      (increase (total_cost) (set_cost ?a))\n" + //
         "      (has_added_parameter ?a ?pn ?t1)\n" + //
         "      (assign (added_parameter ?a ?pn ?t1) (variable_value ?vn))\n" + //
         "  ))\n" + //
@@ -694,11 +716,13 @@ public class PDDLGenerator {
         "      (not (after_add))\n" + //
         "    )\n" + //
         "    :effect (and \n" + //
-        "      (increase (total_cost) " + this.costs.get(CostEnum.DELETE) + ")\n" + //
+        "      (increase (total_cost) (delete_cost ?a))\n" + //
         "      (not (cur_t_state ?t1)) \n" + //
         "      (cur_t_state ?t2))\n" + //
         "  )\n" + //
         ")\n" + //
         "";
   }
+
+
 }

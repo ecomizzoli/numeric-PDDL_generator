@@ -1,0 +1,6025 @@
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem1.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7659
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.021) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 16, Evaluated States: 45, Time: 0.077) Frontier Size: 29
+f(n) = 4.0 (Expanded Nodes: 88, Evaluated States: 242, Time: 0.121) Frontier Size: 154
+f(n) = 5.0 (Expanded Nodes: 286, Evaluated States: 701, Time: 0.227) Frontier Size: 415
+f(n) = 6.0 (Expanded Nodes: 749, Evaluated States: 1630, Time: 0.388) Frontier Size: 881
+Problem Solved
+
+Found Plan:
+0.0: (del a2)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a3 t3)
+4.0: (sync_actions a3)
+5.0: (validate_payload t3 a10 t4)
+6.0: (sync_actions a10)
+7.0: (validate_payload t4 a5 t5)
+8.0: (sync_actions a5)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (del a7)
+12.0: (validate_payload t7 a6 t8)
+13.0: (sync_actions a6)
+14.0: (validate_payload t8 a12 t9)
+15.0: (sync_actions a12)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (del a1)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 530
+Heuristic Time (msec): 6
+Search Time (msec): 527
+Expanded Nodes:1428
+States Evaluated:2873
+Number of Dead-Ends detected:0
+Number of Duplicates detected:182
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem2.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7684
+UFX:true
+|F|:26425
+|X|:11
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 10, Evaluated States: 22, Time: 0.035) Frontier Size: 12
+f(n) = 3.0 (Expanded Nodes: 50, Evaluated States: 96, Time: 0.119) Frontier Size: 46
+f(n) = 4.0 (Expanded Nodes: 67, Evaluated States: 122, Time: 0.128) Frontier Size: 55
+f(n) = 5.0 (Expanded Nodes: 183, Evaluated States: 308, Time: 0.185) Frontier Size: 125
+f(n) = 6.0 (Expanded Nodes: 245, Evaluated States: 396, Time: 0.216) Frontier Size: 151
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a12 t3)
+5.0: (sync_actions a12)
+6.0: (validate_payload t3 a11 t4)
+7.0: (sync_actions a11)
+8.0: (del a2)
+9.0: (validate_payload t5 a3 t6)
+10.0: (sync_actions a3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (del a9)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (del a9)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 286
+Heuristic Time (msec): 4
+Search Time (msec): 279
+Expanded Nodes:406
+States Evaluated:606
+Number of Dead-Ends detected:0
+Number of Duplicates detected:94
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem3.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7647
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.021) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 8, Evaluated States: 19, Time: 0.064) Frontier Size: 11
+f(n) = 4.0 (Expanded Nodes: 20, Evaluated States: 39, Time: 0.078) Frontier Size: 19
+f(n) = 5.0 (Expanded Nodes: 47, Evaluated States: 110, Time: 0.106) Frontier Size: 63
+f(n) = 6.0 (Expanded Nodes: 190, Evaluated States: 476, Time: 0.18) Frontier Size: 286
+f(n) = 7.0 (Expanded Nodes: 827, Evaluated States: 2014, Time: 0.349) Frontier Size: 1187
+Problem Solved
+
+Found Plan:
+0.0: (del a6)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (del a4)
+4.0: (validate_payload t3 a10 t4)
+5.0: (sync_actions a10)
+6.0: (validate_payload t4 a3 t5)
+7.0: (sync_actions a3)
+8.0: (change_value a4 categorical c3)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (validate_payload t6 a5 t7)
+12.0: (sync_actions a5)
+13.0: (validate_payload t7 a6 t8)
+14.0: (sync_actions a6)
+15.0: (validate_payload t8 a12 t9)
+16.0: (sync_actions a12)
+17.0: (validate_payload t9 a11 t10)
+18.0: (sync_actions a11)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (validate_payload t11 a0 t12)
+22.0: (sync_actions a0)
+23.0: (validate_payload t12 a1 t13)
+24.0: (sync_actions a1)
+25.0: (del a12)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 528
+Heuristic Time (msec): 6
+Search Time (msec): 524
+Expanded Nodes:1808
+States Evaluated:3984
+Number of Dead-Ends detected:0
+Number of Duplicates detected:62
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem4.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8339
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 33, Time: 0.04) Frontier Size: 23
+f(n) = 2.0 (Expanded Nodes: 62, Evaluated States: 169, Time: 0.102) Frontier Size: 107
+f(n) = 3.0 (Expanded Nodes: 182, Evaluated States: 443, Time: 0.18) Frontier Size: 261
+f(n) = 4.0 (Expanded Nodes: 461, Evaluated States: 999, Time: 0.283) Frontier Size: 538
+f(n) = 5.0 (Expanded Nodes: 1025, Evaluated States: 1908, Time: 0.388) Frontier Size: 883
+f(n) = 6.0 (Expanded Nodes: 1907, Evaluated States: 3153, Time: 0.526) Frontier Size: 1246
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (del a3)
+9.0: (del a8)
+10.0: (validate_payload t6 a4 t7)
+11.0: (sync_actions a4)
+12.0: (del a0)
+13.0: (validate_payload t8 a6 t9)
+14.0: (sync_actions a6)
+15.0: (validate_payload t9 a12 t10)
+16.0: (sync_actions a12)
+17.0: (validate_payload t10 a11 t11)
+18.0: (sync_actions a11)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 620
+Heuristic Time (msec): 6
+Search Time (msec): 613
+Expanded Nodes:2625
+States Evaluated:4278
+Number of Dead-Ends detected:0
+Number of Duplicates detected:490
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem5.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8035
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 36, Time: 0.035) Frontier Size: 26
+f(n) = 2.0 (Expanded Nodes: 79, Evaluated States: 216, Time: 0.115) Frontier Size: 137
+f(n) = 3.0 (Expanded Nodes: 246, Evaluated States: 601, Time: 0.221) Frontier Size: 355
+f(n) = 4.0 (Expanded Nodes: 656, Evaluated States: 1421, Time: 0.337) Frontier Size: 765
+f(n) = 5.0 (Expanded Nodes: 1575, Evaluated States: 3027, Time: 0.486) Frontier Size: 1452
+f(n) = 6.0 (Expanded Nodes: 2948, Evaluated States: 4981, Time: 0.682) Frontier Size: 2033
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (del a7)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (validate_payload t6 a6 t7)
+12.0: (sync_actions a6)
+13.0: (validate_payload t7 a12 t8)
+14.0: (sync_actions a12)
+15.0: (del a12)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (del a12)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 925
+Heuristic Time (msec): 6
+Search Time (msec): 914
+Expanded Nodes:4712
+States Evaluated:7785
+Number of Dead-Ends detected:0
+Number of Duplicates detected:897
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem6.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7732
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.02) Frontier Size: 1
+f(n) = 4.0 (Expanded Nodes: 8, Evaluated States: 15, Time: 0.063) Frontier Size: 7
+f(n) = 5.0 (Expanded Nodes: 32, Evaluated States: 73, Time: 0.098) Frontier Size: 41
+f(n) = 6.0 (Expanded Nodes: 60, Evaluated States: 118, Time: 0.109) Frontier Size: 58
+Problem Solved
+
+Found Plan:
+0.0: (del a10)
+1.0: (del a11)
+2.0: (validate_payload t2 a7 t3)
+3.0: (sync_actions a7)
+4.0: (validate_payload t3 a3 t4)
+5.0: (sync_actions a3)
+6.0: (del a12)
+7.0: (validate_payload t5 a10 t6)
+8.0: (sync_actions a10)
+9.0: (validate_payload t6 a4 t7)
+10.0: (sync_actions a4)
+11.0: (validate_payload t7 a12 t8)
+12.0: (sync_actions a12)
+13.0: (validate_payload t8 a11 t9)
+14.0: (sync_actions a11)
+15.0: (validate_payload t9 a5 t10)
+16.0: (sync_actions a5)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 162
+Heuristic Time (msec): 6
+Search Time (msec): 161
+Expanded Nodes:153
+States Evaluated:317
+Number of Dead-Ends detected:0
+Number of Duplicates detected:20
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem7.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7759
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.024) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 16, Evaluated States: 32, Time: 0.067) Frontier Size: 16
+f(n) = 3.0 (Expanded Nodes: 43, Evaluated States: 109, Time: 0.108) Frontier Size: 66
+f(n) = 4.0 (Expanded Nodes: 229, Evaluated States: 589, Time: 0.201) Frontier Size: 360
+f(n) = 5.0 (Expanded Nodes: 838, Evaluated States: 2005, Time: 0.425) Frontier Size: 1167
+f(n) = 6.0 (Expanded Nodes: 2380, Evaluated States: 5209, Time: 0.746) Frontier Size: 2829
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a2)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a12 t4)
+6.0: (sync_actions a12)
+7.0: (validate_payload t4 a11 t5)
+8.0: (sync_actions a11)
+9.0: (validate_payload t5 a3 t6)
+10.0: (sync_actions a3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (del a2)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (del a12)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1046
+Heuristic Time (msec): 7
+Search Time (msec): 1044
+Expanded Nodes:4250
+States Evaluated:8619
+Number of Dead-Ends detected:0
+Number of Duplicates detected:233
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem8.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7483
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 34, Time: 0.036) Frontier Size: 24
+f(n) = 2.0 (Expanded Nodes: 79, Evaluated States: 217, Time: 0.115) Frontier Size: 138
+f(n) = 3.0 (Expanded Nodes: 322, Evaluated States: 752, Time: 0.248) Frontier Size: 430
+f(n) = 4.0 (Expanded Nodes: 925, Evaluated States: 2027, Time: 0.401) Frontier Size: 1102
+f(n) = 5.0 (Expanded Nodes: 2245, Evaluated States: 4419, Time: 0.588) Frontier Size: 2174
+f(n) = 6.0 (Expanded Nodes: 4949, Evaluated States: 8784, Time: 0.944) Frontier Size: 3835
+f(n) = 7.0 (Expanded Nodes: 9340, Evaluated States: 15470, Time: 1.528) Frontier Size: 6130
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (change_value a4 categorical c2)
+7.0: (validate_payload t3 a4 t4)
+8.0: (sync_actions a4)
+9.0: (validate_payload t4 a12 t5)
+10.0: (sync_actions a12)
+11.0: (del a0)
+12.0: (validate_payload t6 a11 t7)
+13.0: (sync_actions a11)
+14.0: (validate_payload t7 a5 t8)
+15.0: (sync_actions a5)
+16.0: (validate_payload t8 a6 t9)
+17.0: (sync_actions a6)
+18.0: (del a12)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (validate_payload t11 a0 t12)
+22.0: (sync_actions a0)
+23.0: (del a11)
+24.0: (validate_payload t13 a1 t14)
+25.0: (sync_actions a1)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 2025
+Heuristic Time (msec): 6
+Search Time (msec): 2018
+Expanded Nodes:16489
+States Evaluated:25931
+Number of Dead-Ends detected:0
+Number of Duplicates detected:2241
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem9.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7782
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 41, Time: 0.034) Frontier Size: 29
+f(n) = 2.0 (Expanded Nodes: 103, Evaluated States: 282, Time: 0.114) Frontier Size: 179
+f(n) = 3.0 (Expanded Nodes: 404, Evaluated States: 959, Time: 0.255) Frontier Size: 555
+f(n) = 4.0 (Expanded Nodes: 1112, Evaluated States: 2394, Time: 0.462) Frontier Size: 1282
+f(n) = 5.0 (Expanded Nodes: 2744, Evaluated States: 5261, Time: 0.68) Frontier Size: 2517
+f(n) = 6.0 (Expanded Nodes: 5910, Evaluated States: 10124, Time: 1.06) Frontier Size: 4214
+f(n) = 7.0 (Expanded Nodes: 10982, Evaluated States: 17571, Time: 1.602) Frontier Size: 6589
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (change_value a4 categorical c2)
+9.0: (validate_payload t4 a4 t5)
+10.0: (sync_actions a4)
+11.0: (validate_payload t5 a11 t6)
+12.0: (sync_actions a11)
+13.0: (validate_payload t6 a5 t7)
+14.0: (sync_actions a5)
+15.0: (del a0)
+16.0: (validate_payload t8 a6 t9)
+17.0: (sync_actions a6)
+18.0: (validate_payload t9 a8 t10)
+19.0: (sync_actions a8)
+20.0: (validate_payload t10 a0 t11)
+21.0: (sync_actions a0)
+22.0: (del a9)
+23.0: (del a7)
+24.0: (validate_payload t13 a1 t14)
+25.0: (sync_actions a1)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 1831
+Heuristic Time (msec): 3
+Search Time (msec): 1825
+Expanded Nodes:15784
+States Evaluated:23677
+Number of Dead-Ends detected:0
+Number of Duplicates detected:2375
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem10.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7729
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 21, Time: 0.025) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 96, Time: 0.089) Frontier Size: 58
+f(n) = 3.0 (Expanded Nodes: 109, Evaluated States: 232, Time: 0.143) Frontier Size: 123
+f(n) = 4.0 (Expanded Nodes: 245, Evaluated States: 525, Time: 0.201) Frontier Size: 280
+f(n) = 5.0 (Expanded Nodes: 556, Evaluated States: 1126, Time: 0.329) Frontier Size: 570
+f(n) = 6.0 (Expanded Nodes: 1187, Evaluated States: 2240, Time: 0.511) Frontier Size: 1053
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a7)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (del a1)
+10.0: (validate_payload t6 a11 t7)
+11.0: (sync_actions a11)
+12.0: (validate_payload t7 a4 t8)
+13.0: (sync_actions a4)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (del a10)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 661
+Heuristic Time (msec): 2
+Search Time (msec): 649
+Expanded Nodes:2022
+States Evaluated:3682
+Number of Dead-Ends detected:0
+Number of Duplicates detected:254
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem11.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7811
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 22, Time: 0.033) Frontier Size: 16
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 100, Time: 0.093) Frontier Size: 62
+f(n) = 3.0 (Expanded Nodes: 119, Evaluated States: 273, Time: 0.155) Frontier Size: 154
+f(n) = 4.0 (Expanded Nodes: 334, Evaluated States: 792, Time: 0.25) Frontier Size: 458
+f(n) = 5.0 (Expanded Nodes: 881, Evaluated States: 1935, Time: 0.377) Frontier Size: 1054
+f(n) = 6.0 (Expanded Nodes: 2020, Evaluated States: 3973, Time: 0.558) Frontier Size: 1953
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a4)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (validate_payload t5 a5 t6)
+10.0: (sync_actions a5)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a6 t8)
+14.0: (sync_actions a6)
+15.0: (del a12)
+16.0: (del a12)
+17.0: (validate_payload t10 a11 t11)
+18.0: (sync_actions a11)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 719
+Heuristic Time (msec): 8
+Search Time (msec): 715
+Expanded Nodes:3163
+States Evaluated:5843
+Number of Dead-Ends detected:0
+Number of Duplicates detected:414
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem12.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7667
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 19, Evaluated States: 61, Time: 0.035) Frontier Size: 42
+f(n) = 2.0 (Expanded Nodes: 167, Evaluated States: 458, Time: 0.142) Frontier Size: 291
+f(n) = 3.0 (Expanded Nodes: 650, Evaluated States: 1600, Time: 0.303) Frontier Size: 950
+f(n) = 4.0 (Expanded Nodes: 1786, Evaluated States: 3903, Time: 0.487) Frontier Size: 2117
+f(n) = 5.0 (Expanded Nodes: 4323, Evaluated States: 8131, Time: 0.839) Frontier Size: 3808
+f(n) = 6.0 (Expanded Nodes: 8748, Evaluated States: 14359, Time: 1.529) Frontier Size: 5611
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (validate_payload t4 a5 t5)
+9.0: (sync_actions a5)
+10.0: (validate_payload t5 a12 t6)
+11.0: (sync_actions a12)
+12.0: (validate_payload t6 a11 t7)
+13.0: (sync_actions a11)
+14.0: (validate_payload t7 a6 t8)
+15.0: (sync_actions a6)
+16.0: (del a1)
+17.0: (del a10)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (del a6)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1689
+Heuristic Time (msec): 1
+Search Time (msec): 1683
+Expanded Nodes:12063
+States Evaluated:18279
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1896
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem13.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7727
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.022) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 8, Evaluated States: 19, Time: 0.068) Frontier Size: 11
+f(n) = 4.0 (Expanded Nodes: 20, Evaluated States: 39, Time: 0.083) Frontier Size: 19
+f(n) = 5.0 (Expanded Nodes: 59, Evaluated States: 142, Time: 0.121) Frontier Size: 83
+f(n) = 6.0 (Expanded Nodes: 320, Evaluated States: 806, Time: 0.243) Frontier Size: 486
+Problem Solved
+
+Found Plan:
+0.0: (del a2)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (del a9)
+4.0: (validate_payload t3 a10 t4)
+5.0: (sync_actions a10)
+6.0: (validate_payload t4 a3 t5)
+7.0: (sync_actions a3)
+8.0: (validate_payload t5 a4 t6)
+9.0: (sync_actions a4)
+10.0: (validate_payload t6 a5 t7)
+11.0: (sync_actions a5)
+12.0: (validate_payload t7 a6 t8)
+13.0: (sync_actions a6)
+14.0: (validate_payload t8 a12 t9)
+15.0: (sync_actions a12)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a2 t13)
+23.0: (sync_actions a2)
+24.0: (validate_payload t13 a0 t14)
+25.0: (sync_actions a0)
+26.0: (del a10)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 273
+Heuristic Time (msec): 7
+Search Time (msec): 270
+Expanded Nodes:407
+States Evaluated:977
+Number of Dead-Ends detected:0
+Number of Duplicates detected:5
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem14.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7702
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 36, Time: 0.037) Frontier Size: 24
+f(n) = 2.0 (Expanded Nodes: 59, Evaluated States: 142, Time: 0.09) Frontier Size: 83
+f(n) = 3.0 (Expanded Nodes: 147, Evaluated States: 308, Time: 0.157) Frontier Size: 161
+f(n) = 4.0 (Expanded Nodes: 391, Evaluated States: 779, Time: 0.241) Frontier Size: 388
+f(n) = 5.0 (Expanded Nodes: 739, Evaluated States: 1299, Time: 0.335) Frontier Size: 560
+f(n) = 6.0 (Expanded Nodes: 1417, Evaluated States: 2263, Time: 0.513) Frontier Size: 846
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (validate_payload t4 a4 t5)
+9.0: (sync_actions a4)
+10.0: (del a8)
+11.0: (validate_payload t6 a12 t7)
+12.0: (sync_actions a12)
+13.0: (validate_payload t7 a11 t8)
+14.0: (sync_actions a11)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (del a5)
+18.0: (del a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 664
+Heuristic Time (msec): 5
+Search Time (msec): 655
+Expanded Nodes:2134
+States Evaluated:3152
+Number of Dead-Ends detected:0
+Number of Duplicates detected:442
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem15.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7534
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 34, Time: 0.038) Frontier Size: 24
+f(n) = 2.0 (Expanded Nodes: 87, Evaluated States: 230, Time: 0.115) Frontier Size: 143
+f(n) = 3.0 (Expanded Nodes: 348, Evaluated States: 810, Time: 0.242) Frontier Size: 462
+f(n) = 4.0 (Expanded Nodes: 924, Evaluated States: 2007, Time: 0.437) Frontier Size: 1083
+f(n) = 5.0 (Expanded Nodes: 2144, Evaluated States: 4073, Time: 0.646) Frontier Size: 1929
+f(n) = 6.0 (Expanded Nodes: 4465, Evaluated States: 7384, Time: 0.972) Frontier Size: 2919
+f(n) = 7.0 (Expanded Nodes: 7936, Evaluated States: 12099, Time: 1.594) Frontier Size: 4163
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (change_value a4 categorical c2)
+7.0: (validate_payload t3 a4 t4)
+8.0: (sync_actions a4)
+9.0: (validate_payload t4 a12 t5)
+10.0: (sync_actions a12)
+11.0: (validate_payload t5 a11 t6)
+12.0: (sync_actions a11)
+13.0: (del a3)
+14.0: (del a0)
+15.0: (validate_payload t8 a5 t9)
+16.0: (sync_actions a5)
+17.0: (validate_payload t9 a6 t10)
+18.0: (sync_actions a6)
+19.0: (del a12)
+20.0: (validate_payload t11 a8 t12)
+21.0: (sync_actions a8)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (validate_payload t14 a0 t15)
+27.0: (sync_actions a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 1795
+Heuristic Time (msec): 7
+Search Time (msec): 1792
+Expanded Nodes:10444
+States Evaluated:15768
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1773
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem16.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7672
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.02) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 10, Evaluated States: 29, Time: 0.074) Frontier Size: 19
+f(n) = 4.0 (Expanded Nodes: 42, Evaluated States: 107, Time: 0.102) Frontier Size: 65
+f(n) = 5.0 (Expanded Nodes: 131, Evaluated States: 296, Time: 0.157) Frontier Size: 165
+f(n) = 6.0 (Expanded Nodes: 347, Evaluated States: 802, Time: 0.247) Frontier Size: 455
+Problem Solved
+
+Found Plan:
+0.0: (del a8)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (del a10)
+6.0: (validate_payload t4 a3 t5)
+7.0: (sync_actions a3)
+8.0: (validate_payload t5 a4 t6)
+9.0: (sync_actions a4)
+10.0: (validate_payload t6 a5 t7)
+11.0: (sync_actions a5)
+12.0: (del a0)
+13.0: (validate_payload t8 a6 t9)
+14.0: (sync_actions a6)
+15.0: (validate_payload t9 a12 t10)
+16.0: (sync_actions a12)
+17.0: (validate_payload t10 a11 t11)
+18.0: (sync_actions a11)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 367
+Heuristic Time (msec): 6
+Search Time (msec): 363
+Expanded Nodes:808
+States Evaluated:1734
+Number of Dead-Ends detected:0
+Number of Duplicates detected:43
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem17.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7686
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 18, Evaluated States: 51, Time: 0.042) Frontier Size: 33
+f(n) = 2.0 (Expanded Nodes: 112, Evaluated States: 267, Time: 0.12) Frontier Size: 155
+f(n) = 3.0 (Expanded Nodes: 398, Evaluated States: 885, Time: 0.254) Frontier Size: 487
+f(n) = 4.0 (Expanded Nodes: 914, Evaluated States: 1849, Time: 0.361) Frontier Size: 935
+f(n) = 5.0 (Expanded Nodes: 1869, Evaluated States: 3322, Time: 0.524) Frontier Size: 1453
+f(n) = 6.0 (Expanded Nodes: 3495, Evaluated States: 5402, Time: 0.719) Frontier Size: 1907
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a4 t3)
+5.0: (sync_actions a4)
+6.0: (validate_payload t3 a10 t4)
+7.0: (sync_actions a10)
+8.0: (validate_payload t4 a5 t5)
+9.0: (sync_actions a5)
+10.0: (validate_payload t5 a6 t6)
+11.0: (sync_actions a6)
+12.0: (validate_payload t6 a12 t7)
+13.0: (sync_actions a12)
+14.0: (validate_payload t7 a11 t8)
+15.0: (sync_actions a11)
+16.0: (del a12)
+17.0: (del a11)
+18.0: (del a1)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 787
+Heuristic Time (msec): 5
+Search Time (msec): 785
+Expanded Nodes:4067
+States Evaluated:6172
+Number of Dead-Ends detected:0
+Number of Duplicates detected:657
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem18.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7681
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 4, Evaluated States: 8, Time: 0.024) Frontier Size: 4
+f(n) = 3.0 (Expanded Nodes: 23, Evaluated States: 57, Time: 0.09) Frontier Size: 34
+f(n) = 4.0 (Expanded Nodes: 55, Evaluated States: 127, Time: 0.114) Frontier Size: 72
+f(n) = 5.0 (Expanded Nodes: 124, Evaluated States: 261, Time: 0.147) Frontier Size: 137
+f(n) = 6.0 (Expanded Nodes: 301, Evaluated States: 583, Time: 0.216) Frontier Size: 282
+f(n) = 7.0 (Expanded Nodes: 676, Evaluated States: 1232, Time: 0.291) Frontier Size: 556
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a5)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (del a8)
+8.0: (change_value a4 categorical c3)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (validate_payload t6 a12 t7)
+12.0: (sync_actions a12)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (validate_payload t9 a11 t10)
+18.0: (sync_actions a11)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (validate_payload t11 a1 t12)
+22.0: (sync_actions a1)
+23.0: (del a4)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (validate_payload t14 a0 t15)
+27.0: (sync_actions a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 347
+Heuristic Time (msec): 7
+Search Time (msec): 344
+Expanded Nodes:884
+States Evaluated:1573
+Number of Dead-Ends detected:0
+Number of Duplicates detected:116
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem19.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7552
+UFX:true
+|F|:26425
+|X|:16
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.022) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 12, Evaluated States: 30, Time: 0.073) Frontier Size: 18
+f(n) = 4.0 (Expanded Nodes: 47, Evaluated States: 100, Time: 0.105) Frontier Size: 53
+f(n) = 5.0 (Expanded Nodes: 133, Evaluated States: 268, Time: 0.159) Frontier Size: 135
+f(n) = 6.0 (Expanded Nodes: 438, Evaluated States: 984, Time: 0.235) Frontier Size: 546
+Problem Solved
+
+Found Plan:
+0.0: (del a11)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a3 t3)
+4.0: (sync_actions a3)
+5.0: (del a4)
+6.0: (validate_payload t4 a4 t5)
+7.0: (sync_actions a4)
+8.0: (validate_payload t5 a10 t6)
+9.0: (sync_actions a10)
+10.0: (validate_payload t6 a5 t7)
+11.0: (sync_actions a5)
+12.0: (validate_payload t7 a6 t8)
+13.0: (sync_actions a6)
+14.0: (validate_payload t8 a12 t9)
+15.0: (sync_actions a12)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (del a9)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 351
+Heuristic Time (msec): 8
+Search Time (msec): 349
+Expanded Nodes:954
+States Evaluated:2003
+Number of Dead-Ends detected:0
+Number of Duplicates detected:45
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem20.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7614
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.023) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 12, Evaluated States: 36, Time: 0.076) Frontier Size: 24
+f(n) = 4.0 (Expanded Nodes: 58, Evaluated States: 161, Time: 0.103) Frontier Size: 103
+f(n) = 5.0 (Expanded Nodes: 176, Evaluated States: 431, Time: 0.18) Frontier Size: 255
+f(n) = 6.0 (Expanded Nodes: 442, Evaluated States: 972, Time: 0.262) Frontier Size: 530
+f(n) = 7.0 (Expanded Nodes: 1180, Evaluated States: 2332, Time: 0.412) Frontier Size: 1152
+Problem Solved
+
+Found Plan:
+0.0: (del a12)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (del a0)
+8.0: (change_value a4 categorical c2)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (validate_payload t6 a5 t7)
+12.0: (sync_actions a5)
+13.0: (validate_payload t7 a6 t8)
+14.0: (sync_actions a6)
+15.0: (validate_payload t8 a12 t9)
+16.0: (sync_actions a12)
+17.0: (del a12)
+18.0: (validate_payload t10 a11 t11)
+19.0: (sync_actions a11)
+20.0: (validate_payload t11 a8 t12)
+21.0: (sync_actions a8)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a0 t14)
+25.0: (sync_actions a0)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 597
+Heuristic Time (msec): 8
+Search Time (msec): 594
+Expanded Nodes:2379
+States Evaluated:4462
+Number of Dead-Ends detected:0
+Number of Duplicates detected:219
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem21.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7645
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 22, Evaluated States: 62, Time: 0.048) Frontier Size: 40
+f(n) = 2.0 (Expanded Nodes: 181, Evaluated States: 456, Time: 0.162) Frontier Size: 275
+f(n) = 3.0 (Expanded Nodes: 634, Evaluated States: 1446, Time: 0.354) Frontier Size: 812
+f(n) = 4.0 (Expanded Nodes: 1544, Evaluated States: 3205, Time: 0.535) Frontier Size: 1661
+f(n) = 5.0 (Expanded Nodes: 3353, Evaluated States: 6247, Time: 0.796) Frontier Size: 2894
+f(n) = 6.0 (Expanded Nodes: 6468, Evaluated States: 10623, Time: 1.157) Frontier Size: 4155
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (validate_payload t4 a12 t5)
+9.0: (sync_actions a12)
+10.0: (validate_payload t5 a11 t6)
+11.0: (sync_actions a11)
+12.0: (validate_payload t6 a5 t7)
+13.0: (sync_actions a5)
+14.0: (validate_payload t7 a6 t8)
+15.0: (sync_actions a6)
+16.0: (validate_payload t8 a8 t9)
+17.0: (sync_actions a8)
+18.0: (validate_payload t9 a0 t10)
+19.0: (sync_actions a0)
+20.0: (del a9)
+21.0: (del a3)
+22.0: (del a10)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1230
+Heuristic Time (msec): 7
+Search Time (msec): 1228
+Expanded Nodes:7078
+States Evaluated:11671
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1156
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem22.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7663
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 16, Evaluated States: 48, Time: 0.047) Frontier Size: 32
+f(n) = 2.0 (Expanded Nodes: 110, Evaluated States: 283, Time: 0.132) Frontier Size: 173
+f(n) = 3.0 (Expanded Nodes: 361, Evaluated States: 791, Time: 0.264) Frontier Size: 430
+f(n) = 4.0 (Expanded Nodes: 953, Evaluated States: 1923, Time: 0.371) Frontier Size: 970
+f(n) = 5.0 (Expanded Nodes: 2148, Evaluated States: 3982, Time: 0.568) Frontier Size: 1834
+f(n) = 6.0 (Expanded Nodes: 4237, Evaluated States: 7380, Time: 0.861) Frontier Size: 3143
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a4 t3)
+5.0: (sync_actions a4)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (validate_payload t4 a10 t5)
+9.0: (sync_actions a10)
+10.0: (validate_payload t5 a12 t6)
+11.0: (sync_actions a12)
+12.0: (validate_payload t6 a6 t7)
+13.0: (sync_actions a6)
+14.0: (del a9)
+15.0: (validate_payload t8 a11 t9)
+16.0: (sync_actions a11)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (validate_payload t10 a1 t11)
+20.0: (sync_actions a1)
+21.0: (del a12)
+22.0: (del a4)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1167
+Heuristic Time (msec): 13
+Search Time (msec): 1164
+Expanded Nodes:6967
+States Evaluated:11316
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1114
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem23.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7971
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 21, Time: 0.029) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 96, Time: 0.088) Frontier Size: 58
+f(n) = 3.0 (Expanded Nodes: 113, Evaluated States: 238, Time: 0.142) Frontier Size: 125
+f(n) = 4.0 (Expanded Nodes: 275, Evaluated States: 575, Time: 0.211) Frontier Size: 300
+f(n) = 5.0 (Expanded Nodes: 631, Evaluated States: 1248, Time: 0.294) Frontier Size: 617
+f(n) = 6.0 (Expanded Nodes: 1272, Evaluated States: 2330, Time: 0.418) Frontier Size: 1058
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a6)
+5.0: (validate_payload t3 a12 t4)
+6.0: (sync_actions a12)
+7.0: (validate_payload t4 a11 t5)
+8.0: (sync_actions a11)
+9.0: (validate_payload t5 a3 t6)
+10.0: (sync_actions a3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (del a2)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (del a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 608
+Heuristic Time (msec): 7
+Search Time (msec): 605
+Expanded Nodes:2554
+States Evaluated:4429
+Number of Dead-Ends detected:0
+Number of Duplicates detected:362
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem24.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7592
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.019) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 20, Evaluated States: 59, Time: 0.07) Frontier Size: 39
+f(n) = 4.0 (Expanded Nodes: 160, Evaluated States: 417, Time: 0.119) Frontier Size: 257
+f(n) = 5.0 (Expanded Nodes: 633, Evaluated States: 1492, Time: 0.206) Frontier Size: 859
+f(n) = 6.0 (Expanded Nodes: 1663, Evaluated States: 3485, Time: 0.344) Frontier Size: 1822
+Problem Solved
+
+Found Plan:
+0.0: (del a12)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a3 t3)
+4.0: (sync_actions a3)
+5.0: (validate_payload t3 a10 t4)
+6.0: (sync_actions a10)
+7.0: (validate_payload t4 a5 t5)
+8.0: (sync_actions a5)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (validate_payload t6 a6 t7)
+12.0: (sync_actions a6)
+13.0: (validate_payload t7 a12 t8)
+14.0: (sync_actions a12)
+15.0: (del a2)
+16.0: (del a12)
+17.0: (validate_payload t10 a11 t11)
+18.0: (sync_actions a11)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 631
+Heuristic Time (msec): 5
+Search Time (msec): 628
+Expanded Nodes:3736
+States Evaluated:7036
+Number of Dead-Ends detected:0
+Number of Duplicates detected:461
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem25.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8307
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 14, Evaluated States: 47, Time: 0.039) Frontier Size: 33
+f(n) = 2.0 (Expanded Nodes: 102, Evaluated States: 302, Time: 0.129) Frontier Size: 200
+f(n) = 3.0 (Expanded Nodes: 340, Evaluated States: 888, Time: 0.26) Frontier Size: 548
+f(n) = 4.0 (Expanded Nodes: 931, Evaluated States: 2076, Time: 0.403) Frontier Size: 1145
+f(n) = 5.0 (Expanded Nodes: 2323, Evaluated States: 4322, Time: 0.627) Frontier Size: 1999
+f(n) = 6.0 (Expanded Nodes: 4368, Evaluated States: 7203, Time: 0.919) Frontier Size: 2835
+f(n) = 7.0 (Expanded Nodes: 8180, Evaluated States: 12389, Time: 1.504) Frontier Size: 4209
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a5 t5)
+9.0: (sync_actions a5)
+10.0: (validate_payload t5 a11 t6)
+11.0: (sync_actions a11)
+12.0: (del a11)
+13.0: (del a5)
+14.0: (change_value a4 categorical c2)
+15.0: (validate_payload t8 a4 t9)
+16.0: (sync_actions a4)
+17.0: (validate_payload t9 a6 t10)
+18.0: (sync_actions a6)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (validate_payload t11 a1 t12)
+22.0: (sync_actions a1)
+23.0: (validate_payload t12 a0 t13)
+24.0: (sync_actions a0)
+25.0: (validate_payload t13 a2 t14)
+26.0: (sync_actions a2)
+27.0: (del a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 1615
+Heuristic Time (msec): 5
+Search Time (msec): 1609
+Expanded Nodes:10040
+States Evaluated:15152
+Number of Dead-Ends detected:0
+Number of Duplicates detected:2194
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem26.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7637
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 33, Time: 0.035) Frontier Size: 21
+f(n) = 2.0 (Expanded Nodes: 50, Evaluated States: 118, Time: 0.089) Frontier Size: 68
+f(n) = 3.0 (Expanded Nodes: 107, Evaluated States: 228, Time: 0.145) Frontier Size: 121
+f(n) = 4.0 (Expanded Nodes: 281, Evaluated States: 548, Time: 0.214) Frontier Size: 267
+f(n) = 5.0 (Expanded Nodes: 470, Evaluated States: 836, Time: 0.276) Frontier Size: 366
+f(n) = 6.0 (Expanded Nodes: 1051, Evaluated States: 1717, Time: 0.448) Frontier Size: 666
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (validate_payload t4 a12 t5)
+9.0: (sync_actions a12)
+10.0: (del a3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a11 t8)
+14.0: (sync_actions a11)
+15.0: (del a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (del a11)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 582
+Heuristic Time (msec): 6
+Search Time (msec): 579
+Expanded Nodes:1495
+States Evaluated:2357
+Number of Dead-Ends detected:0
+Number of Duplicates detected:339
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem27.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7550
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 21, Time: 0.034) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 96, Time: 0.092) Frontier Size: 58
+f(n) = 3.0 (Expanded Nodes: 118, Evaluated States: 253, Time: 0.141) Frontier Size: 135
+f(n) = 4.0 (Expanded Nodes: 316, Evaluated States: 697, Time: 0.193) Frontier Size: 381
+f(n) = 5.0 (Expanded Nodes: 771, Evaluated States: 1617, Time: 0.262) Frontier Size: 846
+f(n) = 6.0 (Expanded Nodes: 1694, Evaluated States: 3244, Time: 0.399) Frontier Size: 1550
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a5 t6)
+10.0: (sync_actions a5)
+11.0: (validate_payload t6 a12 t7)
+12.0: (sync_actions a12)
+13.0: (validate_payload t7 a6 t8)
+14.0: (sync_actions a6)
+15.0: (validate_payload t8 a11 t9)
+16.0: (sync_actions a11)
+17.0: (del a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (del a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 684
+Heuristic Time (msec): 10
+Search Time (msec): 682
+Expanded Nodes:3672
+States Evaluated:6864
+Number of Dead-Ends detected:0
+Number of Duplicates detected:490
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem28.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7824
+UFX:true
+|F|:26425
+|X|:16
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.025) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 16, Evaluated States: 32, Time: 0.072) Frontier Size: 16
+f(n) = 3.0 (Expanded Nodes: 37, Evaluated States: 90, Time: 0.105) Frontier Size: 53
+f(n) = 4.0 (Expanded Nodes: 182, Evaluated States: 445, Time: 0.19) Frontier Size: 263
+f(n) = 5.0 (Expanded Nodes: 813, Evaluated States: 1893, Time: 0.391) Frontier Size: 1080
+f(n) = 6.0 (Expanded Nodes: 3111, Evaluated States: 6979, Time: 0.793) Frontier Size: 3868
+f(n) = 7.0 (Expanded Nodes: 9276, Evaluated States: 19266, Time: 1.611) Frontier Size: 9990
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a5)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (change_value a4 categorical c3)
+8.0: (validate_payload t4 a4 t5)
+9.0: (sync_actions a4)
+10.0: (validate_payload t5 a5 t6)
+11.0: (sync_actions a5)
+12.0: (validate_payload t6 a6 t7)
+13.0: (sync_actions a6)
+14.0: (validate_payload t7 a12 t8)
+15.0: (sync_actions a12)
+16.0: (validate_payload t8 a11 t9)
+17.0: (sync_actions a11)
+18.0: (validate_payload t9 a8 t10)
+19.0: (sync_actions a8)
+20.0: (validate_payload t10 a0 t11)
+21.0: (sync_actions a0)
+22.0: (validate_payload t11 a1 t12)
+23.0: (sync_actions a1)
+24.0: (del a9)
+25.0: (del a10)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 2285
+Heuristic Time (msec): 7
+Search Time (msec): 2279
+Expanded Nodes:21569
+States Evaluated:41048
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1422
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem29.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7441
+UFX:true
+|F|:26425
+|X|:11
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.019) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 22, Evaluated States: 56, Time: 0.081) Frontier Size: 34
+f(n) = 4.0 (Expanded Nodes: 103, Evaluated States: 237, Time: 0.136) Frontier Size: 134
+f(n) = 5.0 (Expanded Nodes: 266, Evaluated States: 557, Time: 0.225) Frontier Size: 291
+f(n) = 6.0 (Expanded Nodes: 626, Evaluated States: 1204, Time: 0.339) Frontier Size: 578
+Problem Solved
+
+Found Plan:
+0.0: (del a11)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a12 t6)
+10.0: (sync_actions a12)
+11.0: (validate_payload t6 a5 t7)
+12.0: (sync_actions a5)
+13.0: (validate_payload t7 a11 t8)
+14.0: (sync_actions a11)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (del a2)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (del a12)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 435
+Heuristic Time (msec): 3
+Search Time (msec): 429
+Expanded Nodes:1023
+States Evaluated:1788
+Number of Dead-Ends detected:0
+Number of Duplicates detected:163
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem30.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7718
+UFX:true
+|F|:26425
+|X|:11
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 28, Time: 0.034) Frontier Size: 18
+f(n) = 2.0 (Expanded Nodes: 42, Evaluated States: 98, Time: 0.085) Frontier Size: 56
+f(n) = 3.0 (Expanded Nodes: 101, Evaluated States: 219, Time: 0.138) Frontier Size: 118
+f(n) = 4.0 (Expanded Nodes: 304, Evaluated States: 619, Time: 0.222) Frontier Size: 315
+f(n) = 5.0 (Expanded Nodes: 552, Evaluated States: 1028, Time: 0.311) Frontier Size: 476
+f(n) = 6.0 (Expanded Nodes: 1188, Evaluated States: 1957, Time: 0.51) Frontier Size: 769
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (del a11)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (validate_payload t6 a12 t7)
+12.0: (sync_actions a12)
+13.0: (validate_payload t7 a11 t8)
+14.0: (sync_actions a11)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (validate_payload t10 a0 t11)
+20.0: (sync_actions a0)
+21.0: (del a3)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (del a4)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 601
+Heuristic Time (msec): 4
+Search Time (msec): 590
+Expanded Nodes:1538
+States Evaluated:2383
+Number of Dead-Ends detected:0
+Number of Duplicates detected:320
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem31.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7449
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 34, Time: 0.028) Frontier Size: 24
+f(n) = 2.0 (Expanded Nodes: 83, Evaluated States: 220, Time: 0.107) Frontier Size: 137
+f(n) = 3.0 (Expanded Nodes: 314, Evaluated States: 728, Time: 0.213) Frontier Size: 414
+f(n) = 4.0 (Expanded Nodes: 838, Evaluated States: 1815, Time: 0.401) Frontier Size: 977
+f(n) = 5.0 (Expanded Nodes: 2089, Evaluated States: 4085, Time: 0.629) Frontier Size: 1996
+f(n) = 6.0 (Expanded Nodes: 4548, Evaluated States: 8053, Time: 0.935) Frontier Size: 3505
+f(n) = 7.0 (Expanded Nodes: 8407, Evaluated States: 13803, Time: 1.558) Frontier Size: 5396
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (change_value a4 categorical c2)
+7.0: (validate_payload t3 a4 t4)
+8.0: (sync_actions a4)
+9.0: (validate_payload t4 a12 t5)
+10.0: (sync_actions a12)
+11.0: (del a6)
+12.0: (validate_payload t6 a11 t7)
+13.0: (sync_actions a11)
+14.0: (validate_payload t7 a5 t8)
+15.0: (sync_actions a5)
+16.0: (validate_payload t8 a6 t9)
+17.0: (sync_actions a6)
+18.0: (validate_payload t9 a8 t10)
+19.0: (sync_actions a8)
+20.0: (del a3)
+21.0: (del a2)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a0 t14)
+25.0: (sync_actions a0)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 1794
+Heuristic Time (msec): 3
+Search Time (msec): 1791
+Expanded Nodes:12553
+States Evaluated:19886
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1843
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem32.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7467
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 32, Time: 0.04) Frontier Size: 22
+f(n) = 2.0 (Expanded Nodes: 83, Evaluated States: 208, Time: 0.118) Frontier Size: 125
+f(n) = 3.0 (Expanded Nodes: 310, Evaluated States: 685, Time: 0.247) Frontier Size: 375
+f(n) = 4.0 (Expanded Nodes: 772, Evaluated States: 1606, Time: 0.354) Frontier Size: 834
+f(n) = 5.0 (Expanded Nodes: 1722, Evaluated States: 3239, Time: 0.521) Frontier Size: 1517
+f(n) = 6.0 (Expanded Nodes: 3443, Evaluated States: 5737, Time: 0.721) Frontier Size: 2294
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (del a4)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (del a2)
+10.0: (validate_payload t6 a11 t7)
+11.0: (sync_actions a11)
+12.0: (validate_payload t7 a4 t8)
+13.0: (sync_actions a4)
+14.0: (del a11)
+15.0: (validate_payload t9 a5 t10)
+16.0: (sync_actions a5)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 989
+Heuristic Time (msec): 7
+Search Time (msec): 986
+Expanded Nodes:5252
+States Evaluated:8562
+Number of Dead-Ends detected:0
+Number of Duplicates detected:786
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem33.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8046
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 27, Time: 0.035) Frontier Size: 19
+f(n) = 2.0 (Expanded Nodes: 54, Evaluated States: 146, Time: 0.094) Frontier Size: 92
+f(n) = 3.0 (Expanded Nodes: 163, Evaluated States: 388, Time: 0.17) Frontier Size: 225
+f(n) = 4.0 (Expanded Nodes: 402, Evaluated States: 892, Time: 0.26) Frontier Size: 490
+f(n) = 5.0 (Expanded Nodes: 1015, Evaluated States: 2055, Time: 0.448) Frontier Size: 1040
+f(n) = 6.0 (Expanded Nodes: 2187, Evaluated States: 4039, Time: 0.713) Frontier Size: 1852
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (del a10)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a12 t6)
+10.0: (sync_actions a12)
+11.0: (del a12)
+12.0: (validate_payload t7 a5 t8)
+13.0: (sync_actions a5)
+14.0: (validate_payload t8 a11 t9)
+15.0: (sync_actions a11)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (del a7)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1057
+Heuristic Time (msec): 4
+Search Time (msec): 1050
+Expanded Nodes:4152
+States Evaluated:7394
+Number of Dead-Ends detected:0
+Number of Duplicates detected:627
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem34.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7656
+UFX:true
+|F|:26425
+|X|:16
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 28, Time: 0.032) Frontier Size: 20
+f(n) = 2.0 (Expanded Nodes: 54, Evaluated States: 146, Time: 0.092) Frontier Size: 92
+f(n) = 3.0 (Expanded Nodes: 167, Evaluated States: 393, Time: 0.174) Frontier Size: 226
+f(n) = 4.0 (Expanded Nodes: 435, Evaluated States: 945, Time: 0.28) Frontier Size: 510
+f(n) = 5.0 (Expanded Nodes: 1051, Evaluated States: 2048, Time: 0.398) Frontier Size: 997
+f(n) = 6.0 (Expanded Nodes: 2082, Evaluated States: 3690, Time: 0.584) Frontier Size: 1608
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a12 t3)
+5.0: (sync_actions a12)
+6.0: (del a5)
+7.0: (validate_payload t4 a11 t5)
+8.0: (sync_actions a11)
+9.0: (validate_payload t5 a3 t6)
+10.0: (sync_actions a3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (del a11)
+14.0: (del a4)
+15.0: (validate_payload t9 a5 t10)
+16.0: (sync_actions a5)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 773
+Heuristic Time (msec): 5
+Search Time (msec): 769
+Expanded Nodes:3417
+States Evaluated:5681
+Number of Dead-Ends detected:0
+Number of Duplicates detected:538
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem35.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7878
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 36, Time: 0.036) Frontier Size: 24
+f(n) = 2.0 (Expanded Nodes: 65, Evaluated States: 162, Time: 0.095) Frontier Size: 97
+f(n) = 3.0 (Expanded Nodes: 192, Evaluated States: 440, Time: 0.163) Frontier Size: 248
+f(n) = 4.0 (Expanded Nodes: 482, Evaluated States: 962, Time: 0.236) Frontier Size: 480
+f(n) = 5.0 (Expanded Nodes: 1079, Evaluated States: 1883, Time: 0.334) Frontier Size: 804
+f(n) = 6.0 (Expanded Nodes: 1970, Evaluated States: 3171, Time: 0.469) Frontier Size: 1201
+f(n) = 7.0 (Expanded Nodes: 3608, Evaluated States: 5596, Time: 0.688) Frontier Size: 1988
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (change_value a4 categorical c3)
+9.0: (validate_payload t4 a4 t5)
+10.0: (sync_actions a4)
+11.0: (validate_payload t5 a12 t6)
+12.0: (sync_actions a12)
+13.0: (validate_payload t6 a11 t7)
+14.0: (sync_actions a11)
+15.0: (del a8)
+16.0: (del a5)
+17.0: (validate_payload t9 a6 t10)
+18.0: (sync_actions a6)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (validate_payload t11 a1 t12)
+22.0: (sync_actions a1)
+23.0: (validate_payload t12 a2 t13)
+24.0: (sync_actions a2)
+25.0: (validate_payload t13 a0 t14)
+26.0: (sync_actions a0)
+27.0: (del a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 973
+Heuristic Time (msec): 4
+Search Time (msec): 967
+Expanded Nodes:5816
+States Evaluated:9056
+Number of Dead-Ends detected:0
+Number of Duplicates detected:928
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem36.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7527
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 23, Time: 0.032) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 28, Evaluated States: 71, Time: 0.083) Frontier Size: 43
+f(n) = 3.0 (Expanded Nodes: 70, Evaluated States: 170, Time: 0.13) Frontier Size: 100
+f(n) = 4.0 (Expanded Nodes: 219, Evaluated States: 480, Time: 0.198) Frontier Size: 261
+f(n) = 5.0 (Expanded Nodes: 457, Evaluated States: 835, Time: 0.299) Frontier Size: 378
+f(n) = 6.0 (Expanded Nodes: 1047, Evaluated States: 1926, Time: 0.493) Frontier Size: 879
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (del a11)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (validate_payload t5 a11 t6)
+10.0: (sync_actions a11)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (del a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (del a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 702
+Heuristic Time (msec): 7
+Search Time (msec): 697
+Expanded Nodes:2021
+States Evaluated:3447
+Number of Dead-Ends detected:0
+Number of Duplicates detected:319
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem37.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7739
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 4, Evaluated States: 8, Time: 0.021) Frontier Size: 4
+f(n) = 3.0 (Expanded Nodes: 25, Evaluated States: 63, Time: 0.093) Frontier Size: 38
+f(n) = 4.0 (Expanded Nodes: 86, Evaluated States: 217, Time: 0.138) Frontier Size: 131
+f(n) = 5.0 (Expanded Nodes: 262, Evaluated States: 587, Time: 0.227) Frontier Size: 325
+f(n) = 6.0 (Expanded Nodes: 675, Evaluated States: 1337, Time: 0.382) Frontier Size: 662
+f(n) = 7.0 (Expanded Nodes: 1401, Evaluated States: 2511, Time: 0.559) Frontier Size: 1110
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a0)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (validate_payload t5 a11 t6)
+10.0: (sync_actions a11)
+11.0: (change_value a4 categorical c3)
+12.0: (validate_payload t6 a4 t7)
+13.0: (sync_actions a4)
+14.0: (validate_payload t7 a5 t8)
+15.0: (sync_actions a5)
+16.0: (validate_payload t8 a6 t9)
+17.0: (sync_actions a6)
+18.0: (del a3)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (del a5)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (validate_payload t13 a1 t14)
+25.0: (sync_actions a1)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 639
+Heuristic Time (msec): 7
+Search Time (msec): 633
+Expanded Nodes:1812
+States Evaluated:3246
+Number of Dead-Ends detected:0
+Number of Duplicates detected:198
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem38.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7616
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 24, Time: 0.033) Frontier Size: 16
+f(n) = 2.0 (Expanded Nodes: 12, Evaluated States: 24, Time: 0.061) Frontier Size: 12
+f(n) = 3.0 (Expanded Nodes: 50, Evaluated States: 117, Time: 0.121) Frontier Size: 67
+f(n) = 4.0 (Expanded Nodes: 78, Evaluated States: 143, Time: 0.13) Frontier Size: 65
+f(n) = 5.0 (Expanded Nodes: 196, Evaluated States: 365, Time: 0.187) Frontier Size: 169
+f(n) = 6.0 (Expanded Nodes: 344, Evaluated States: 607, Time: 0.242) Frontier Size: 263
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (del a10)
+7.0: (del a3)
+8.0: (validate_payload t5 a4 t6)
+9.0: (sync_actions a4)
+10.0: (validate_payload t6 a12 t7)
+11.0: (sync_actions a12)
+12.0: (del a10)
+13.0: (validate_payload t8 a11 t9)
+14.0: (sync_actions a11)
+15.0: (validate_payload t9 a5 t10)
+16.0: (sync_actions a5)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 327
+Heuristic Time (msec): 6
+Search Time (msec): 321
+Expanded Nodes:684
+States Evaluated:1178
+Number of Dead-Ends detected:0
+Number of Duplicates detected:125
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem39.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7612
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 28, Time: 0.033) Frontier Size: 18
+f(n) = 2.0 (Expanded Nodes: 63, Evaluated States: 136, Time: 0.104) Frontier Size: 73
+f(n) = 3.0 (Expanded Nodes: 172, Evaluated States: 354, Time: 0.175) Frontier Size: 182
+f(n) = 4.0 (Expanded Nodes: 396, Evaluated States: 765, Time: 0.273) Frontier Size: 369
+f(n) = 5.0 (Expanded Nodes: 792, Evaluated States: 1329, Time: 0.379) Frontier Size: 537
+f(n) = 6.0 (Expanded Nodes: 1397, Evaluated States: 2240, Time: 0.56) Frontier Size: 843
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (del a4)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (validate_payload t5 a11 t6)
+10.0: (sync_actions a11)
+11.0: (validate_payload t6 a5 t7)
+12.0: (sync_actions a5)
+13.0: (validate_payload t7 a4 t8)
+14.0: (sync_actions a4)
+15.0: (del a7)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (del a5)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 709
+Heuristic Time (msec): 4
+Search Time (msec): 702
+Expanded Nodes:2231
+States Evaluated:3274
+Number of Dead-Ends detected:0
+Number of Duplicates detected:454
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem40.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7345
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 34, Time: 0.035) Frontier Size: 22
+f(n) = 2.0 (Expanded Nodes: 50, Evaluated States: 122, Time: 0.1) Frontier Size: 72
+f(n) = 3.0 (Expanded Nodes: 107, Evaluated States: 227, Time: 0.155) Frontier Size: 120
+f(n) = 4.0 (Expanded Nodes: 281, Evaluated States: 534, Time: 0.219) Frontier Size: 253
+f(n) = 5.0 (Expanded Nodes: 430, Evaluated States: 744, Time: 0.27) Frontier Size: 314
+f(n) = 6.0 (Expanded Nodes: 890, Evaluated States: 1347, Time: 0.366) Frontier Size: 457
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a11 t5)
+9.0: (sync_actions a11)
+10.0: (del a7)
+11.0: (del a3)
+12.0: (validate_payload t7 a5 t8)
+13.0: (sync_actions a5)
+14.0: (validate_payload t8 a4 t9)
+15.0: (sync_actions a4)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (del a4)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 437
+Heuristic Time (msec): 6
+Search Time (msec): 425
+Expanded Nodes:1198
+States Evaluated:1776
+Number of Dead-Ends detected:0
+Number of Duplicates detected:303
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem41.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8172
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 26, Time: 0.031) Frontier Size: 18
+f(n) = 2.0 (Expanded Nodes: 47, Evaluated States: 108, Time: 0.088) Frontier Size: 61
+f(n) = 3.0 (Expanded Nodes: 98, Evaluated States: 208, Time: 0.138) Frontier Size: 110
+f(n) = 4.0 (Expanded Nodes: 308, Evaluated States: 616, Time: 0.23) Frontier Size: 308
+f(n) = 5.0 (Expanded Nodes: 607, Evaluated States: 1195, Time: 0.308) Frontier Size: 588
+f(n) = 6.0 (Expanded Nodes: 1349, Evaluated States: 2488, Time: 0.448) Frontier Size: 1139
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a5 t3)
+5.0: (sync_actions a5)
+6.0: (del a11)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a10 t6)
+10.0: (sync_actions a10)
+11.0: (validate_payload t6 a6 t7)
+12.0: (sync_actions a6)
+13.0: (validate_payload t7 a12 t8)
+14.0: (sync_actions a12)
+15.0: (del a2)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (del a8)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 609
+Heuristic Time (msec): 11
+Search Time (msec): 603
+Expanded Nodes:2357
+States Evaluated:4187
+Number of Dead-Ends detected:0
+Number of Duplicates detected:343
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem42.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7575
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 18, Evaluated States: 62, Time: 0.044) Frontier Size: 44
+f(n) = 2.0 (Expanded Nodes: 180, Evaluated States: 505, Time: 0.159) Frontier Size: 325
+f(n) = 3.0 (Expanded Nodes: 749, Evaluated States: 1874, Time: 0.386) Frontier Size: 1125
+f(n) = 4.0 (Expanded Nodes: 2209, Evaluated States: 5008, Time: 0.667) Frontier Size: 2799
+f(n) = 5.0 (Expanded Nodes: 6097, Evaluated States: 12524, Time: 1.259) Frontier Size: 6427
+f(n) = 6.0 (Expanded Nodes: 15424, Evaluated States: 29317, Time: 2.211) Frontier Size: 13893
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (validate_payload t4 a5 t5)
+9.0: (sync_actions a5)
+10.0: (validate_payload t5 a6 t6)
+11.0: (sync_actions a6)
+12.0: (validate_payload t6 a12 t7)
+13.0: (sync_actions a12)
+14.0: (validate_payload t7 a11 t8)
+15.0: (sync_actions a11)
+16.0: (del a4)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (validate_payload t10 a1 t11)
+20.0: (sync_actions a1)
+21.0: (validate_payload t11 a0 t12)
+22.0: (sync_actions a0)
+23.0: (validate_payload t12 a2 t13)
+24.0: (sync_actions a2)
+25.0: (del a0)
+26.0: (del a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 3321
+Heuristic Time (msec): 10
+Search Time (msec): 3314
+Expanded Nodes:31397
+States Evaluated:56407
+Number of Dead-Ends detected:0
+Number of Duplicates detected:3033
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem43.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7517
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 16, Evaluated States: 52, Time: 0.037) Frontier Size: 36
+f(n) = 2.0 (Expanded Nodes: 112, Evaluated States: 315, Time: 0.114) Frontier Size: 203
+f(n) = 3.0 (Expanded Nodes: 348, Evaluated States: 872, Time: 0.198) Frontier Size: 524
+f(n) = 4.0 (Expanded Nodes: 990, Evaluated States: 2153, Time: 0.325) Frontier Size: 1163
+f(n) = 5.0 (Expanded Nodes: 2522, Evaluated States: 4726, Time: 0.526) Frontier Size: 2204
+f(n) = 6.0 (Expanded Nodes: 4904, Evaluated States: 8320, Time: 0.822) Frontier Size: 3416
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a11 t5)
+9.0: (sync_actions a11)
+10.0: (validate_payload t5 a4 t6)
+11.0: (sync_actions a4)
+12.0: (validate_payload t6 a5 t7)
+13.0: (sync_actions a5)
+14.0: (del a3)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (validate_payload t10 a0 t11)
+20.0: (sync_actions a0)
+21.0: (del a10)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (del a6)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1158
+Heuristic Time (msec): 2
+Search Time (msec): 1152
+Expanded Nodes:6230
+States Evaluated:10452
+Number of Dead-Ends detected:0
+Number of Duplicates detected:895
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem44.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7622
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.017) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 14, Evaluated States: 35, Time: 0.073) Frontier Size: 21
+f(n) = 4.0 (Expanded Nodes: 59, Evaluated States: 127, Time: 0.105) Frontier Size: 68
+f(n) = 5.0 (Expanded Nodes: 144, Evaluated States: 293, Time: 0.154) Frontier Size: 149
+f(n) = 6.0 (Expanded Nodes: 332, Evaluated States: 640, Time: 0.205) Frontier Size: 308
+f(n) = 7.0 (Expanded Nodes: 655, Evaluated States: 1099, Time: 0.263) Frontier Size: 444
+Problem Solved
+
+Found Plan:
+0.0: (del a6)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (change_value a4 categorical c3)
+8.0: (validate_payload t4 a4 t5)
+9.0: (sync_actions a4)
+10.0: (validate_payload t5 a5 t6)
+11.0: (sync_actions a5)
+12.0: (del a8)
+13.0: (del a0)
+14.0: (validate_payload t8 a6 t9)
+15.0: (sync_actions a6)
+16.0: (validate_payload t9 a12 t10)
+17.0: (sync_actions a12)
+18.0: (validate_payload t10 a11 t11)
+19.0: (sync_actions a11)
+20.0: (validate_payload t11 a8 t12)
+21.0: (sync_actions a8)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (validate_payload t14 a0 t15)
+27.0: (sync_actions a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 330
+Heuristic Time (msec): 6
+Search Time (msec): 327
+Expanded Nodes:1053
+States Evaluated:1683
+Number of Dead-Ends detected:0
+Number of Duplicates detected:162
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem45.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7737
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.015) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 14, Evaluated States: 39, Time: 0.074) Frontier Size: 25
+f(n) = 4.0 (Expanded Nodes: 74, Evaluated States: 195, Time: 0.116) Frontier Size: 121
+f(n) = 5.0 (Expanded Nodes: 221, Evaluated States: 527, Time: 0.191) Frontier Size: 306
+f(n) = 6.0 (Expanded Nodes: 496, Evaluated States: 1052, Time: 0.293) Frontier Size: 556
+Problem Solved
+
+Found Plan:
+0.0: (del a5)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a5 t5)
+8.0: (sync_actions a5)
+9.0: (del a3)
+10.0: (del a5)
+11.0: (validate_payload t7 a4 t8)
+12.0: (sync_actions a4)
+13.0: (validate_payload t8 a6 t9)
+14.0: (sync_actions a6)
+15.0: (validate_payload t9 a12 t10)
+16.0: (sync_actions a12)
+17.0: (validate_payload t10 a11 t11)
+18.0: (sync_actions a11)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 487
+Heuristic Time (msec): 1
+Search Time (msec): 472
+Expanded Nodes:1105
+States Evaluated:2087
+Number of Dead-Ends detected:0
+Number of Duplicates detected:165
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem46.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7782
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.02) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 14, Evaluated States: 43, Time: 0.075) Frontier Size: 29
+f(n) = 4.0 (Expanded Nodes: 83, Evaluated States: 223, Time: 0.126) Frontier Size: 140
+f(n) = 5.0 (Expanded Nodes: 266, Evaluated States: 648, Time: 0.223) Frontier Size: 382
+f(n) = 6.0 (Expanded Nodes: 843, Evaluated States: 1909, Time: 0.396) Frontier Size: 1066
+Problem Solved
+
+Found Plan:
+0.0: (del a11)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a3 t3)
+4.0: (sync_actions a3)
+5.0: (validate_payload t3 a10 t4)
+6.0: (sync_actions a10)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (del a8)
+10.0: (validate_payload t6 a12 t7)
+11.0: (sync_actions a12)
+12.0: (validate_payload t7 a11 t8)
+13.0: (sync_actions a11)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (del a4)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 560
+Heuristic Time (msec): 5
+Search Time (msec): 549
+Expanded Nodes:1648
+States Evaluated:3511
+Number of Dead-Ends detected:0
+Number of Duplicates detected:133
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem47.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8434
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.027) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 16, Evaluated States: 32, Time: 0.067) Frontier Size: 16
+f(n) = 3.0 (Expanded Nodes: 33, Evaluated States: 76, Time: 0.097) Frontier Size: 43
+f(n) = 4.0 (Expanded Nodes: 105, Evaluated States: 229, Time: 0.138) Frontier Size: 124
+f(n) = 5.0 (Expanded Nodes: 201, Evaluated States: 404, Time: 0.193) Frontier Size: 203
+f(n) = 6.0 (Expanded Nodes: 565, Evaluated States: 1039, Time: 0.322) Frontier Size: 474
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a1)
+3.0: (validate_payload t2 a3 t3)
+4.0: (sync_actions a3)
+5.0: (validate_payload t3 a10 t4)
+6.0: (sync_actions a10)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (del a4)
+10.0: (validate_payload t6 a12 t7)
+11.0: (sync_actions a12)
+12.0: (validate_payload t7 a11 t8)
+13.0: (sync_actions a11)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (del a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 376
+Heuristic Time (msec): 7
+Search Time (msec): 373
+Expanded Nodes:706
+States Evaluated:1275
+Number of Dead-Ends detected:0
+Number of Duplicates detected:83
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem48.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7637
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 21, Time: 0.027) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 35, Evaluated States: 78, Time: 0.08) Frontier Size: 43
+f(n) = 3.0 (Expanded Nodes: 81, Evaluated States: 186, Time: 0.127) Frontier Size: 105
+f(n) = 4.0 (Expanded Nodes: 344, Evaluated States: 853, Time: 0.239) Frontier Size: 509
+f(n) = 5.0 (Expanded Nodes: 1170, Evaluated States: 2872, Time: 0.536) Frontier Size: 1702
+f(n) = 6.0 (Expanded Nodes: 3491, Evaluated States: 7740, Time: 0.976) Frontier Size: 4249
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (del a8)
+5.0: (validate_payload t3 a10 t4)
+6.0: (sync_actions a10)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a5 t6)
+10.0: (sync_actions a5)
+11.0: (validate_payload t6 a6 t7)
+12.0: (sync_actions a6)
+13.0: (validate_payload t7 a12 t8)
+14.0: (sync_actions a12)
+15.0: (validate_payload t8 a11 t9)
+16.0: (sync_actions a11)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (del a6)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (validate_payload t14 a9 t15)
+27.0: (sync_actions a9)
+28.0: (del a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1837
+Heuristic Time (msec): 12
+Search Time (msec): 1830
+Expanded Nodes:7690
+States Evaluated:15661
+Number of Dead-Ends detected:0
+Number of Duplicates detected:527
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem49.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7740
+UFX:true
+|F|:26425
+|X|:11
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 39, Time: 0.034) Frontier Size: 27
+f(n) = 2.0 (Expanded Nodes: 86, Evaluated States: 230, Time: 0.109) Frontier Size: 144
+f(n) = 3.0 (Expanded Nodes: 256, Evaluated States: 610, Time: 0.2) Frontier Size: 354
+f(n) = 4.0 (Expanded Nodes: 599, Evaluated States: 1243, Time: 0.304) Frontier Size: 644
+f(n) = 5.0 (Expanded Nodes: 1408, Evaluated States: 2502, Time: 0.441) Frontier Size: 1094
+f(n) = 6.0 (Expanded Nodes: 2607, Evaluated States: 4229, Time: 0.615) Frontier Size: 1622
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a12 t3)
+5.0: (sync_actions a12)
+6.0: (validate_payload t3 a11 t4)
+7.0: (sync_actions a11)
+8.0: (validate_payload t4 a3 t5)
+9.0: (sync_actions a3)
+10.0: (del a11)
+11.0: (del a6)
+12.0: (validate_payload t7 a4 t8)
+13.0: (sync_actions a4)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (del a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 887
+Heuristic Time (msec): 2
+Search Time (msec): 881
+Expanded Nodes:4599
+States Evaluated:6966
+Number of Dead-Ends detected:0
+Number of Duplicates detected:870
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem50.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7870
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.03) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 16, Evaluated States: 32, Time: 0.069) Frontier Size: 16
+f(n) = 3.0 (Expanded Nodes: 39, Evaluated States: 87, Time: 0.105) Frontier Size: 48
+f(n) = 4.0 (Expanded Nodes: 113, Evaluated States: 245, Time: 0.145) Frontier Size: 132
+f(n) = 5.0 (Expanded Nodes: 213, Evaluated States: 424, Time: 0.194) Frontier Size: 211
+f(n) = 6.0 (Expanded Nodes: 507, Evaluated States: 898, Time: 0.266) Frontier Size: 391
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a5)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a12 t6)
+10.0: (sync_actions a12)
+11.0: (del a4)
+12.0: (validate_payload t7 a11 t8)
+13.0: (sync_actions a11)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (del a10)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 322
+Heuristic Time (msec): 12
+Search Time (msec): 314
+Expanded Nodes:777
+States Evaluated:1286
+Number of Dead-Ends detected:0
+Number of Duplicates detected:162
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem51.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7634
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 16, Evaluated States: 46, Time: 0.044) Frontier Size: 30
+f(n) = 2.0 (Expanded Nodes: 135, Evaluated States: 332, Time: 0.133) Frontier Size: 197
+f(n) = 3.0 (Expanded Nodes: 486, Evaluated States: 1071, Time: 0.273) Frontier Size: 585
+f(n) = 4.0 (Expanded Nodes: 1174, Evaluated States: 2367, Time: 0.405) Frontier Size: 1193
+f(n) = 5.0 (Expanded Nodes: 2569, Evaluated States: 4776, Time: 0.596) Frontier Size: 2207
+f(n) = 6.0 (Expanded Nodes: 5040, Evaluated States: 8444, Time: 0.898) Frontier Size: 3404
+f(n) = 7.0 (Expanded Nodes: 8906, Evaluated States: 13939, Time: 1.431) Frontier Size: 5033
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (validate_payload t4 a12 t5)
+9.0: (sync_actions a12)
+10.0: (validate_payload t5 a11 t6)
+11.0: (sync_actions a11)
+12.0: (change_value a4 categorical c3)
+13.0: (validate_payload t6 a4 t7)
+14.0: (sync_actions a4)
+15.0: (validate_payload t7 a6 t8)
+16.0: (sync_actions a6)
+17.0: (validate_payload t8 a8 t9)
+18.0: (sync_actions a8)
+19.0: (del a4)
+20.0: (validate_payload t10 a1 t11)
+21.0: (sync_actions a1)
+22.0: (del a3)
+23.0: (del a12)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (validate_payload t14 a0 t15)
+27.0: (sync_actions a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 1613
+Heuristic Time (msec): 6
+Search Time (msec): 1609
+Expanded Nodes:12478
+States Evaluated:18659
+Number of Dead-Ends detected:0
+Number of Duplicates detected:2330
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem52.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8178
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 4, Evaluated States: 8, Time: 0.028) Frontier Size: 4
+f(n) = 3.0 (Expanded Nodes: 25, Evaluated States: 65, Time: 0.09) Frontier Size: 40
+f(n) = 4.0 (Expanded Nodes: 86, Evaluated States: 201, Time: 0.132) Frontier Size: 115
+f(n) = 5.0 (Expanded Nodes: 255, Evaluated States: 563, Time: 0.203) Frontier Size: 308
+f(n) = 6.0 (Expanded Nodes: 564, Evaluated States: 1133, Time: 0.281) Frontier Size: 569
+f(n) = 7.0 (Expanded Nodes: 1315, Evaluated States: 2328, Time: 0.415) Frontier Size: 1013
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a4)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (change_value a4 categorical c3)
+8.0: (validate_payload t4 a4 t5)
+9.0: (sync_actions a4)
+10.0: (validate_payload t5 a12 t6)
+11.0: (sync_actions a12)
+12.0: (validate_payload t6 a11 t7)
+13.0: (sync_actions a11)
+14.0: (validate_payload t7 a5 t8)
+15.0: (sync_actions a5)
+16.0: (del a7)
+17.0: (validate_payload t9 a6 t10)
+18.0: (sync_actions a6)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (del a5)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (validate_payload t13 a1 t14)
+25.0: (sync_actions a1)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 587
+Heuristic Time (msec): 10
+Search Time (msec): 581
+Expanded Nodes:2340
+States Evaluated:3920
+Number of Dead-Ends detected:0
+Number of Duplicates detected:296
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem53.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7526
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 35, Time: 0.034) Frontier Size: 25
+f(n) = 2.0 (Expanded Nodes: 63, Evaluated States: 180, Time: 0.115) Frontier Size: 117
+f(n) = 3.0 (Expanded Nodes: 198, Evaluated States: 442, Time: 0.197) Frontier Size: 244
+f(n) = 4.0 (Expanded Nodes: 520, Evaluated States: 1062, Time: 0.272) Frontier Size: 542
+f(n) = 5.0 (Expanded Nodes: 1182, Evaluated States: 2214, Time: 0.398) Frontier Size: 1032
+f(n) = 6.0 (Expanded Nodes: 2471, Evaluated States: 4515, Time: 0.589) Frontier Size: 2044
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a4 t3)
+5.0: (sync_actions a4)
+6.0: (validate_payload t3 a10 t4)
+7.0: (sync_actions a10)
+8.0: (del a10)
+9.0: (validate_payload t5 a12 t6)
+10.0: (sync_actions a12)
+11.0: (validate_payload t6 a11 t7)
+12.0: (sync_actions a11)
+13.0: (del a2)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (del a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 771
+Heuristic Time (msec): 7
+Search Time (msec): 765
+Expanded Nodes:3672
+States Evaluated:6560
+Number of Dead-Ends detected:0
+Number of Duplicates detected:511
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem54.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7822
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 27, Time: 0.034) Frontier Size: 19
+f(n) = 2.0 (Expanded Nodes: 56, Evaluated States: 148, Time: 0.087) Frontier Size: 92
+f(n) = 3.0 (Expanded Nodes: 172, Evaluated States: 399, Time: 0.163) Frontier Size: 227
+f(n) = 4.0 (Expanded Nodes: 434, Evaluated States: 950, Time: 0.267) Frontier Size: 516
+f(n) = 5.0 (Expanded Nodes: 1116, Evaluated States: 2230, Time: 0.462) Frontier Size: 1114
+f(n) = 6.0 (Expanded Nodes: 2353, Evaluated States: 4338, Time: 0.655) Frontier Size: 1985
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (del a1)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a12 t6)
+10.0: (sync_actions a12)
+11.0: (validate_payload t6 a11 t7)
+12.0: (sync_actions a11)
+13.0: (del a2)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (del a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1003
+Heuristic Time (msec): 4
+Search Time (msec): 994
+Expanded Nodes:4864
+States Evaluated:8550
+Number of Dead-Ends detected:0
+Number of Duplicates detected:747
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem55.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7500
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 41, Time: 0.032) Frontier Size: 29
+f(n) = 2.0 (Expanded Nodes: 86, Evaluated States: 246, Time: 0.11) Frontier Size: 160
+f(n) = 3.0 (Expanded Nodes: 271, Evaluated States: 689, Time: 0.218) Frontier Size: 418
+f(n) = 4.0 (Expanded Nodes: 705, Evaluated States: 1548, Time: 0.324) Frontier Size: 843
+f(n) = 5.0 (Expanded Nodes: 1720, Evaluated States: 3251, Time: 0.496) Frontier Size: 1531
+f(n) = 6.0 (Expanded Nodes: 3389, Evaluated States: 5836, Time: 0.726) Frontier Size: 2447
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (validate_payload t4 a12 t5)
+9.0: (sync_actions a12)
+10.0: (del a8)
+11.0: (validate_payload t6 a5 t7)
+12.0: (sync_actions a5)
+13.0: (validate_payload t7 a11 t8)
+14.0: (sync_actions a11)
+15.0: (del a11)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (del a10)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1111
+Heuristic Time (msec): 5
+Search Time (msec): 1109
+Expanded Nodes:6510
+States Evaluated:10633
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1147
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem56.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7702
+UFX:true
+|F|:26425
+|X|:16
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.021) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 14, Evaluated States: 40, Time: 0.069) Frontier Size: 26
+f(n) = 4.0 (Expanded Nodes: 74, Evaluated States: 191, Time: 0.112) Frontier Size: 117
+f(n) = 5.0 (Expanded Nodes: 218, Evaluated States: 500, Time: 0.198) Frontier Size: 282
+f(n) = 6.0 (Expanded Nodes: 512, Evaluated States: 1060, Time: 0.298) Frontier Size: 548
+Problem Solved
+
+Found Plan:
+0.0: (del a1)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a12 t4)
+6.0: (sync_actions a12)
+7.0: (validate_payload t4 a11 t5)
+8.0: (sync_actions a11)
+9.0: (del a2)
+10.0: (validate_payload t6 a3 t7)
+11.0: (sync_actions a3)
+12.0: (del a4)
+13.0: (validate_payload t8 a5 t9)
+14.0: (sync_actions a5)
+15.0: (validate_payload t9 a4 t10)
+16.0: (sync_actions a4)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 456
+Heuristic Time (msec): 5
+Search Time (msec): 453
+Expanded Nodes:1249
+States Evaluated:2299
+Number of Dead-Ends detected:0
+Number of Duplicates detected:126
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem57.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8259
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 23, Time: 0.025) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 28, Evaluated States: 71, Time: 0.067) Frontier Size: 43
+f(n) = 3.0 (Expanded Nodes: 72, Evaluated States: 173, Time: 0.117) Frontier Size: 101
+f(n) = 4.0 (Expanded Nodes: 219, Evaluated States: 477, Time: 0.187) Frontier Size: 258
+f(n) = 5.0 (Expanded Nodes: 414, Evaluated States: 743, Time: 0.264) Frontier Size: 329
+f(n) = 6.0 (Expanded Nodes: 917, Evaluated States: 1652, Time: 0.454) Frontier Size: 735
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (del a8)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a12 t6)
+10.0: (sync_actions a12)
+11.0: (validate_payload t6 a11 t7)
+12.0: (sync_actions a11)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (del a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (del a10)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 596
+Heuristic Time (msec): 3
+Search Time (msec): 590
+Expanded Nodes:1387
+States Evaluated:2208
+Number of Dead-Ends detected:0
+Number of Duplicates detected:257
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem58.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8077
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 16, Evaluated States: 48, Time: 0.042) Frontier Size: 32
+f(n) = 2.0 (Expanded Nodes: 81, Evaluated States: 202, Time: 0.107) Frontier Size: 121
+f(n) = 3.0 (Expanded Nodes: 208, Evaluated States: 471, Time: 0.19) Frontier Size: 263
+f(n) = 4.0 (Expanded Nodes: 595, Evaluated States: 1199, Time: 0.278) Frontier Size: 604
+f(n) = 5.0 (Expanded Nodes: 1333, Evaluated States: 2427, Time: 0.418) Frontier Size: 1094
+f(n) = 6.0 (Expanded Nodes: 2706, Evaluated States: 4651, Time: 0.627) Frontier Size: 1945
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a12 t3)
+5.0: (sync_actions a12)
+6.0: (validate_payload t3 a11 t4)
+7.0: (sync_actions a11)
+8.0: (validate_payload t4 a3 t5)
+9.0: (sync_actions a3)
+10.0: (validate_payload t5 a4 t6)
+11.0: (sync_actions a4)
+12.0: (validate_payload t6 a5 t7)
+13.0: (sync_actions a5)
+14.0: (del a4)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (del a1)
+20.0: (del a7)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 938
+Heuristic Time (msec): 7
+Search Time (msec): 930
+Expanded Nodes:4793
+States Evaluated:7561
+Number of Dead-Ends detected:0
+Number of Duplicates detected:653
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem59.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7596
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 26, Time: 0.039) Frontier Size: 18
+f(n) = 2.0 (Expanded Nodes: 80, Evaluated States: 204, Time: 0.12) Frontier Size: 124
+f(n) = 3.0 (Expanded Nodes: 463, Evaluated States: 1236, Time: 0.305) Frontier Size: 773
+f(n) = 4.0 (Expanded Nodes: 2040, Evaluated States: 5105, Time: 0.614) Frontier Size: 3065
+f(n) = 5.0 (Expanded Nodes: 6237, Evaluated States: 14134, Time: 1.254) Frontier Size: 7897
+f(n) = 6.0 (Expanded Nodes: 17061, Evaluated States: 34941, Time: 2.22) Frontier Size: 17880
+f(n) = 7.0 (Expanded Nodes: 43391, Evaluated States: 81793, Time: 3.884) Frontier Size: 38402
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (change_value a4 categorical c3)
+5.0: (validate_payload t2 a4 t3)
+6.0: (sync_actions a4)
+7.0: (validate_payload t3 a10 t4)
+8.0: (sync_actions a10)
+9.0: (validate_payload t4 a5 t5)
+10.0: (sync_actions a5)
+11.0: (validate_payload t5 a6 t6)
+12.0: (sync_actions a6)
+13.0: (validate_payload t6 a12 t7)
+14.0: (sync_actions a12)
+15.0: (validate_payload t7 a11 t8)
+16.0: (sync_actions a11)
+17.0: (validate_payload t8 a8 t9)
+18.0: (sync_actions a8)
+19.0: (del a2)
+20.0: (validate_payload t10 a0 t11)
+21.0: (sync_actions a0)
+22.0: (validate_payload t11 a1 t12)
+23.0: (sync_actions a1)
+24.0: (del a10)
+25.0: (validate_payload t13 a2 t14)
+26.0: (sync_actions a2)
+27.0: (del a7)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 8305
+Heuristic Time (msec): 12
+Search Time (msec): 8303
+Expanded Nodes:86556
+States Evaluated:152226
+Number of Dead-Ends detected:0
+Number of Duplicates detected:7348
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem60.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7654
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.021) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 8, Evaluated States: 12, Time: 0.051) Frontier Size: 4
+f(n) = 3.0 (Expanded Nodes: 28, Evaluated States: 66, Time: 0.086) Frontier Size: 38
+f(n) = 4.0 (Expanded Nodes: 74, Evaluated States: 151, Time: 0.113) Frontier Size: 77
+f(n) = 5.0 (Expanded Nodes: 160, Evaluated States: 326, Time: 0.164) Frontier Size: 166
+f(n) = 6.0 (Expanded Nodes: 436, Evaluated States: 856, Time: 0.236) Frontier Size: 420
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a12 t6)
+10.0: (sync_actions a12)
+11.0: (del a2)
+12.0: (validate_payload t7 a11 t8)
+13.0: (sync_actions a11)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (del a8)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 267
+Heuristic Time (msec): 6
+Search Time (msec): 264
+Expanded Nodes:574
+States Evaluated:1099
+Number of Dead-Ends detected:0
+Number of Duplicates detected:64
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem61.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7793
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 18, Time: 0.025) Frontier Size: 12
+f(n) = 2.0 (Expanded Nodes: 26, Evaluated States: 65, Time: 0.072) Frontier Size: 39
+f(n) = 3.0 (Expanded Nodes: 61, Evaluated States: 135, Time: 0.117) Frontier Size: 74
+f(n) = 4.0 (Expanded Nodes: 174, Evaluated States: 391, Time: 0.167) Frontier Size: 217
+f(n) = 5.0 (Expanded Nodes: 380, Evaluated States: 842, Time: 0.26) Frontier Size: 462
+f(n) = 6.0 (Expanded Nodes: 1038, Evaluated States: 2148, Time: 0.475) Frontier Size: 1110
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (del a9)
+5.0: (validate_payload t3 a10 t4)
+6.0: (sync_actions a10)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (del a7)
+10.0: (validate_payload t6 a11 t7)
+11.0: (sync_actions a11)
+12.0: (validate_payload t7 a5 t8)
+13.0: (sync_actions a5)
+14.0: (validate_payload t8 a4 t9)
+15.0: (sync_actions a4)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a0 t13)
+23.0: (sync_actions a0)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (del a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 561
+Heuristic Time (msec): 2
+Search Time (msec): 550
+Expanded Nodes:1436
+States Evaluated:2915
+Number of Dead-Ends detected:0
+Number of Duplicates detected:154
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem62.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7700
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 18, Time: 0.026) Frontier Size: 12
+f(n) = 2.0 (Expanded Nodes: 26, Evaluated States: 63, Time: 0.078) Frontier Size: 37
+f(n) = 3.0 (Expanded Nodes: 50, Evaluated States: 118, Time: 0.117) Frontier Size: 68
+f(n) = 4.0 (Expanded Nodes: 148, Evaluated States: 315, Time: 0.159) Frontier Size: 167
+f(n) = 5.0 (Expanded Nodes: 284, Evaluated States: 578, Time: 0.219) Frontier Size: 294
+f(n) = 6.0 (Expanded Nodes: 667, Evaluated States: 1278, Time: 0.343) Frontier Size: 611
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (del a11)
+5.0: (validate_payload t3 a10 t4)
+6.0: (sync_actions a10)
+7.0: (del a8)
+8.0: (validate_payload t5 a12 t6)
+9.0: (sync_actions a12)
+10.0: (validate_payload t6 a11 t7)
+11.0: (sync_actions a11)
+12.0: (validate_payload t7 a4 t8)
+13.0: (sync_actions a4)
+14.0: (del a6)
+15.0: (validate_payload t9 a5 t10)
+16.0: (sync_actions a5)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 540
+Heuristic Time (msec): 6
+Search Time (msec): 533
+Expanded Nodes:1281
+States Evaluated:2323
+Number of Dead-Ends detected:0
+Number of Duplicates detected:162
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem63.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7624
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 4, Evaluated States: 8, Time: 0.025) Frontier Size: 4
+f(n) = 4.0 (Expanded Nodes: 17, Evaluated States: 34, Time: 0.081) Frontier Size: 17
+f(n) = 5.0 (Expanded Nodes: 74, Evaluated States: 159, Time: 0.129) Frontier Size: 85
+f(n) = 6.0 (Expanded Nodes: 220, Evaluated States: 559, Time: 0.202) Frontier Size: 339
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a0)
+3.0: (validate_payload t2 a3 t3)
+4.0: (sync_actions a3)
+5.0: (del a7)
+6.0: (validate_payload t4 a10 t5)
+7.0: (sync_actions a10)
+8.0: (validate_payload t5 a4 t6)
+9.0: (sync_actions a4)
+10.0: (validate_payload t6 a12 t7)
+11.0: (sync_actions a12)
+12.0: (validate_payload t7 a11 t8)
+13.0: (sync_actions a11)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (del a8)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 332
+Heuristic Time (msec): 7
+Search Time (msec): 329
+Expanded Nodes:718
+States Evaluated:1588
+Number of Dead-Ends detected:0
+Number of Duplicates detected:45
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem64.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7880
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 21, Time: 0.026) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 96, Time: 0.089) Frontier Size: 58
+f(n) = 3.0 (Expanded Nodes: 105, Evaluated States: 220, Time: 0.148) Frontier Size: 115
+f(n) = 4.0 (Expanded Nodes: 211, Evaluated States: 423, Time: 0.193) Frontier Size: 212
+f(n) = 5.0 (Expanded Nodes: 438, Evaluated States: 803, Time: 0.308) Frontier Size: 365
+f(n) = 6.0 (Expanded Nodes: 841, Evaluated States: 1456, Time: 0.374) Frontier Size: 615
+f(n) = 7.0 (Expanded Nodes: 1583, Evaluated States: 2688, Time: 0.504) Frontier Size: 1105
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a9)
+5.0: (del a8)
+6.0: (validate_payload t4 a3 t5)
+7.0: (sync_actions a3)
+8.0: (validate_payload t5 a5 t6)
+9.0: (sync_actions a5)
+10.0: (change_value a4 categorical c3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a12 t8)
+14.0: (sync_actions a12)
+15.0: (del a10)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (validate_payload t10 a6 t11)
+19.0: (sync_actions a6)
+20.0: (validate_payload t11 a8 t12)
+21.0: (sync_actions a8)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (validate_payload t14 a0 t15)
+27.0: (sync_actions a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 649
+Heuristic Time (msec): 3
+Search Time (msec): 643
+Expanded Nodes:2414
+States Evaluated:4054
+Number of Dead-Ends detected:0
+Number of Duplicates detected:333
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem65.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8233
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.032) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 16, Evaluated States: 32, Time: 0.078) Frontier Size: 16
+f(n) = 3.0 (Expanded Nodes: 33, Evaluated States: 77, Time: 0.109) Frontier Size: 44
+f(n) = 4.0 (Expanded Nodes: 107, Evaluated States: 256, Time: 0.158) Frontier Size: 149
+f(n) = 5.0 (Expanded Nodes: 251, Evaluated States: 555, Time: 0.219) Frontier Size: 304
+f(n) = 6.0 (Expanded Nodes: 602, Evaluated States: 1201, Time: 0.287) Frontier Size: 599
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a9)
+3.0: (validate_payload t2 a3 t3)
+4.0: (sync_actions a3)
+5.0: (validate_payload t3 a10 t4)
+6.0: (sync_actions a10)
+7.0: (validate_payload t4 a5 t5)
+8.0: (sync_actions a5)
+9.0: (del a10)
+10.0: (validate_payload t6 a4 t7)
+11.0: (sync_actions a4)
+12.0: (del a4)
+13.0: (validate_payload t8 a6 t9)
+14.0: (sync_actions a6)
+15.0: (validate_payload t9 a12 t10)
+16.0: (sync_actions a12)
+17.0: (validate_payload t10 a11 t11)
+18.0: (sync_actions a11)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 407
+Heuristic Time (msec): 6
+Search Time (msec): 405
+Expanded Nodes:1215
+States Evaluated:2186
+Number of Dead-Ends detected:0
+Number of Duplicates detected:185
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem66.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8068
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 21, Time: 0.029) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 96, Time: 0.088) Frontier Size: 58
+f(n) = 3.0 (Expanded Nodes: 115, Evaluated States: 246, Time: 0.146) Frontier Size: 131
+f(n) = 4.0 (Expanded Nodes: 291, Evaluated States: 641, Time: 0.212) Frontier Size: 350
+f(n) = 5.0 (Expanded Nodes: 682, Evaluated States: 1430, Time: 0.297) Frontier Size: 748
+f(n) = 6.0 (Expanded Nodes: 1394, Evaluated States: 2591, Time: 0.426) Frontier Size: 1197
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a11)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (validate_payload t5 a5 t6)
+10.0: (sync_actions a5)
+11.0: (del a12)
+12.0: (del a9)
+13.0: (validate_payload t8 a11 t9)
+14.0: (sync_actions a11)
+15.0: (validate_payload t9 a4 t10)
+16.0: (sync_actions a4)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 648
+Heuristic Time (msec): 5
+Search Time (msec): 643
+Expanded Nodes:2750
+States Evaluated:4700
+Number of Dead-Ends detected:0
+Number of Duplicates detected:495
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem67.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7825
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 14, Evaluated States: 41, Time: 0.037) Frontier Size: 27
+f(n) = 2.0 (Expanded Nodes: 61, Evaluated States: 150, Time: 0.095) Frontier Size: 89
+f(n) = 3.0 (Expanded Nodes: 135, Evaluated States: 278, Time: 0.15) Frontier Size: 143
+f(n) = 4.0 (Expanded Nodes: 348, Evaluated States: 664, Time: 0.209) Frontier Size: 316
+f(n) = 5.0 (Expanded Nodes: 566, Evaluated States: 958, Time: 0.254) Frontier Size: 392
+f(n) = 6.0 (Expanded Nodes: 1157, Evaluated States: 1815, Time: 0.343) Frontier Size: 658
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a4 t5)
+9.0: (sync_actions a4)
+10.0: (validate_payload t5 a11 t6)
+11.0: (sync_actions a11)
+12.0: (del a4)
+13.0: (del a7)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (del a7)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 406
+Heuristic Time (msec): 5
+Search Time (msec): 403
+Expanded Nodes:1548
+States Evaluated:2375
+Number of Dead-Ends detected:0
+Number of Duplicates detected:341
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem68.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8254
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.021) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 12, Evaluated States: 33, Time: 0.071) Frontier Size: 21
+f(n) = 4.0 (Expanded Nodes: 58, Evaluated States: 145, Time: 0.105) Frontier Size: 87
+f(n) = 5.0 (Expanded Nodes: 181, Evaluated States: 403, Time: 0.177) Frontier Size: 222
+f(n) = 6.0 (Expanded Nodes: 513, Evaluated States: 1119, Time: 0.295) Frontier Size: 606
+Problem Solved
+
+Found Plan:
+0.0: (del a0)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a12 t4)
+6.0: (sync_actions a12)
+7.0: (del a4)
+8.0: (validate_payload t5 a11 t6)
+9.0: (sync_actions a11)
+10.0: (validate_payload t6 a3 t7)
+11.0: (sync_actions a3)
+12.0: (validate_payload t7 a4 t8)
+13.0: (sync_actions a4)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (del a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 500
+Heuristic Time (msec): 6
+Search Time (msec): 494
+Expanded Nodes:1371
+States Evaluated:2776
+Number of Dead-Ends detected:0
+Number of Duplicates detected:99
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem69.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7746
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 34, Time: 0.033) Frontier Size: 24
+f(n) = 2.0 (Expanded Nodes: 87, Evaluated States: 230, Time: 0.107) Frontier Size: 143
+f(n) = 3.0 (Expanded Nodes: 346, Evaluated States: 803, Time: 0.225) Frontier Size: 457
+f(n) = 4.0 (Expanded Nodes: 914, Evaluated States: 1962, Time: 0.391) Frontier Size: 1048
+f(n) = 5.0 (Expanded Nodes: 2110, Evaluated States: 3963, Time: 0.696) Frontier Size: 1853
+f(n) = 6.0 (Expanded Nodes: 4335, Evaluated States: 7107, Time: 1.096) Frontier Size: 2772
+f(n) = 7.0 (Expanded Nodes: 7711, Evaluated States: 11832, Time: 1.776) Frontier Size: 4121
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (change_value a4 categorical c2)
+7.0: (validate_payload t3 a4 t4)
+8.0: (sync_actions a4)
+9.0: (validate_payload t4 a5 t5)
+10.0: (sync_actions a5)
+11.0: (validate_payload t5 a6 t6)
+12.0: (sync_actions a6)
+13.0: (del a2)
+14.0: (del a8)
+15.0: (validate_payload t8 a12 t9)
+16.0: (sync_actions a12)
+17.0: (validate_payload t9 a11 t10)
+18.0: (sync_actions a11)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (validate_payload t11 a0 t12)
+22.0: (sync_actions a0)
+23.0: (validate_payload t12 a1 t13)
+24.0: (sync_actions a1)
+25.0: (del a0)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 2025
+Heuristic Time (msec): 8
+Search Time (msec): 2022
+Expanded Nodes:10198
+States Evaluated:15626
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1675
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem70.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7703
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 29, Time: 0.031) Frontier Size: 21
+f(n) = 2.0 (Expanded Nodes: 48, Evaluated States: 139, Time: 0.095) Frontier Size: 91
+f(n) = 3.0 (Expanded Nodes: 139, Evaluated States: 335, Time: 0.154) Frontier Size: 196
+f(n) = 4.0 (Expanded Nodes: 404, Evaluated States: 886, Time: 0.27) Frontier Size: 482
+f(n) = 5.0 (Expanded Nodes: 992, Evaluated States: 1896, Time: 0.431) Frontier Size: 904
+f(n) = 6.0 (Expanded Nodes: 2011, Evaluated States: 3571, Time: 0.67) Frontier Size: 1560
+f(n) = 7.0 (Expanded Nodes: 3836, Evaluated States: 6274, Time: 0.946) Frontier Size: 2438
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (del a3)
+7.0: (validate_payload t4 a12 t5)
+8.0: (sync_actions a12)
+9.0: (change_value a4 categorical c3)
+10.0: (validate_payload t5 a4 t6)
+11.0: (sync_actions a4)
+12.0: (validate_payload t6 a11 t7)
+13.0: (sync_actions a11)
+14.0: (del a11)
+15.0: (del a11)
+16.0: (validate_payload t9 a5 t10)
+17.0: (sync_actions a5)
+18.0: (validate_payload t10 a6 t11)
+19.0: (sync_actions a6)
+20.0: (validate_payload t11 a8 t12)
+21.0: (sync_actions a8)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a0 t14)
+25.0: (sync_actions a0)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 1279
+Heuristic Time (msec): 6
+Search Time (msec): 1273
+Expanded Nodes:6472
+States Evaluated:9669
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1099
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem71.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7423
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 34, Time: 0.032) Frontier Size: 22
+f(n) = 2.0 (Expanded Nodes: 21, Evaluated States: 46, Time: 0.063) Frontier Size: 25
+f(n) = 3.0 (Expanded Nodes: 86, Evaluated States: 178, Time: 0.127) Frontier Size: 92
+f(n) = 4.0 (Expanded Nodes: 137, Evaluated States: 238, Time: 0.142) Frontier Size: 101
+f(n) = 5.0 (Expanded Nodes: 309, Evaluated States: 499, Time: 0.221) Frontier Size: 190
+f(n) = 6.0 (Expanded Nodes: 475, Evaluated States: 741, Time: 0.271) Frontier Size: 266
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a4 t5)
+9.0: (sync_actions a4)
+10.0: (del a8)
+11.0: (validate_payload t6 a11 t7)
+12.0: (sync_actions a11)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (del a12)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (del a8)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 329
+Heuristic Time (msec): 4
+Search Time (msec): 321
+Expanded Nodes:602
+States Evaluated:917
+Number of Dead-Ends detected:0
+Number of Duplicates detected:122
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem72.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7692
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 21, Time: 0.025) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 96, Time: 0.082) Frontier Size: 58
+f(n) = 3.0 (Expanded Nodes: 113, Evaluated States: 238, Time: 0.139) Frontier Size: 125
+f(n) = 4.0 (Expanded Nodes: 275, Evaluated States: 575, Time: 0.178) Frontier Size: 300
+f(n) = 5.0 (Expanded Nodes: 621, Evaluated States: 1226, Time: 0.247) Frontier Size: 605
+f(n) = 6.0 (Expanded Nodes: 1188, Evaluated States: 2134, Time: 0.313) Frontier Size: 946
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a9)
+5.0: (validate_payload t3 a12 t4)
+6.0: (sync_actions a12)
+7.0: (validate_payload t4 a11 t5)
+8.0: (sync_actions a11)
+9.0: (validate_payload t5 a3 t6)
+10.0: (sync_actions a3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (del a7)
+14.0: (del a11)
+15.0: (validate_payload t9 a5 t10)
+16.0: (sync_actions a5)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a0 t14)
+24.0: (sync_actions a0)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 388
+Heuristic Time (msec): 6
+Search Time (msec): 383
+Expanded Nodes:1749
+States Evaluated:3119
+Number of Dead-Ends detected:0
+Number of Duplicates detected:228
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem73.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7777
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 39, Time: 0.036) Frontier Size: 27
+f(n) = 2.0 (Expanded Nodes: 84, Evaluated States: 244, Time: 0.117) Frontier Size: 160
+f(n) = 3.0 (Expanded Nodes: 274, Evaluated States: 702, Time: 0.225) Frontier Size: 428
+f(n) = 4.0 (Expanded Nodes: 731, Evaluated States: 1600, Time: 0.373) Frontier Size: 869
+f(n) = 5.0 (Expanded Nodes: 1743, Evaluated States: 3284, Time: 0.531) Frontier Size: 1541
+f(n) = 6.0 (Expanded Nodes: 3120, Evaluated States: 5071, Time: 0.693) Frontier Size: 1951
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a11 t5)
+9.0: (sync_actions a11)
+10.0: (del a0)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (del a7)
+14.0: (del a3)
+15.0: (validate_payload t9 a5 t10)
+16.0: (sync_actions a5)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 736
+Heuristic Time (msec): 2
+Search Time (msec): 728
+Expanded Nodes:3372
+States Evaluated:5556
+Number of Dead-Ends detected:0
+Number of Duplicates detected:641
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem74.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7768
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.028) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 16, Evaluated States: 32, Time: 0.077) Frontier Size: 16
+f(n) = 3.0 (Expanded Nodes: 27, Evaluated States: 56, Time: 0.094) Frontier Size: 29
+f(n) = 4.0 (Expanded Nodes: 59, Evaluated States: 111, Time: 0.112) Frontier Size: 52
+f(n) = 5.0 (Expanded Nodes: 98, Evaluated States: 194, Time: 0.129) Frontier Size: 96
+f(n) = 6.0 (Expanded Nodes: 235, Evaluated States: 465, Time: 0.162) Frontier Size: 230
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a9)
+3.0: (del a8)
+4.0: (validate_payload t3 a10 t4)
+5.0: (sync_actions a10)
+6.0: (validate_payload t4 a12 t5)
+7.0: (sync_actions a12)
+8.0: (validate_payload t5 a3 t6)
+9.0: (sync_actions a3)
+10.0: (del a7)
+11.0: (validate_payload t7 a11 t8)
+12.0: (sync_actions a11)
+13.0: (validate_payload t8 a5 t9)
+14.0: (sync_actions a5)
+15.0: (validate_payload t9 a4 t10)
+16.0: (sync_actions a4)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 186
+Heuristic Time (msec): 8
+Search Time (msec): 178
+Expanded Nodes:329
+States Evaluated:678
+Number of Dead-Ends detected:0
+Number of Duplicates detected:23
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem75.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7775
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 61, Time: 0.049) Frontier Size: 41
+f(n) = 2.0 (Expanded Nodes: 112, Evaluated States: 297, Time: 0.127) Frontier Size: 185
+f(n) = 3.0 (Expanded Nodes: 320, Evaluated States: 767, Time: 0.226) Frontier Size: 447
+f(n) = 4.0 (Expanded Nodes: 889, Evaluated States: 1817, Time: 0.357) Frontier Size: 928
+f(n) = 5.0 (Expanded Nodes: 1884, Evaluated States: 3482, Time: 0.525) Frontier Size: 1598
+f(n) = 6.0 (Expanded Nodes: 3901, Evaluated States: 6763, Time: 0.821) Frontier Size: 2862
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a12 t3)
+5.0: (sync_actions a12)
+6.0: (validate_payload t3 a11 t4)
+7.0: (sync_actions a11)
+8.0: (validate_payload t4 a3 t5)
+9.0: (sync_actions a3)
+10.0: (validate_payload t5 a4 t6)
+11.0: (sync_actions a4)
+12.0: (validate_payload t6 a5 t7)
+13.0: (sync_actions a5)
+14.0: (validate_payload t7 a6 t8)
+15.0: (sync_actions a6)
+16.0: (validate_payload t8 a8 t9)
+17.0: (sync_actions a8)
+18.0: (del a4)
+19.0: (validate_payload t10 a0 t11)
+20.0: (sync_actions a0)
+21.0: (del a2)
+22.0: (del a1)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1400
+Heuristic Time (msec): 11
+Search Time (msec): 1394
+Expanded Nodes:6747
+States Evaluated:10985
+Number of Dead-Ends detected:0
+Number of Duplicates detected:925
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem76.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7818
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 2, Evaluated States: 3, Time: 0.024) Frontier Size: 1
+f(n) = 3.0 (Expanded Nodes: 16, Evaluated States: 44, Time: 0.081) Frontier Size: 28
+f(n) = 4.0 (Expanded Nodes: 99, Evaluated States: 247, Time: 0.128) Frontier Size: 148
+f(n) = 5.0 (Expanded Nodes: 337, Evaluated States: 736, Time: 0.231) Frontier Size: 399
+f(n) = 6.0 (Expanded Nodes: 809, Evaluated States: 1603, Time: 0.358) Frontier Size: 794
+f(n) = 7.0 (Expanded Nodes: 1886, Evaluated States: 3462, Time: 0.521) Frontier Size: 1576
+Problem Solved
+
+Found Plan:
+0.0: (del a9)
+1.0: (validate_payload t1 a7 t2)
+2.0: (sync_actions a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (validate_payload t4 a5 t5)
+8.0: (sync_actions a5)
+9.0: (change_value a4 categorical c3)
+10.0: (validate_payload t5 a4 t6)
+11.0: (sync_actions a4)
+12.0: (del a11)
+13.0: (validate_payload t7 a6 t8)
+14.0: (sync_actions a6)
+15.0: (validate_payload t8 a12 t9)
+16.0: (sync_actions a12)
+17.0: (validate_payload t9 a11 t10)
+18.0: (sync_actions a11)
+19.0: (del a9)
+20.0: (validate_payload t11 a8 t12)
+21.0: (sync_actions a8)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a0 t14)
+25.0: (sync_actions a0)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 674
+Heuristic Time (msec): 9
+Search Time (msec): 671
+Expanded Nodes:2998
+States Evaluated:5249
+Number of Dead-Ends detected:0
+Number of Duplicates detected:304
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem77.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7483
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 14, Evaluated States: 41, Time: 0.034) Frontier Size: 27
+f(n) = 2.0 (Expanded Nodes: 67, Evaluated States: 177, Time: 0.098) Frontier Size: 110
+f(n) = 3.0 (Expanded Nodes: 171, Evaluated States: 368, Time: 0.157) Frontier Size: 197
+f(n) = 4.0 (Expanded Nodes: 470, Evaluated States: 962, Time: 0.221) Frontier Size: 492
+f(n) = 5.0 (Expanded Nodes: 952, Evaluated States: 1605, Time: 0.301) Frontier Size: 653
+f(n) = 6.0 (Expanded Nodes: 1809, Evaluated States: 2985, Time: 0.415) Frontier Size: 1176
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a11 t5)
+9.0: (sync_actions a11)
+10.0: (validate_payload t5 a4 t6)
+11.0: (sync_actions a4)
+12.0: (del a9)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (del a2)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (del a12)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 466
+Heuristic Time (msec): 2
+Search Time (msec): 460
+Expanded Nodes:2060
+States Evaluated:3275
+Number of Dead-Ends detected:0
+Number of Duplicates detected:348
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem78.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7728
+UFX:true
+|F|:26425
+|X|:11
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 2.0 (Expanded Nodes: 4, Evaluated States: 8, Time: 0.026) Frontier Size: 4
+f(n) = 3.0 (Expanded Nodes: 25, Evaluated States: 55, Time: 0.096) Frontier Size: 30
+f(n) = 4.0 (Expanded Nodes: 69, Evaluated States: 157, Time: 0.124) Frontier Size: 88
+f(n) = 5.0 (Expanded Nodes: 142, Evaluated States: 289, Time: 0.165) Frontier Size: 147
+f(n) = 6.0 (Expanded Nodes: 346, Evaluated States: 673, Time: 0.255) Frontier Size: 327
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a6)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a12 t4)
+6.0: (sync_actions a12)
+7.0: (validate_payload t4 a11 t5)
+8.0: (sync_actions a11)
+9.0: (validate_payload t5 a3 t6)
+10.0: (sync_actions a3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (del a3)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (del a11)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 340
+Heuristic Time (msec): 6
+Search Time (msec): 333
+Expanded Nodes:520
+States Evaluated:876
+Number of Dead-Ends detected:0
+Number of Duplicates detected:82
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem79.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7735
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 14, Evaluated States: 43, Time: 0.039) Frontier Size: 29
+f(n) = 2.0 (Expanded Nodes: 50, Evaluated States: 135, Time: 0.087) Frontier Size: 85
+f(n) = 3.0 (Expanded Nodes: 134, Evaluated States: 331, Time: 0.158) Frontier Size: 197
+f(n) = 4.0 (Expanded Nodes: 443, Evaluated States: 879, Time: 0.247) Frontier Size: 436
+f(n) = 5.0 (Expanded Nodes: 845, Evaluated States: 1544, Time: 0.324) Frontier Size: 699
+f(n) = 6.0 (Expanded Nodes: 1757, Evaluated States: 2870, Time: 0.46) Frontier Size: 1113
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a4 t5)
+9.0: (sync_actions a4)
+10.0: (validate_payload t5 a11 t6)
+11.0: (sync_actions a11)
+12.0: (del a10)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (validate_payload t10 a0 t11)
+20.0: (sync_actions a0)
+21.0: (del a3)
+22.0: (del a1)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 653
+Heuristic Time (msec): 8
+Search Time (msec): 645
+Expanded Nodes:3027
+States Evaluated:4561
+Number of Dead-Ends detected:0
+Number of Duplicates detected:548
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem80.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7760
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 21, Time: 0.022) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 96, Time: 0.082) Frontier Size: 58
+f(n) = 3.0 (Expanded Nodes: 113, Evaluated States: 239, Time: 0.137) Frontier Size: 126
+f(n) = 4.0 (Expanded Nodes: 288, Evaluated States: 599, Time: 0.192) Frontier Size: 311
+f(n) = 5.0 (Expanded Nodes: 724, Evaluated States: 1399, Time: 0.272) Frontier Size: 675
+f(n) = 6.0 (Expanded Nodes: 1490, Evaluated States: 2678, Time: 0.402) Frontier Size: 1188
+f(n) = 7.0 (Expanded Nodes: 2960, Evaluated States: 5163, Time: 0.604) Frontier Size: 2203
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a8)
+5.0: (validate_payload t3 a12 t4)
+6.0: (sync_actions a12)
+7.0: (validate_payload t4 a11 t5)
+8.0: (sync_actions a11)
+9.0: (validate_payload t5 a3 t6)
+10.0: (sync_actions a3)
+11.0: (change_value a4 categorical c2)
+12.0: (validate_payload t6 a4 t7)
+13.0: (sync_actions a4)
+14.0: (validate_payload t7 a5 t8)
+15.0: (sync_actions a5)
+16.0: (del a7)
+17.0: (validate_payload t9 a6 t10)
+18.0: (sync_actions a6)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (validate_payload t11 a1 t12)
+22.0: (sync_actions a1)
+23.0: (del a7)
+24.0: (validate_payload t13 a0 t14)
+25.0: (sync_actions a0)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 926
+Heuristic Time (msec): 3
+Search Time (msec): 919
+Expanded Nodes:5348
+States Evaluated:8780
+Number of Dead-Ends detected:0
+Number of Duplicates detected:695
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem81.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7835
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 23, Time: 0.037) Frontier Size: 15
+f(n) = 2.0 (Expanded Nodes: 36, Evaluated States: 90, Time: 0.083) Frontier Size: 54
+f(n) = 3.0 (Expanded Nodes: 86, Evaluated States: 188, Time: 0.123) Frontier Size: 102
+f(n) = 4.0 (Expanded Nodes: 282, Evaluated States: 600, Time: 0.2) Frontier Size: 318
+f(n) = 5.0 (Expanded Nodes: 697, Evaluated States: 1445, Time: 0.323) Frontier Size: 748
+f(n) = 6.0 (Expanded Nodes: 1630, Evaluated States: 3135, Time: 0.597) Frontier Size: 1505
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a4 t3)
+5.0: (sync_actions a4)
+6.0: (del a8)
+7.0: (validate_payload t4 a10 t5)
+8.0: (sync_actions a10)
+9.0: (validate_payload t5 a5 t6)
+10.0: (sync_actions a5)
+11.0: (validate_payload t6 a6 t7)
+12.0: (sync_actions a6)
+13.0: (validate_payload t7 a12 t8)
+14.0: (sync_actions a12)
+15.0: (del a0)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (del a11)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 770
+Heuristic Time (msec): 15
+Search Time (msec): 768
+Expanded Nodes:2934
+States Evaluated:5295
+Number of Dead-Ends detected:0
+Number of Duplicates detected:396
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem82.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7792
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.022) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 16, Evaluated States: 32, Time: 0.063) Frontier Size: 16
+f(n) = 3.0 (Expanded Nodes: 39, Evaluated States: 88, Time: 0.098) Frontier Size: 49
+f(n) = 4.0 (Expanded Nodes: 122, Evaluated States: 259, Time: 0.142) Frontier Size: 137
+f(n) = 5.0 (Expanded Nodes: 249, Evaluated States: 478, Time: 0.2) Frontier Size: 229
+f(n) = 6.0 (Expanded Nodes: 547, Evaluated States: 969, Time: 0.264) Frontier Size: 422
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a0)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (validate_payload t3 a12 t4)
+6.0: (sync_actions a12)
+7.0: (validate_payload t4 a3 t5)
+8.0: (sync_actions a3)
+9.0: (validate_payload t5 a11 t6)
+10.0: (sync_actions a11)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (del a12)
+16.0: (del a12)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 317
+Heuristic Time (msec): 5
+Search Time (msec): 312
+Expanded Nodes:823
+States Evaluated:1358
+Number of Dead-Ends detected:0
+Number of Duplicates detected:121
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem83.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7787
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 27, Time: 0.039) Frontier Size: 19
+f(n) = 2.0 (Expanded Nodes: 54, Evaluated States: 146, Time: 0.101) Frontier Size: 92
+f(n) = 3.0 (Expanded Nodes: 164, Evaluated States: 394, Time: 0.179) Frontier Size: 230
+f(n) = 4.0 (Expanded Nodes: 427, Evaluated States: 974, Time: 0.283) Frontier Size: 547
+f(n) = 5.0 (Expanded Nodes: 1153, Evaluated States: 2413, Time: 0.48) Frontier Size: 1260
+f(n) = 6.0 (Expanded Nodes: 2588, Evaluated States: 4872, Time: 0.687) Frontier Size: 2284
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (del a0)
+7.0: (validate_payload t4 a4 t5)
+8.0: (sync_actions a4)
+9.0: (validate_payload t5 a5 t6)
+10.0: (sync_actions a5)
+11.0: (validate_payload t6 a6 t7)
+12.0: (sync_actions a6)
+13.0: (del a11)
+14.0: (del a6)
+15.0: (validate_payload t9 a12 t10)
+16.0: (sync_actions a12)
+17.0: (validate_payload t10 a11 t11)
+18.0: (sync_actions a11)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a1 t13)
+22.0: (sync_actions a1)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 997
+Heuristic Time (msec): 10
+Search Time (msec): 990
+Expanded Nodes:4944
+States Evaluated:8687
+Number of Dead-Ends detected:0
+Number of Duplicates detected:720
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem84.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7691
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 29, Time: 0.029) Frontier Size: 21
+f(n) = 2.0 (Expanded Nodes: 54, Evaluated States: 154, Time: 0.089) Frontier Size: 100
+f(n) = 3.0 (Expanded Nodes: 179, Evaluated States: 445, Time: 0.156) Frontier Size: 266
+f(n) = 4.0 (Expanded Nodes: 538, Evaluated States: 1213, Time: 0.236) Frontier Size: 675
+f(n) = 5.0 (Expanded Nodes: 1375, Evaluated States: 2764, Time: 0.374) Frontier Size: 1389
+f(n) = 6.0 (Expanded Nodes: 2815, Evaluated States: 5089, Time: 0.572) Frontier Size: 2274
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (del a3)
+7.0: (validate_payload t4 a5 t5)
+8.0: (sync_actions a5)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (validate_payload t6 a6 t7)
+12.0: (sync_actions a6)
+13.0: (validate_payload t7 a12 t8)
+14.0: (sync_actions a12)
+15.0: (validate_payload t8 a11 t9)
+16.0: (sync_actions a11)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (validate_payload t10 a0 t11)
+20.0: (sync_actions a0)
+21.0: (validate_payload t11 a1 t12)
+22.0: (sync_actions a1)
+23.0: (del a10)
+24.0: (del a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 828
+Heuristic Time (msec): 6
+Search Time (msec): 819
+Expanded Nodes:4765
+States Evaluated:8240
+Number of Dead-Ends detected:0
+Number of Duplicates detected:685
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem85.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7548
+UFX:true
+|F|:26425
+|X|:16
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 26, Time: 0.033) Frontier Size: 18
+f(n) = 2.0 (Expanded Nodes: 56, Evaluated States: 140, Time: 0.102) Frontier Size: 84
+f(n) = 3.0 (Expanded Nodes: 169, Evaluated States: 369, Time: 0.17) Frontier Size: 200
+f(n) = 4.0 (Expanded Nodes: 410, Evaluated States: 851, Time: 0.277) Frontier Size: 441
+f(n) = 5.0 (Expanded Nodes: 1024, Evaluated States: 1968, Time: 0.422) Frontier Size: 944
+f(n) = 6.0 (Expanded Nodes: 2151, Evaluated States: 3924, Time: 0.597) Frontier Size: 1773
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a12 t3)
+5.0: (sync_actions a12)
+6.0: (del a1)
+7.0: (validate_payload t4 a11 t5)
+8.0: (sync_actions a11)
+9.0: (validate_payload t5 a3 t6)
+10.0: (sync_actions a3)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (del a8)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (del a5)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 718
+Heuristic Time (msec): 5
+Search Time (msec): 715
+Expanded Nodes:3030
+States Evaluated:5485
+Number of Dead-Ends detected:0
+Number of Duplicates detected:331
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem86.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8101
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 60, Time: 0.052) Frontier Size: 40
+f(n) = 2.0 (Expanded Nodes: 188, Evaluated States: 497, Time: 0.168) Frontier Size: 309
+f(n) = 3.0 (Expanded Nodes: 769, Evaluated States: 1847, Time: 0.416) Frontier Size: 1078
+f(n) = 4.0 (Expanded Nodes: 2030, Evaluated States: 4412, Time: 0.65) Frontier Size: 2382
+f(n) = 5.0 (Expanded Nodes: 4547, Evaluated States: 8837, Time: 1.02) Frontier Size: 4290
+f(n) = 6.0 (Expanded Nodes: 9102, Evaluated States: 15675, Time: 1.765) Frontier Size: 6573
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (validate_payload t4 a5 t5)
+9.0: (sync_actions a5)
+10.0: (validate_payload t5 a6 t6)
+11.0: (sync_actions a6)
+12.0: (validate_payload t6 a12 t7)
+13.0: (sync_actions a12)
+14.0: (validate_payload t7 a11 t8)
+15.0: (sync_actions a11)
+16.0: (validate_payload t8 a8 t9)
+17.0: (sync_actions a8)
+18.0: (del a9)
+19.0: (del a3)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a2 t13)
+23.0: (sync_actions a2)
+24.0: (del a12)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 2160
+Heuristic Time (msec): 7
+Search Time (msec): 2157
+Expanded Nodes:15844
+States Evaluated:25447
+Number of Dead-Ends detected:0
+Number of Duplicates detected:2189
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem87.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7506
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 14, Evaluated States: 43, Time: 0.037) Frontier Size: 29
+f(n) = 2.0 (Expanded Nodes: 96, Evaluated States: 261, Time: 0.121) Frontier Size: 165
+f(n) = 3.0 (Expanded Nodes: 288, Evaluated States: 694, Time: 0.23) Frontier Size: 406
+f(n) = 4.0 (Expanded Nodes: 746, Evaluated States: 1571, Time: 0.402) Frontier Size: 825
+f(n) = 5.0 (Expanded Nodes: 1713, Evaluated States: 3163, Time: 0.658) Frontier Size: 1450
+f(n) = 6.0 (Expanded Nodes: 3100, Evaluated States: 4955, Time: 0.849) Frontier Size: 1855
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (validate_payload t4 a12 t5)
+9.0: (sync_actions a12)
+10.0: (validate_payload t5 a5 t6)
+11.0: (sync_actions a5)
+12.0: (del a12)
+13.0: (validate_payload t7 a11 t8)
+14.0: (sync_actions a11)
+15.0: (del a9)
+16.0: (del a5)
+17.0: (validate_payload t10 a6 t11)
+18.0: (sync_actions a6)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 936
+Heuristic Time (msec): 7
+Search Time (msec): 927
+Expanded Nodes:3697
+States Evaluated:5907
+Number of Dead-Ends detected:0
+Number of Duplicates detected:778
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem88.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7727
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.029) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 8, Evaluated States: 12, Time: 0.054) Frontier Size: 4
+f(n) = 3.0 (Expanded Nodes: 22, Evaluated States: 54, Time: 0.091) Frontier Size: 32
+f(n) = 4.0 (Expanded Nodes: 62, Evaluated States: 129, Time: 0.117) Frontier Size: 67
+f(n) = 5.0 (Expanded Nodes: 162, Evaluated States: 324, Time: 0.169) Frontier Size: 162
+f(n) = 6.0 (Expanded Nodes: 387, Evaluated States: 780, Time: 0.253) Frontier Size: 393
+f(n) = 7.0 (Expanded Nodes: 925, Evaluated States: 1796, Time: 0.358) Frontier Size: 871
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a7)
+3.0: (validate_payload t2 a10 t3)
+4.0: (sync_actions a10)
+5.0: (del a4)
+6.0: (validate_payload t4 a12 t5)
+7.0: (sync_actions a12)
+8.0: (validate_payload t5 a11 t6)
+9.0: (sync_actions a11)
+10.0: (validate_payload t6 a3 t7)
+11.0: (sync_actions a3)
+12.0: (change_value a4 categorical c2)
+13.0: (validate_payload t7 a4 t8)
+14.0: (sync_actions a4)
+15.0: (del a7)
+16.0: (validate_payload t9 a5 t10)
+17.0: (sync_actions a5)
+18.0: (validate_payload t10 a6 t11)
+19.0: (sync_actions a6)
+20.0: (validate_payload t11 a8 t12)
+21.0: (sync_actions a8)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (validate_payload t14 a0 t15)
+27.0: (sync_actions a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 449
+Heuristic Time (msec): 6
+Search Time (msec): 447
+Expanded Nodes:1478
+States Evaluated:2779
+Number of Dead-Ends detected:0
+Number of Duplicates detected:136
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem89.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7587
+UFX:true
+|F|:26425
+|X|:16
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 41, Time: 0.037) Frontier Size: 29
+f(n) = 2.0 (Expanded Nodes: 112, Evaluated States: 286, Time: 0.138) Frontier Size: 174
+f(n) = 3.0 (Expanded Nodes: 438, Evaluated States: 969, Time: 0.307) Frontier Size: 531
+f(n) = 4.0 (Expanded Nodes: 1177, Evaluated States: 2360, Time: 0.461) Frontier Size: 1183
+f(n) = 5.0 (Expanded Nodes: 2556, Evaluated States: 4645, Time: 0.667) Frontier Size: 2089
+f(n) = 6.0 (Expanded Nodes: 4932, Evaluated States: 8031, Time: 1.008) Frontier Size: 3099
+f(n) = 7.0 (Expanded Nodes: 8427, Evaluated States: 12832, Time: 1.371) Frontier Size: 4405
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (change_value a4 categorical c2)
+9.0: (validate_payload t4 a4 t5)
+10.0: (sync_actions a4)
+11.0: (validate_payload t5 a6 t6)
+12.0: (sync_actions a6)
+13.0: (del a9)
+14.0: (del a9)
+15.0: (validate_payload t8 a12 t9)
+16.0: (sync_actions a12)
+17.0: (validate_payload t9 a11 t10)
+18.0: (sync_actions a11)
+19.0: (del a6)
+20.0: (validate_payload t11 a8 t12)
+21.0: (sync_actions a8)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a0 t14)
+25.0: (sync_actions a0)
+26.0: (validate_payload t14 a2 t15)
+27.0: (sync_actions a2)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 1744
+Heuristic Time (msec): 11
+Search Time (msec): 1739
+Expanded Nodes:10753
+States Evaluated:16239
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1735
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem90.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7438
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 12, Evaluated States: 38, Time: 0.043) Frontier Size: 26
+f(n) = 2.0 (Expanded Nodes: 86, Evaluated States: 238, Time: 0.12) Frontier Size: 152
+f(n) = 3.0 (Expanded Nodes: 269, Evaluated States: 669, Time: 0.218) Frontier Size: 400
+f(n) = 4.0 (Expanded Nodes: 709, Evaluated States: 1542, Time: 0.343) Frontier Size: 833
+f(n) = 5.0 (Expanded Nodes: 1792, Evaluated States: 3477, Time: 0.531) Frontier Size: 1685
+f(n) = 6.0 (Expanded Nodes: 3461, Evaluated States: 5894, Time: 0.738) Frontier Size: 2433
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (validate_payload t4 a11 t5)
+9.0: (sync_actions a11)
+10.0: (del a7)
+11.0: (validate_payload t6 a4 t7)
+12.0: (sync_actions a4)
+13.0: (validate_payload t7 a5 t8)
+14.0: (sync_actions a5)
+15.0: (validate_payload t8 a6 t9)
+16.0: (sync_actions a6)
+17.0: (del a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (del a12)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1020
+Heuristic Time (msec): 6
+Search Time (msec): 1018
+Expanded Nodes:5744
+States Evaluated:9445
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1061
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem91.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7527
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 16, Evaluated States: 49, Time: 0.04) Frontier Size: 33
+f(n) = 2.0 (Expanded Nodes: 137, Evaluated States: 366, Time: 0.125) Frontier Size: 229
+f(n) = 3.0 (Expanded Nodes: 541, Evaluated States: 1275, Time: 0.297) Frontier Size: 734
+f(n) = 4.0 (Expanded Nodes: 1441, Evaluated States: 3032, Time: 0.488) Frontier Size: 1591
+f(n) = 5.0 (Expanded Nodes: 3253, Evaluated States: 6076, Time: 0.73) Frontier Size: 2823
+f(n) = 6.0 (Expanded Nodes: 6395, Evaluated States: 10515, Time: 1.111) Frontier Size: 4120
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (validate_payload t4 a4 t5)
+9.0: (sync_actions a4)
+10.0: (validate_payload t5 a6 t6)
+11.0: (sync_actions a6)
+12.0: (validate_payload t6 a12 t7)
+13.0: (sync_actions a12)
+14.0: (del a12)
+15.0: (del a3)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (del a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1616
+Heuristic Time (msec): 13
+Search Time (msec): 1614
+Expanded Nodes:9471
+States Evaluated:15045
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1783
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem92.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7450
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 36, Time: 0.038) Frontier Size: 26
+f(n) = 2.0 (Expanded Nodes: 70, Evaluated States: 208, Time: 0.101) Frontier Size: 138
+f(n) = 3.0 (Expanded Nodes: 218, Evaluated States: 567, Time: 0.181) Frontier Size: 349
+f(n) = 4.0 (Expanded Nodes: 563, Evaluated States: 1248, Time: 0.276) Frontier Size: 685
+f(n) = 5.0 (Expanded Nodes: 1348, Evaluated States: 2546, Time: 0.401) Frontier Size: 1198
+f(n) = 6.0 (Expanded Nodes: 2532, Evaluated States: 4251, Time: 0.556) Frontier Size: 1719
+f(n) = 7.0 (Expanded Nodes: 4790, Evaluated States: 7366, Time: 0.837) Frontier Size: 2576
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a12 t4)
+7.0: (sync_actions a12)
+8.0: (del a9)
+9.0: (del a9)
+10.0: (validate_payload t6 a11 t7)
+11.0: (sync_actions a11)
+12.0: (change_value a4 categorical c3)
+13.0: (validate_payload t7 a4 t8)
+14.0: (sync_actions a4)
+15.0: (validate_payload t8 a5 t9)
+16.0: (sync_actions a5)
+17.0: (validate_payload t9 a6 t10)
+18.0: (sync_actions a6)
+19.0: (validate_payload t10 a8 t11)
+20.0: (sync_actions a8)
+21.0: (validate_payload t11 a1 t12)
+22.0: (sync_actions a1)
+23.0: (del a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (validate_payload t14 a0 t15)
+27.0: (sync_actions a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 1273
+Heuristic Time (msec): 7
+Search Time (msec): 1270
+Expanded Nodes:6988
+States Evaluated:10456
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1379
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem93.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7443
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 8, Evaluated States: 24, Time: 0.03) Frontier Size: 16
+f(n) = 2.0 (Expanded Nodes: 20, Evaluated States: 50, Time: 0.07) Frontier Size: 30
+f(n) = 3.0 (Expanded Nodes: 64, Evaluated States: 150, Time: 0.117) Frontier Size: 86
+f(n) = 4.0 (Expanded Nodes: 172, Evaluated States: 358, Time: 0.159) Frontier Size: 186
+f(n) = 5.0 (Expanded Nodes: 328, Evaluated States: 599, Time: 0.228) Frontier Size: 271
+f(n) = 6.0 (Expanded Nodes: 701, Evaluated States: 1257, Time: 0.341) Frontier Size: 556
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (del a9)
+7.0: (validate_payload t4 a5 t5)
+8.0: (sync_actions a5)
+9.0: (validate_payload t5 a4 t6)
+10.0: (sync_actions a4)
+11.0: (validate_payload t6 a6 t7)
+12.0: (sync_actions a6)
+13.0: (validate_payload t7 a12 t8)
+14.0: (sync_actions a12)
+15.0: (del a9)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (validate_payload t12 a2 t13)
+23.0: (sync_actions a2)
+24.0: (del a9)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 429
+Heuristic Time (msec): 7
+Search Time (msec): 417
+Expanded Nodes:1068
+States Evaluated:1791
+Number of Dead-Ends detected:0
+Number of Duplicates detected:177
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem94.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7376
+UFX:true
+|F|:26425
+|X|:12
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 6, Evaluated States: 22, Time: 0.029) Frontier Size: 16
+f(n) = 2.0 (Expanded Nodes: 38, Evaluated States: 100, Time: 0.085) Frontier Size: 62
+f(n) = 3.0 (Expanded Nodes: 109, Evaluated States: 240, Time: 0.135) Frontier Size: 131
+f(n) = 4.0 (Expanded Nodes: 245, Evaluated States: 523, Time: 0.202) Frontier Size: 278
+f(n) = 5.0 (Expanded Nodes: 560, Evaluated States: 1097, Time: 0.267) Frontier Size: 537
+f(n) = 6.0 (Expanded Nodes: 1240, Evaluated States: 2377, Time: 0.387) Frontier Size: 1137
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (del a2)
+5.0: (validate_payload t3 a3 t4)
+6.0: (sync_actions a3)
+7.0: (del a6)
+8.0: (validate_payload t5 a4 t6)
+9.0: (sync_actions a4)
+10.0: (validate_payload t6 a12 t7)
+11.0: (sync_actions a12)
+12.0: (validate_payload t7 a11 t8)
+13.0: (sync_actions a11)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (validate_payload t13 a2 t14)
+25.0: (sync_actions a2)
+26.0: (del a6)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 463
+Heuristic Time (msec): 5
+Search Time (msec): 458
+Expanded Nodes:1641
+States Evaluated:3083
+Number of Dead-Ends detected:0
+Number of Duplicates detected:131
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem95.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7384
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 34, Time: 0.033) Frontier Size: 24
+f(n) = 2.0 (Expanded Nodes: 47, Evaluated States: 130, Time: 0.084) Frontier Size: 83
+f(n) = 3.0 (Expanded Nodes: 135, Evaluated States: 321, Time: 0.147) Frontier Size: 186
+f(n) = 4.0 (Expanded Nodes: 364, Evaluated States: 733, Time: 0.235) Frontier Size: 369
+f(n) = 5.0 (Expanded Nodes: 774, Evaluated States: 1339, Time: 0.373) Frontier Size: 565
+f(n) = 6.0 (Expanded Nodes: 1480, Evaluated States: 2395, Time: 0.541) Frontier Size: 915
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (del a7)
+9.0: (validate_payload t5 a5 t6)
+10.0: (sync_actions a5)
+11.0: (del a1)
+12.0: (validate_payload t7 a12 t8)
+13.0: (sync_actions a12)
+14.0: (validate_payload t8 a6 t9)
+15.0: (sync_actions a6)
+16.0: (validate_payload t9 a11 t10)
+17.0: (sync_actions a11)
+18.0: (del a8)
+19.0: (validate_payload t11 a8 t12)
+20.0: (sync_actions a8)
+21.0: (validate_payload t12 a0 t13)
+22.0: (sync_actions a0)
+23.0: (validate_payload t13 a1 t14)
+24.0: (sync_actions a1)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 628
+Heuristic Time (msec): 7
+Search Time (msec): 625
+Expanded Nodes:1982
+States Evaluated:3154
+Number of Dead-Ends detected:0
+Number of Duplicates detected:298
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem96.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7391
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 16, Evaluated States: 49, Time: 0.038) Frontier Size: 33
+f(n) = 2.0 (Expanded Nodes: 131, Evaluated States: 341, Time: 0.119) Frontier Size: 210
+f(n) = 3.0 (Expanded Nodes: 508, Evaluated States: 1198, Time: 0.224) Frontier Size: 690
+f(n) = 4.0 (Expanded Nodes: 1422, Evaluated States: 3089, Time: 0.382) Frontier Size: 1667
+f(n) = 5.0 (Expanded Nodes: 3456, Evaluated States: 6806, Time: 0.671) Frontier Size: 3350
+f(n) = 6.0 (Expanded Nodes: 7452, Evaluated States: 13343, Time: 1.097) Frontier Size: 5891
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a10 t3)
+5.0: (sync_actions a10)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (validate_payload t4 a5 t5)
+9.0: (sync_actions a5)
+10.0: (validate_payload t5 a6 t6)
+11.0: (sync_actions a6)
+12.0: (validate_payload t6 a12 t7)
+13.0: (sync_actions a12)
+14.0: (del a6)
+15.0: (validate_payload t8 a11 t9)
+16.0: (sync_actions a11)
+17.0: (validate_payload t9 a8 t10)
+18.0: (sync_actions a8)
+19.0: (validate_payload t10 a1 t11)
+20.0: (sync_actions a1)
+21.0: (del a12)
+22.0: (validate_payload t12 a2 t13)
+23.0: (sync_actions a2)
+24.0: (del a7)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1589
+Heuristic Time (msec): 11
+Search Time (msec): 1586
+Expanded Nodes:13008
+States Evaluated:22076
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1956
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem97.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7253
+UFX:true
+|F|:26425
+|X|:13
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 24, Evaluated States: 65, Time: 0.046) Frontier Size: 41
+f(n) = 2.0 (Expanded Nodes: 158, Evaluated States: 378, Time: 0.137) Frontier Size: 220
+f(n) = 3.0 (Expanded Nodes: 520, Evaluated States: 1128, Time: 0.258) Frontier Size: 608
+f(n) = 4.0 (Expanded Nodes: 1234, Evaluated States: 2420, Time: 0.38) Frontier Size: 1186
+f(n) = 5.0 (Expanded Nodes: 2357, Evaluated States: 4059, Time: 0.561) Frontier Size: 1702
+f(n) = 6.0 (Expanded Nodes: 4081, Evaluated States: 6354, Time: 0.764) Frontier Size: 2273
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a3 t2)
+3.0: (sync_actions a3)
+4.0: (validate_payload t2 a4 t3)
+5.0: (sync_actions a4)
+6.0: (validate_payload t3 a5 t4)
+7.0: (sync_actions a5)
+8.0: (validate_payload t4 a10 t5)
+9.0: (sync_actions a10)
+10.0: (validate_payload t5 a6 t6)
+11.0: (sync_actions a6)
+12.0: (validate_payload t6 a12 t7)
+13.0: (sync_actions a12)
+14.0: (validate_payload t7 a11 t8)
+15.0: (sync_actions a11)
+16.0: (validate_payload t8 a8 t9)
+17.0: (sync_actions a8)
+18.0: (validate_payload t9 a1 t10)
+19.0: (sync_actions a1)
+20.0: (validate_payload t10 a2 t11)
+21.0: (sync_actions a2)
+22.0: (del a5)
+23.0: (del a12)
+24.0: (del a4)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 818
+Heuristic Time (msec): 3
+Search Time (msec): 811
+Expanded Nodes:4479
+States Evaluated:6877
+Number of Dead-Ends detected:0
+Number of Duplicates detected:792
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem98.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 8053
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 14, Evaluated States: 41, Time: 0.038) Frontier Size: 27
+f(n) = 2.0 (Expanded Nodes: 102, Evaluated States: 264, Time: 0.117) Frontier Size: 162
+f(n) = 3.0 (Expanded Nodes: 308, Evaluated States: 736, Time: 0.216) Frontier Size: 428
+f(n) = 4.0 (Expanded Nodes: 725, Evaluated States: 1567, Time: 0.337) Frontier Size: 842
+f(n) = 5.0 (Expanded Nodes: 1716, Evaluated States: 3263, Time: 0.502) Frontier Size: 1547
+f(n) = 6.0 (Expanded Nodes: 3317, Evaluated States: 5516, Time: 0.696) Frontier Size: 2199
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (validate_payload t3 a4 t4)
+7.0: (sync_actions a4)
+8.0: (validate_payload t4 a12 t5)
+9.0: (sync_actions a12)
+10.0: (validate_payload t5 a11 t6)
+11.0: (sync_actions a11)
+12.0: (del a6)
+13.0: (del a4)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a1 t12)
+21.0: (sync_actions a1)
+22.0: (del a8)
+23.0: (validate_payload t13 a2 t14)
+24.0: (sync_actions a2)
+25.0: (validate_payload t14 a0 t15)
+26.0: (sync_actions a0)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 1018
+Heuristic Time (msec): 5
+Search Time (msec): 1015
+Expanded Nodes:5865
+States Evaluated:9762
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1122
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem99.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7815
+UFX:true
+|F|:26425
+|X|:14
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 4, Evaluated States: 12, Time: 0.021) Frontier Size: 8
+f(n) = 2.0 (Expanded Nodes: 16, Evaluated States: 32, Time: 0.057) Frontier Size: 16
+f(n) = 3.0 (Expanded Nodes: 29, Evaluated States: 62, Time: 0.085) Frontier Size: 33
+f(n) = 4.0 (Expanded Nodes: 69, Evaluated States: 144, Time: 0.107) Frontier Size: 75
+f(n) = 5.0 (Expanded Nodes: 140, Evaluated States: 282, Time: 0.148) Frontier Size: 142
+f(n) = 6.0 (Expanded Nodes: 459, Evaluated States: 955, Time: 0.235) Frontier Size: 496
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (del a6)
+3.0: (validate_payload t2 a3 t3)
+4.0: (sync_actions a3)
+5.0: (del a11)
+6.0: (validate_payload t4 a10 t5)
+7.0: (sync_actions a10)
+8.0: (validate_payload t5 a4 t6)
+9.0: (sync_actions a4)
+10.0: (validate_payload t6 a12 t7)
+11.0: (sync_actions a12)
+12.0: (validate_payload t7 a11 t8)
+13.0: (sync_actions a11)
+14.0: (validate_payload t8 a5 t9)
+15.0: (sync_actions a5)
+16.0: (validate_payload t9 a6 t10)
+17.0: (sync_actions a6)
+18.0: (validate_payload t10 a8 t11)
+19.0: (sync_actions a8)
+20.0: (validate_payload t11 a0 t12)
+21.0: (sync_actions a0)
+22.0: (validate_payload t12 a1 t13)
+23.0: (sync_actions a1)
+24.0: (del a7)
+25.0: (validate_payload t14 a2 t15)
+26.0: (sync_actions a2)
+27.0: (validate_payload t15 a9 t16)
+28.0: (sync_actions a9)
+
+Plan-Length:29
+Metric (Search):6.0
+Planning Time (msec): 252
+Heuristic Time (msec): 6
+Search Time (msec): 249
+Expanded Nodes:517
+States Evaluated:1053
+Number of Dead-Ends detected:0
+Number of Duplicates detected:35
+/usr/bin/time -v timeout 600 java -Xmx64g -jar ./enhsp3.jar -o ./domain_with_failure.pddl -f ./problems/BasePN-3And-add-3-d5/problem100.pddl -h blind -s WAStar
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 7507
+UFX:true
+|F|:26425
+|X|:15
+|A|:1135
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 10, Evaluated States: 34, Time: 0.027) Frontier Size: 24
+f(n) = 2.0 (Expanded Nodes: 83, Evaluated States: 220, Time: 0.106) Frontier Size: 137
+f(n) = 3.0 (Expanded Nodes: 314, Evaluated States: 727, Time: 0.218) Frontier Size: 413
+f(n) = 4.0 (Expanded Nodes: 846, Evaluated States: 1827, Time: 0.377) Frontier Size: 981
+f(n) = 5.0 (Expanded Nodes: 2159, Evaluated States: 4218, Time: 0.715) Frontier Size: 2059
+f(n) = 6.0 (Expanded Nodes: 4783, Evaluated States: 8531, Time: 1.37) Frontier Size: 3748
+f(n) = 7.0 (Expanded Nodes: 9292, Evaluated States: 15518, Time: 2.201) Frontier Size: 6226
+Problem Solved
+
+Found Plan:
+0.0: (validate_payload t0 a7 t1)
+1.0: (sync_actions a7)
+2.0: (validate_payload t1 a10 t2)
+3.0: (sync_actions a10)
+4.0: (validate_payload t2 a3 t3)
+5.0: (sync_actions a3)
+6.0: (change_value a4 categorical c3)
+7.0: (validate_payload t3 a4 t4)
+8.0: (sync_actions a4)
+9.0: (validate_payload t4 a5 t5)
+10.0: (sync_actions a5)
+11.0: (del a11)
+12.0: (validate_payload t6 a6 t7)
+13.0: (sync_actions a6)
+14.0: (validate_payload t7 a12 t8)
+15.0: (sync_actions a12)
+16.0: (validate_payload t8 a11 t9)
+17.0: (sync_actions a11)
+18.0: (validate_payload t9 a8 t10)
+19.0: (sync_actions a8)
+20.0: (validate_payload t10 a0 t11)
+21.0: (sync_actions a0)
+22.0: (del a2)
+23.0: (validate_payload t12 a1 t13)
+24.0: (sync_actions a1)
+25.0: (validate_payload t13 a2 t14)
+26.0: (sync_actions a2)
+27.0: (del a0)
+28.0: (validate_payload t15 a9 t16)
+29.0: (sync_actions a9)
+
+Plan-Length:30
+Metric (Search):7.0
+Planning Time (msec): 2210
+Heuristic Time (msec): 5
+Search Time (msec): 2208
+Expanded Nodes:9366
+States Evaluated:15634
+Number of Dead-Ends detected:0
+Number of Duplicates detected:1198

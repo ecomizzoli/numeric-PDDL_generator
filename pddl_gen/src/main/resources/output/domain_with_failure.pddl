@@ -348,9 +348,10 @@
         (not (complete_sync ?a))
         (not (after_add_check))
         ;(exists (?s1 - automaton_state ?s2 - automaton_state ?pn - parameter_name)
+        
         (exists (?s1 - automaton_state ?s2 - automaton_state ) 
         (and
-        (cur_s_state ?s1)
+        ;(cur_s_state ?s1)
         (not (failure_state ?s1))
         (automaton ?s1 ?a ?s2)
         (not (invalid ?s1 ?a ?s2))
@@ -381,10 +382,11 @@
             (when 
 
             (and 
-            ;(not (invalid ?s1 ?a ?s2))
+            (not (invalid ?s1 ?a ?s2))
             (cur_s_state ?s1)
             (automaton ?s1 ?a ?s2)
             (has_constraint ?a ?pn ?s1 ?s2)
+            
             (or
 
             (not (has_parameter ?a ?pn ?t1 ?t2))
@@ -418,15 +420,26 @@
       ;(after_sync)
       (cur_t_state ?t1) 
       (trace ?t1 ?a ?t2)
+      (or 
       (exists (?s1 - automaton_state ?s2 - automaton_state) 
         (and
         (cur_s_state ?s1)
         (not (goal_state ?s1))
         (not (failure_state ?s1))
         (automaton ?s1 ?a ?s2)
-        (not (invalid ?s1 ?a ?s2))
+        ;(not (invalid ?s1 ?a ?s2))
         (not (failure_state ?s2))
         )
+      )
+
+      (not (exists (?s1 - automaton_state ?s2 - automaton_state) 
+        (and
+        (cur_s_state ?s1)
+        (automaton ?s1 ?a ?s2)
+        )
+      )
+      )
+
       )
       
  )
@@ -473,4 +486,35 @@
       )
     )
   )
+
+  (:action skip-unused
+      :parameters (?t1 - trace_state ?a - activity ?t2 - trace_state)
+      :precondition (and 
+
+      (not (after_sync))
+      (not (after_add))
+      (not (failure))
+      (not (complete_sync ?a))
+      (not (after_add_check))
+
+      (cur_t_state ?t1) 
+      (trace ?t1 ?a ?t2)
+      
+      ;; Every activity in the model will be present in an arc when there are Chain Constraints
+      (not (exists (?s1 - automaton_state ?s2 - automaton_state) 
+        (and
+        
+        (automaton ?s1 ?a ?s2)
+        (not (failure_state ?s2))
+        )
+      ))
+      )
+      :effect (and 
+      (increase (total_cost) 0)
+      (not (cur_t_state ?t1)) 
+      (cur_t_state ?t2)
+     
+      )
+  )
+  
 )

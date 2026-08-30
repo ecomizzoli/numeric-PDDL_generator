@@ -2,11 +2,13 @@ package model;
 
 import java.util.*;
 
+import Automaton.Pair;
+
 public class DeclareModel {
   
   public final HashMap<String, Activity> activities;
   private final ArrayList<DeclareConstraint> declareConstraints;
-  private Map<CostEnum, Integer> costs;
+  private Map<Pair<Activity, CostEnum>, Integer> costs;
   public ArrayList<String> params;
   
   public DeclareModel(Map<String, ArrayList<String[]>> parsedLines) {
@@ -58,26 +60,38 @@ public class DeclareModel {
       }
     }
   }
-  
+
   // SECTION - Costs
   /**
    * Assigns costs to the respective operations
-   * @param costs
+   * @param costsList 
    */
-  public void assignCosts(String[] costs) {
-    Integer[] costsDouble = new Integer[4];
-
-    for (int i = 0; i < costs.length; i++) {
-      costsDouble[i] = Integer.valueOf(costs[i]);
-    }
+  public void assignCosts(List<String[]> costsList) {
+    Activity a;
+    Integer[] costsArray = new Integer[4];
 
     this.costs = new HashMap<>();
-    this.costs.put(CostEnum.CHANGE, costsDouble[0]);
-    this.costs.put(CostEnum.ADD, costsDouble[1]);
-    this.costs.put(CostEnum.SET, costsDouble[2]);
-    this.costs.put(CostEnum.DELETE, costsDouble[3]);
+    Set<Activity> seenActivities = new HashSet<>();
+
+    for (String[] costs : costsList) {
+      a = this.activities.get(costs[0]);
+      if (a == null) {
+        throw new Error("Activity not found! What I parsed: " + costs[0]);
+      }
+      seenActivities.add(a);
+      for (int i = 1; i < costs.length; i++) {
+        costsArray[i-1] = Integer.valueOf(costs[i]);
+      }
+      this.costs.put(new Pair<Activity, CostEnum>(a, CostEnum.CHANGE), costsArray[0]);
+      this.costs.put(new Pair<Activity, CostEnum>(a, CostEnum.ADD), costsArray[1]);
+      this.costs.put(new Pair<Activity, CostEnum>(a, CostEnum.SET), costsArray[2]);
+      this.costs.put(new Pair<Activity, CostEnum>(a, CostEnum.DELETE), costsArray[3]);
+    }
+
+    // TODO Implement handling of missing activities
+    // Set<Activity> undefinedActivities = new HashSet<>();
   }
-  
+
   //Section: Initialization of each attribute and finally removing missing initializations
   /**
    * Assigns each of the parsed attriutes to their activities.
@@ -223,7 +237,7 @@ public class DeclareModel {
   }
 
   // Costs
-  public Map<CostEnum, Integer> getCosts() {
+  public Map<Pair<Activity, CostEnum>, Integer> getCosts() {
     return this.costs;
   }
 }

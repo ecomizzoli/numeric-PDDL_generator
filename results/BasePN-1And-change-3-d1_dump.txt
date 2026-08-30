@@ -1,0 +1,6618 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 601
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.033) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 3
+Search Time (msec): 66
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem1.pddl -planner opt-blind"
+	User time (seconds): 5.98
+	System time (seconds): 0.83
+	Percent of CPU this job got: 385%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75936
+	Voluntary context switches: 11637
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 548
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.031) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 73
+Heuristic Time (msec): 5
+Search Time (msec): 64
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem2.pddl -planner opt-blind"
+	User time (seconds): 5.21
+	System time (seconds): 0.61
+	Percent of CPU this job got: 357%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 255620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 68997
+	Voluntary context switches: 8659
+	Involuntary context switches: 105
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 619
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.032) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 75
+Heuristic Time (msec): 4
+Search Time (msec): 65
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem3.pddl -planner opt-blind"
+	User time (seconds): 5.85
+	System time (seconds): 0.77
+	Percent of CPU this job got: 383%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 277596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70629
+	Voluntary context switches: 10026
+	Involuntary context switches: 45
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 578
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.038) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 86
+Heuristic Time (msec): 4
+Search Time (msec): 73
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem4.pddl -planner opt-blind"
+	User time (seconds): 6.11
+	System time (seconds): 0.76
+	Percent of CPU this job got: 402%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281364
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73366
+	Voluntary context switches: 10474
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 550
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 46
+Heuristic Time (msec): 4
+Search Time (msec): 35
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem5.pddl -planner opt-blind"
+	User time (seconds): 5.06
+	System time (seconds): 0.73
+	Percent of CPU this job got: 362%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 274140
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69960
+	Voluntary context switches: 8544
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 604
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 41
+Heuristic Time (msec): 5
+Search Time (msec): 31
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem6.pddl -planner opt-blind"
+	User time (seconds): 5.95
+	System time (seconds): 0.81
+	Percent of CPU this job got: 418%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 290724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74767
+	Voluntary context switches: 9271
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 570
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.029) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 71
+Heuristic Time (msec): 4
+Search Time (msec): 62
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem7.pddl -planner opt-blind"
+	User time (seconds): 6.05
+	System time (seconds): 0.67
+	Percent of CPU this job got: 402%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 292720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 77266
+	Voluntary context switches: 7538
+	Involuntary context switches: 59
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 562
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 46
+Heuristic Time (msec): 3
+Search Time (msec): 34
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem8.pddl -planner opt-blind"
+	User time (seconds): 5.47
+	System time (seconds): 0.69
+	Percent of CPU this job got: 374%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 275824
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71150
+	Voluntary context switches: 9343
+	Involuntary context switches: 8
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 568
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.029) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 72
+Heuristic Time (msec): 5
+Search Time (msec): 64
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem9.pddl -planner opt-blind"
+	User time (seconds): 5.70
+	System time (seconds): 0.71
+	Percent of CPU this job got: 398%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 277168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72100
+	Voluntary context switches: 9486
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 576
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.033) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 81
+Heuristic Time (msec): 4
+Search Time (msec): 69
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem10.pddl -planner opt-blind"
+	User time (seconds): 5.63
+	System time (seconds): 0.68
+	Percent of CPU this job got: 392%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281804
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72951
+	Voluntary context switches: 8340
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 596
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.033) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 76
+Heuristic Time (msec): 4
+Search Time (msec): 66
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem11.pddl -planner opt-blind"
+	User time (seconds): 5.69
+	System time (seconds): 0.85
+	Percent of CPU this job got: 378%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 278648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73243
+	Voluntary context switches: 11732
+	Involuntary context switches: 97
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 584
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 45
+Heuristic Time (msec): 6
+Search Time (msec): 35
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem12.pddl -planner opt-blind"
+	User time (seconds): 6.25
+	System time (seconds): 0.71
+	Percent of CPU this job got: 419%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 284340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75749
+	Voluntary context switches: 7206
+	Involuntary context switches: 41
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 578
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 47
+Heuristic Time (msec): 5
+Search Time (msec): 36
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem13.pddl -planner opt-blind"
+	User time (seconds): 5.92
+	System time (seconds): 0.67
+	Percent of CPU this job got: 391%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 288428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74896
+	Voluntary context switches: 8812
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 558
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 44
+Heuristic Time (msec): 4
+Search Time (msec): 32
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem14.pddl -planner opt-blind"
+	User time (seconds): 5.02
+	System time (seconds): 0.62
+	Percent of CPU this job got: 352%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 262352
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70239
+	Voluntary context switches: 9287
+	Involuntary context switches: 66
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 571
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.03) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 73
+Heuristic Time (msec): 4
+Search Time (msec): 63
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem15.pddl -planner opt-blind"
+	User time (seconds): 5.41
+	System time (seconds): 0.66
+	Percent of CPU this job got: 382%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 275460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 68640
+	Voluntary context switches: 8191
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 559
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.03) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 68
+Heuristic Time (msec): 4
+Search Time (msec): 60
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem16.pddl -planner opt-blind"
+	User time (seconds): 5.29
+	System time (seconds): 0.74
+	Percent of CPU this job got: 363%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 273332
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71521
+	Voluntary context switches: 9469
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 605
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.035) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 83
+Heuristic Time (msec): 5
+Search Time (msec): 72
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem17.pddl -planner opt-blind"
+	User time (seconds): 6.08
+	System time (seconds): 0.87
+	Percent of CPU this job got: 415%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 295280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 78965
+	Voluntary context switches: 9776
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 554
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.029) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 72
+Heuristic Time (msec): 4
+Search Time (msec): 63
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem18.pddl -planner opt-blind"
+	User time (seconds): 5.28
+	System time (seconds): 0.75
+	Percent of CPU this job got: 378%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 273860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70873
+	Voluntary context switches: 9146
+	Involuntary context switches: 15
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 621
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.033) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 5
+Search Time (msec): 69
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem19.pddl -planner opt-blind"
+	User time (seconds): 6.54
+	System time (seconds): 0.74
+	Percent of CPU this job got: 425%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 295116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 77333
+	Voluntary context switches: 9972
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 552
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.036) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 83
+Heuristic Time (msec): 5
+Search Time (msec): 71
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem20.pddl -planner opt-blind"
+	User time (seconds): 5.33
+	System time (seconds): 0.56
+	Percent of CPU this job got: 363%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 268580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69869
+	Voluntary context switches: 7485
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 605
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 43
+Heuristic Time (msec): 3
+Search Time (msec): 30
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem21.pddl -planner opt-blind"
+	User time (seconds): 5.70
+	System time (seconds): 0.62
+	Percent of CPU this job got: 396%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71049
+	Voluntary context switches: 8473
+	Involuntary context switches: 95
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 582
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 52
+Heuristic Time (msec): 4
+Search Time (msec): 39
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem22.pddl -planner opt-blind"
+	User time (seconds): 5.59
+	System time (seconds): 0.75
+	Percent of CPU this job got: 373%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 277068
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71306
+	Voluntary context switches: 9855
+	Involuntary context switches: 164
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 564
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 43
+Heuristic Time (msec): 4
+Search Time (msec): 33
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem23.pddl -planner opt-blind"
+	User time (seconds): 5.76
+	System time (seconds): 0.54
+	Percent of CPU this job got: 391%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72283
+	Voluntary context switches: 6533
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 576
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.037) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 82
+Heuristic Time (msec): 6
+Search Time (msec): 72
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem24.pddl -planner opt-blind"
+	User time (seconds): 5.66
+	System time (seconds): 0.69
+	Percent of CPU this job got: 386%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 277972
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73668
+	Voluntary context switches: 9556
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 554
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.035) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 83
+Heuristic Time (msec): 4
+Search Time (msec): 70
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem25.pddl -planner opt-blind"
+	User time (seconds): 5.52
+	System time (seconds): 0.67
+	Percent of CPU this job got: 383%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 263880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71484
+	Voluntary context switches: 8472
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 565
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 39
+Heuristic Time (msec): 5
+Search Time (msec): 29
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem26.pddl -planner opt-blind"
+	User time (seconds): 5.38
+	System time (seconds): 0.51
+	Percent of CPU this job got: 370%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 268092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69942
+	Voluntary context switches: 8435
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 578
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 52
+Heuristic Time (msec): 4
+Search Time (msec): 38
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem27.pddl -planner opt-blind"
+	User time (seconds): 5.85
+	System time (seconds): 0.70
+	Percent of CPU this job got: 403%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73251
+	Voluntary context switches: 7640
+	Involuntary context switches: 94
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 565
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 44
+Heuristic Time (msec): 4
+Search Time (msec): 34
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem28.pddl -planner opt-blind"
+	User time (seconds): 5.98
+	System time (seconds): 0.76
+	Percent of CPU this job got: 400%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 283692
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75414
+	Voluntary context switches: 9415
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 590
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.032) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 5
+Search Time (msec): 67
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem29.pddl -planner opt-blind"
+	User time (seconds): 6.10
+	System time (seconds): 0.76
+	Percent of CPU this job got: 415%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 289776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74435
+	Voluntary context switches: 10625
+	Involuntary context switches: 19
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 559
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 46
+Heuristic Time (msec): 4
+Search Time (msec): 34
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem30.pddl -planner opt-blind"
+	User time (seconds): 5.58
+	System time (seconds): 0.54
+	Percent of CPU this job got: 377%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 278984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74331
+	Voluntary context switches: 6601
+	Involuntary context switches: 102
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 576
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.039) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 88
+Heuristic Time (msec): 5
+Search Time (msec): 74
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem31.pddl -planner opt-blind"
+	User time (seconds): 5.71
+	System time (seconds): 0.65
+	Percent of CPU this job got: 385%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 276488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73964
+	Voluntary context switches: 9297
+	Involuntary context switches: 13
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 570
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.036) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 81
+Heuristic Time (msec): 5
+Search Time (msec): 69
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem32.pddl -planner opt-blind"
+	User time (seconds): 5.52
+	System time (seconds): 0.66
+	Percent of CPU this job got: 374%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 268452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70386
+	Voluntary context switches: 9918
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 575
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 44
+Heuristic Time (msec): 6
+Search Time (msec): 34
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem33.pddl -planner opt-blind"
+	User time (seconds): 5.93
+	System time (seconds): 0.67
+	Percent of CPU this job got: 393%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 289812
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73771
+	Voluntary context switches: 9163
+	Involuntary context switches: 180
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 583
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 40
+Heuristic Time (msec): 4
+Search Time (msec): 30
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem34.pddl -planner opt-blind"
+	User time (seconds): 6.03
+	System time (seconds): 0.76
+	Percent of CPU this job got: 399%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 285244
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75346
+	Voluntary context switches: 11077
+	Involuntary context switches: 106
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 575
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 38
+Heuristic Time (msec): 4
+Search Time (msec): 28
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem35.pddl -planner opt-blind"
+	User time (seconds): 5.44
+	System time (seconds): 0.73
+	Percent of CPU this job got: 383%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 276680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72684
+	Voluntary context switches: 7271
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 595
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 46
+Heuristic Time (msec): 4
+Search Time (msec): 33
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem36.pddl -planner opt-blind"
+	User time (seconds): 6.11
+	System time (seconds): 0.73
+	Percent of CPU this job got: 411%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 297696
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 79451
+	Voluntary context switches: 9412
+	Involuntary context switches: 88
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 580
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.03) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 76
+Heuristic Time (msec): 4
+Search Time (msec): 65
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem37.pddl -planner opt-blind"
+	User time (seconds): 5.86
+	System time (seconds): 0.81
+	Percent of CPU this job got: 400%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 276248
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72720
+	Voluntary context switches: 9962
+	Involuntary context switches: 70
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 580
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.03) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 72
+Heuristic Time (msec): 4
+Search Time (msec): 62
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem38.pddl -planner opt-blind"
+	User time (seconds): 5.71
+	System time (seconds): 0.70
+	Percent of CPU this job got: 387%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281508
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72499
+	Voluntary context switches: 8370
+	Involuntary context switches: 49
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 561
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.031) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 70
+Heuristic Time (msec): 4
+Search Time (msec): 62
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem39.pddl -planner opt-blind"
+	User time (seconds): 5.14
+	System time (seconds): 0.74
+	Percent of CPU this job got: 368%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 259172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 66911
+	Voluntary context switches: 9999
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 572
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.036) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 79
+Heuristic Time (msec): 4
+Search Time (msec): 69
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem40.pddl -planner opt-blind"
+	User time (seconds): 5.32
+	System time (seconds): 0.72
+	Percent of CPU this job got: 373%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 274916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69736
+	Voluntary context switches: 9269
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 572
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.03) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 75
+Heuristic Time (msec): 3
+Search Time (msec): 64
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem41.pddl -planner opt-blind"
+	User time (seconds): 5.76
+	System time (seconds): 0.72
+	Percent of CPU this job got: 397%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 277560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71663
+	Voluntary context switches: 10063
+	Involuntary context switches: 23
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 606
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.031) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 72
+Heuristic Time (msec): 4
+Search Time (msec): 62
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem42.pddl -planner opt-blind"
+	User time (seconds): 5.83
+	System time (seconds): 0.71
+	Percent of CPU this job got: 395%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 282912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74882
+	Voluntary context switches: 8863
+	Involuntary context switches: 132
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 580
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.035) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 5
+Search Time (msec): 68
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem43.pddl -planner opt-blind"
+	User time (seconds): 6.04
+	System time (seconds): 0.81
+	Percent of CPU this job got: 406%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75991
+	Voluntary context switches: 11283
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 564
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.032) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 5
+Search Time (msec): 67
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem44.pddl -planner opt-blind"
+	User time (seconds): 5.43
+	System time (seconds): 0.71
+	Percent of CPU this job got: 373%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 267412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69946
+	Voluntary context switches: 10077
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 596
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 40
+Heuristic Time (msec): 4
+Search Time (msec): 31
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem45.pddl -planner opt-blind"
+	User time (seconds): 6.12
+	System time (seconds): 0.65
+	Percent of CPU this job got: 414%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 288052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 78658
+	Voluntary context switches: 8733
+	Involuntary context switches: 84
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 555
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 40
+Heuristic Time (msec): 4
+Search Time (msec): 31
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem46.pddl -planner opt-blind"
+	User time (seconds): 5.12
+	System time (seconds): 0.74
+	Percent of CPU this job got: 374%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.56
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 270680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69894
+	Voluntary context switches: 8572
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 593
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 52
+Heuristic Time (msec): 5
+Search Time (msec): 38
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem47.pddl -planner opt-blind"
+	User time (seconds): 5.53
+	System time (seconds): 0.78
+	Percent of CPU this job got: 381%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 288888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74378
+	Voluntary context switches: 9412
+	Involuntary context switches: 71
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 592
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 45
+Heuristic Time (msec): 4
+Search Time (msec): 33
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem48.pddl -planner opt-blind"
+	User time (seconds): 5.27
+	System time (seconds): 0.63
+	Percent of CPU this job got: 359%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 268900
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 66743
+	Voluntary context switches: 8829
+	Involuntary context switches: 21
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 563
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.034) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 4
+Search Time (msec): 68
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem49.pddl -planner opt-blind"
+	User time (seconds): 5.73
+	System time (seconds): 0.66
+	Percent of CPU this job got: 381%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 286720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73661
+	Voluntary context switches: 9843
+	Involuntary context switches: 21
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 600
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 43
+Heuristic Time (msec): 4
+Search Time (msec): 32
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem50.pddl -planner opt-blind"
+	User time (seconds): 5.56
+	System time (seconds): 0.75
+	Percent of CPU this job got: 385%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280692
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72846
+	Voluntary context switches: 9217
+	Involuntary context switches: 225
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 578
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 41
+Heuristic Time (msec): 5
+Search Time (msec): 32
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem51.pddl -planner opt-blind"
+	User time (seconds): 5.55
+	System time (seconds): 0.67
+	Percent of CPU this job got: 388%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 288408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76107
+	Voluntary context switches: 8620
+	Involuntary context switches: 21
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 567
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 38
+Heuristic Time (msec): 4
+Search Time (msec): 29
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem52.pddl -planner opt-blind"
+	User time (seconds): 5.84
+	System time (seconds): 0.70
+	Percent of CPU this job got: 394%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 285552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76021
+	Voluntary context switches: 8344
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 596
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.037) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 83
+Heuristic Time (msec): 5
+Search Time (msec): 72
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem53.pddl -planner opt-blind"
+	User time (seconds): 6.21
+	System time (seconds): 0.71
+	Percent of CPU this job got: 409%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281112
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76170
+	Voluntary context switches: 10863
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 564
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 43
+Heuristic Time (msec): 3
+Search Time (msec): 32
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem54.pddl -planner opt-blind"
+	User time (seconds): 5.71
+	System time (seconds): 0.67
+	Percent of CPU this job got: 406%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 278360
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72951
+	Voluntary context switches: 6954
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 565
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 41
+Heuristic Time (msec): 4
+Search Time (msec): 30
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem55.pddl -planner opt-blind"
+	User time (seconds): 5.76
+	System time (seconds): 0.81
+	Percent of CPU this job got: 402%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281924
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75560
+	Voluntary context switches: 8494
+	Involuntary context switches: 95
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 573
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.028) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 67
+Heuristic Time (msec): 6
+Search Time (msec): 58
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem56.pddl -planner opt-blind"
+	User time (seconds): 5.86
+	System time (seconds): 0.66
+	Percent of CPU this job got: 397%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 286652
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73045
+	Voluntary context switches: 9259
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 566
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.033) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 4
+Search Time (msec): 67
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem57.pddl -planner opt-blind"
+	User time (seconds): 5.61
+	System time (seconds): 0.60
+	Percent of CPU this job got: 374%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 274824
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69963
+	Voluntary context switches: 8321
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 557
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.034) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 79
+Heuristic Time (msec): 4
+Search Time (msec): 69
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem58.pddl -planner opt-blind"
+	User time (seconds): 5.76
+	System time (seconds): 0.75
+	Percent of CPU this job got: 391%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 283764
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72564
+	Voluntary context switches: 7986
+	Involuntary context switches: 64
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 571
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.034) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 82
+Heuristic Time (msec): 4
+Search Time (msec): 70
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem59.pddl -planner opt-blind"
+	User time (seconds): 5.54
+	System time (seconds): 0.75
+	Percent of CPU this job got: 384%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 279112
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72708
+	Voluntary context switches: 9363
+	Involuntary context switches: 70
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 587
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 44
+Heuristic Time (msec): 4
+Search Time (msec): 32
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem60.pddl -planner opt-blind"
+	User time (seconds): 6.14
+	System time (seconds): 0.75
+	Percent of CPU this job got: 411%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 288196
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75095
+	Voluntary context switches: 8188
+	Involuntary context switches: 33
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 585
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.034) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 85
+Heuristic Time (msec): 6
+Search Time (msec): 74
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem61.pddl -planner opt-blind"
+	User time (seconds): 6.50
+	System time (seconds): 0.83
+	Percent of CPU this job got: 428%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 282676
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 77779
+	Voluntary context switches: 11563
+	Involuntary context switches: 38
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 606
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 42
+Heuristic Time (msec): 4
+Search Time (msec): 31
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem62.pddl -planner opt-blind"
+	User time (seconds): 5.89
+	System time (seconds): 0.63
+	Percent of CPU this job got: 396%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 275516
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71832
+	Voluntary context switches: 9428
+	Involuntary context switches: 19
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 559
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.026) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 69
+Heuristic Time (msec): 4
+Search Time (msec): 60
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem63.pddl -planner opt-blind"
+	User time (seconds): 5.10
+	System time (seconds): 0.69
+	Percent of CPU this job got: 374%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 272260
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70399
+	Voluntary context switches: 9299
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 577
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.031) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 76
+Heuristic Time (msec): 4
+Search Time (msec): 66
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem64.pddl -planner opt-blind"
+	User time (seconds): 5.75
+	System time (seconds): 0.65
+	Percent of CPU this job got: 394%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 276280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71731
+	Voluntary context switches: 8275
+	Involuntary context switches: 210
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 576
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.032) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 5
+Search Time (msec): 67
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem65.pddl -planner opt-blind"
+	User time (seconds): 5.67
+	System time (seconds): 0.68
+	Percent of CPU this job got: 388%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 282844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71490
+	Voluntary context switches: 9397
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 581
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.035) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 82
+Heuristic Time (msec): 4
+Search Time (msec): 72
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem66.pddl -planner opt-blind"
+	User time (seconds): 5.48
+	System time (seconds): 0.59
+	Percent of CPU this job got: 368%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 280428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72012
+	Voluntary context switches: 7992
+	Involuntary context switches: 88
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 589
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 39
+Heuristic Time (msec): 4
+Search Time (msec): 30
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem67.pddl -planner opt-blind"
+	User time (seconds): 5.56
+	System time (seconds): 0.69
+	Percent of CPU this job got: 377%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 270088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70710
+	Voluntary context switches: 9170
+	Involuntary context switches: 8
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 605
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 42
+Heuristic Time (msec): 4
+Search Time (msec): 31
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem68.pddl -planner opt-blind"
+	User time (seconds): 5.79
+	System time (seconds): 0.88
+	Percent of CPU this job got: 402%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 290844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 77199
+	Voluntary context switches: 10693
+	Involuntary context switches: 20
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 551
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 39
+Heuristic Time (msec): 4
+Search Time (msec): 31
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem69.pddl -planner opt-blind"
+	User time (seconds): 5.07
+	System time (seconds): 0.61
+	Percent of CPU this job got: 368%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 270960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69755
+	Voluntary context switches: 8018
+	Involuntary context switches: 8
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 575
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 47
+Heuristic Time (msec): 5
+Search Time (msec): 36
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem70.pddl -planner opt-blind"
+	User time (seconds): 5.42
+	System time (seconds): 0.63
+	Percent of CPU this job got: 374%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 275976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69001
+	Voluntary context switches: 8020
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 571
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.033) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 78
+Heuristic Time (msec): 4
+Search Time (msec): 66
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem71.pddl -planner opt-blind"
+	User time (seconds): 5.42
+	System time (seconds): 0.59
+	Percent of CPU this job got: 374%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281948
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70850
+	Voluntary context switches: 8418
+	Involuntary context switches: 31
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 551
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.031) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 75
+Heuristic Time (msec): 4
+Search Time (msec): 65
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem72.pddl -planner opt-blind"
+	User time (seconds): 5.49
+	System time (seconds): 0.66
+	Percent of CPU this job got: 381%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 262088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70059
+	Voluntary context switches: 9039
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 598
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.03) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 73
+Heuristic Time (msec): 5
+Search Time (msec): 64
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem73.pddl -planner opt-blind"
+	User time (seconds): 5.94
+	System time (seconds): 0.69
+	Percent of CPU this job got: 389%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281804
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72436
+	Voluntary context switches: 10204
+	Involuntary context switches: 39
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 551
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 39
+Heuristic Time (msec): 4
+Search Time (msec): 29
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem74.pddl -planner opt-blind"
+	User time (seconds): 4.59
+	System time (seconds): 0.71
+	Percent of CPU this job got: 342%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 259300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69789
+	Voluntary context switches: 8756
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 572
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 44
+Heuristic Time (msec): 4
+Search Time (msec): 31
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem75.pddl -planner opt-blind"
+	User time (seconds): 5.57
+	System time (seconds): 0.63
+	Percent of CPU this job got: 387%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 275596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72504
+	Voluntary context switches: 8188
+	Involuntary context switches: 121
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 588
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.034) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 77
+Heuristic Time (msec): 4
+Search Time (msec): 67
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem76.pddl -planner opt-blind"
+	User time (seconds): 6.18
+	System time (seconds): 0.96
+	Percent of CPU this job got: 406%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 294272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 79008
+	Voluntary context switches: 11371
+	Involuntary context switches: 35
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 570
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.034) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 79
+Heuristic Time (msec): 7
+Search Time (msec): 70
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem77.pddl -planner opt-blind"
+	User time (seconds): 5.49
+	System time (seconds): 0.77
+	Percent of CPU this job got: 384%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 272892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70836
+	Voluntary context switches: 10710
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 590
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a0 t6)
+11.0: (sync-actions a0)
+12.0: (validate-payload t6 a1 t7)
+13.0: (sync-actions a1)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 37
+Heuristic Time (msec): 5
+Search Time (msec): 29
+Expanded Nodes:19
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem78.pddl -planner opt-blind"
+	User time (seconds): 6.01
+	System time (seconds): 0.71
+	Percent of CPU this job got: 420%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75209
+	Voluntary context switches: 9746
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 553
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.034) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 79
+Heuristic Time (msec): 6
+Search Time (msec): 67
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem79.pddl -planner opt-blind"
+	User time (seconds): 5.32
+	System time (seconds): 0.66
+	Percent of CPU this job got: 361%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 266880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 68598
+	Voluntary context switches: 9244
+	Involuntary context switches: 37
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 569
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 37
+Heuristic Time (msec): 4
+Search Time (msec): 27
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem80.pddl -planner opt-blind"
+	User time (seconds): 5.97
+	System time (seconds): 0.81
+	Percent of CPU this job got: 398%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 282160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76006
+	Voluntary context switches: 9697
+	Involuntary context switches: 55
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 594
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.038) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 81
+Heuristic Time (msec): 6
+Search Time (msec): 72
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem81.pddl -planner opt-blind"
+	User time (seconds): 5.88
+	System time (seconds): 0.67
+	Percent of CPU this job got: 394%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 283944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74799
+	Voluntary context switches: 10116
+	Involuntary context switches: 105
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 566
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.03) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 76
+Heuristic Time (msec): 5
+Search Time (msec): 66
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem82.pddl -planner opt-blind"
+	User time (seconds): 6.08
+	System time (seconds): 0.66
+	Percent of CPU this job got: 407%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 290868
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 78542
+	Voluntary context switches: 8398
+	Involuntary context switches: 69
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 564
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.037) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 84
+Heuristic Time (msec): 5
+Search Time (msec): 72
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem83.pddl -planner opt-blind"
+	User time (seconds): 5.65
+	System time (seconds): 0.68
+	Percent of CPU this job got: 378%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 285160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72745
+	Voluntary context switches: 9488
+	Involuntary context switches: 99
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 571
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 38
+Heuristic Time (msec): 4
+Search Time (msec): 29
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem84.pddl -planner opt-blind"
+	User time (seconds): 5.56
+	System time (seconds): 0.60
+	Percent of CPU this job got: 385%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 274468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70325
+	Voluntary context switches: 7615
+	Involuntary context switches: 21
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 562
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 43
+Heuristic Time (msec): 4
+Search Time (msec): 31
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem85.pddl -planner opt-blind"
+	User time (seconds): 5.16
+	System time (seconds): 0.65
+	Percent of CPU this job got: 365%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 271892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71038
+	Voluntary context switches: 8565
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 589
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 46
+Heuristic Time (msec): 5
+Search Time (msec): 34
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem86.pddl -planner opt-blind"
+	User time (seconds): 6.02
+	System time (seconds): 0.68
+	Percent of CPU this job got: 414%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 291796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 78548
+	Voluntary context switches: 8543
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 560
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.031) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 77
+Heuristic Time (msec): 5
+Search Time (msec): 67
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem87.pddl -planner opt-blind"
+	User time (seconds): 6.08
+	System time (seconds): 0.69
+	Percent of CPU this job got: 404%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 275596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74273
+	Voluntary context switches: 8800
+	Involuntary context switches: 72
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 572
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.035) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 85
+Heuristic Time (msec): 4
+Search Time (msec): 73
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem88.pddl -planner opt-blind"
+	User time (seconds): 5.69
+	System time (seconds): 0.74
+	Percent of CPU this job got: 393%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 289568
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75650
+	Voluntary context switches: 10539
+	Involuntary context switches: 29
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 565
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.037) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 81
+Heuristic Time (msec): 5
+Search Time (msec): 69
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem89.pddl -planner opt-blind"
+	User time (seconds): 5.44
+	System time (seconds): 0.73
+	Percent of CPU this job got: 375%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 273900
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69794
+	Voluntary context switches: 7999
+	Involuntary context switches: 21
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 604
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.035) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 81
+Heuristic Time (msec): 5
+Search Time (msec): 71
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem90.pddl -planner opt-blind"
+	User time (seconds): 5.96
+	System time (seconds): 0.85
+	Percent of CPU this job got: 397%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 282636
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75471
+	Voluntary context switches: 12459
+	Involuntary context switches: 109
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 601
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.028) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 73
+Heuristic Time (msec): 4
+Search Time (msec): 63
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem91.pddl -planner opt-blind"
+	User time (seconds): 5.83
+	System time (seconds): 0.70
+	Percent of CPU this job got: 400%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 278552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72591
+	Voluntary context switches: 9397
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 571
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.032) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 74
+Heuristic Time (msec): 4
+Search Time (msec): 63
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem92.pddl -planner opt-blind"
+	User time (seconds): 5.68
+	System time (seconds): 0.63
+	Percent of CPU this job got: 380%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 271972
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73316
+	Voluntary context switches: 8008
+	Involuntary context switches: 200
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 544
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.033) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 71
+Heuristic Time (msec): 4
+Search Time (msec): 62
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem93.pddl -planner opt-blind"
+	User time (seconds): 5.19
+	System time (seconds): 0.59
+	Percent of CPU this job got: 362%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 266152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69052
+	Voluntary context switches: 8357
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 580
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.035) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 83
+Heuristic Time (msec): 6
+Search Time (msec): 73
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem94.pddl -planner opt-blind"
+	User time (seconds): 6.15
+	System time (seconds): 0.86
+	Percent of CPU this job got: 409%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 294308
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 79344
+	Voluntary context switches: 10667
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 551
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.028) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a2 t7)
+14.0: (sync-actions a2)
+15.0: (validate-payload t7 a0 t8)
+16.0: (sync-actions a0)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 73
+Heuristic Time (msec): 4
+Search Time (msec): 63
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem95.pddl -planner opt-blind"
+	User time (seconds): 5.37
+	System time (seconds): 0.78
+	Percent of CPU this job got: 380%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 259800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69773
+	Voluntary context switches: 8672
+	Involuntary context switches: 81
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 566
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a0 t7)
+13.0: (sync-actions a0)
+14.0: (validate-payload t7 a2 t8)
+15.0: (sync-actions a2)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 37
+Heuristic Time (msec): 4
+Search Time (msec): 28
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem96.pddl -planner opt-blind"
+	User time (seconds): 5.08
+	System time (seconds): 0.72
+	Percent of CPU this job got: 359%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 277676
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71000
+	Voluntary context switches: 8485
+	Involuntary context switches: 121
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 569
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.037) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 86
+Heuristic Time (msec): 4
+Search Time (msec): 73
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem97.pddl -planner opt-blind"
+	User time (seconds): 5.28
+	System time (seconds): 0.66
+	Percent of CPU this job got: 361%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 275660
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69413
+	Voluntary context switches: 9572
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 564
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 55, Time: 0.04) Frontier Size: 35
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (change_value a1 integer v0)
+11.0: (validate-payload t5 a1 t6)
+12.0: (sync-actions a1)
+13.0: (validate-payload t6 a0 t7)
+14.0: (sync-actions a0)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 88
+Heuristic Time (msec): 5
+Search Time (msec): 77
+Expanded Nodes:58
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem98.pddl -planner opt-blind"
+	User time (seconds): 5.27
+	System time (seconds): 0.74
+	Percent of CPU this job got: 372%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 277324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70777
+	Voluntary context switches: 9523
+	Involuntary context switches: 36
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 559
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+f(n) = 1.0 (Expanded Nodes: 20, Evaluated States: 53, Time: 0.039) Frontier Size: 33
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (change_value a10 integer v5)
+3.0: (validate-payload t1 a10 t2)
+4.0: (sync-actions a10)
+5.0: (validate-payload t2 a12 t3)
+6.0: (sync-actions a12)
+7.0: (validate-payload t3 a11 t4)
+8.0: (sync-actions a11)
+9.0: (validate-payload t4 a8 t5)
+10.0: (sync-actions a8)
+11.0: (validate-payload t5 a0 t6)
+12.0: (sync-actions a0)
+13.0: (validate-payload t6 a1 t7)
+14.0: (sync-actions a1)
+15.0: (validate-payload t7 a2 t8)
+16.0: (sync-actions a2)
+17.0: (validate-payload t8 a9 t9)
+18.0: (sync-actions a9)
+
+Plan-Length:19
+Metric (Search):1.0
+Planning Time (msec): 86
+Heuristic Time (msec): 5
+Search Time (msec): 74
+Expanded Nodes:60
+States Evaluated:130
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem99.pddl -planner opt-blind"
+	User time (seconds): 5.49
+	System time (seconds): 0.70
+	Percent of CPU this job got: 375%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 284068
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73340
+	Voluntary context switches: 8639
+	Involuntary context switches: 94
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 571
+UFX:true
+|F|:4033
+|X|:4
+|A|:194
+|P|:0
+|E|:0
+h(I):0.0
+Problem Solved
+
+Found Plan:
+0.0: (validate-payload t0 a7 t1)
+1.0: (sync-actions a7)
+2.0: (validate-payload t1 a10 t2)
+3.0: (sync-actions a10)
+4.0: (validate-payload t2 a12 t3)
+5.0: (sync-actions a12)
+6.0: (validate-payload t3 a11 t4)
+7.0: (sync-actions a11)
+8.0: (validate-payload t4 a8 t5)
+9.0: (sync-actions a8)
+10.0: (validate-payload t5 a1 t6)
+11.0: (sync-actions a1)
+12.0: (validate-payload t6 a2 t7)
+13.0: (sync-actions a2)
+14.0: (validate-payload t7 a0 t8)
+15.0: (sync-actions a0)
+16.0: (validate-payload t8 a9 t9)
+17.0: (sync-actions a9)
+
+Plan-Length:18
+Metric (Search):0.0
+Planning Time (msec): 38
+Heuristic Time (msec): 4
+Search Time (msec): 29
+Expanded Nodes:19
+States Evaluated:51
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0
+	Command being timed: "java -Xmx8g -jar pddl_gen/src/main/resources/output/enhsp3.jar -o pddl_gen/src/main/resources/output/domain_with_failureSmall.pddl -f pddl_gen/src/main/resources/output/pddl/BasePN-1And-change-3-d1//problem100.pddl -planner opt-blind"
+	User time (seconds): 5.80
+	System time (seconds): 0.63
+	Percent of CPU this job got: 405%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 276700
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71944
+	Voluntary context switches: 7217
+	Involuntary context switches: 8
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

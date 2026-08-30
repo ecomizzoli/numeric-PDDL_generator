@@ -1,7 +1,0 @@
-activity ActivityAP
-bind ActivityAP: integer 
-activity ActivityG
-bind ActivityG: integer 
-integer: integer between 0 and 100 
-categorical: c1, c2, c3
-Response[ActivityG, ActivityAP] |A.integer > 10 |T.integer < 10 |

@@ -482,8 +482,13 @@
   )
 
   (:action goto-goal
-    :parameters (?t1 - trace_state)
-    :precondition (and (cur_t_state ?t1) (final_t_state ?t1)
+    :parameters ()
+    :precondition (and 
+                (exists (?t1 - trace_state) 
+                  (and (cur_t_state ?t1)
+                       (final_t_state ?t1)
+                  )
+                )
                 (not (after_add))
                 (not (failure))
                 (not (after_add_check))

@@ -8,11 +8,13 @@ import model.DeclareConstraint;
 import model.DeclareModel;
 import model.MixedModel;
 
+
 import org.deckfour.xes.extension.std.XConceptExtension;
 import Automaton.Automaton;
 import Automaton.State;
 import Automaton.Transition;
 import Automaton.VariableSubstitution;
+import Automaton.Pair;
 import log.Event;
 
 import java.util.ArrayList;
@@ -31,8 +33,8 @@ public class PDDLGeneratorMixedModel extends PDDLGenerator{
   private static final int SET_DEFAULT_COST = 1;
   private static final int DELETE_DEFAULT_COST = 2;
 
-  private final Map<CostEnum, Integer> costs;
-  
+  //private final Map<CostEnum, Integer> costs;
+  private final Map<Pair<Activity, CostEnum>, Integer> costs;
   // NOTE Define action costs above ^^^
   private final HashMap<String, Activity> activities;
   private final ArrayList<DeclareConstraint> constraints;
@@ -55,17 +57,12 @@ public class PDDLGeneratorMixedModel extends PDDLGenerator{
 
     super(model.declareModel);
     // Get set costs, or use default ones
-    Map<CostEnum, Integer> costs = model.declareModel.getCosts();
+    //Map<CostEnum, Integer> costs = model.declareModel.getCosts();
+    Map<Pair<Activity, CostEnum>, Integer> costs = model.getCosts();
     if (costs != null) {
       this.costs = costs;
     } else {
-      costs = new HashMap<>();
-      costs.put(CostEnum.CHANGE, CHANGE_DEFAULT_COST);
-      costs.put(CostEnum.ADD, ADD_DEFAULT_COST);
-      costs.put(CostEnum.SET, SET_DEFAULT_COST);
-      costs.put(CostEnum.DELETE, DELETE_DEFAULT_COST);
-
-      this.costs = costs;
+      this.costs = null;
     }
 
     this.mixedModel = model;
@@ -104,6 +101,7 @@ public class PDDLGeneratorMixedModel extends PDDLGenerator{
     s.append(this.buildObjectsString(attributes, assignments));
 
     s.append(this.buildSubstitutionValues(assignments, substitutions));
+    s.append(this.buildActionCosts());
     s.append(this.buildTraceDeclaration(listOfEvents, attributes));
     s.append(this.buildAutomatons(finalAutomatonStates));
 
@@ -202,6 +200,30 @@ public class PDDLGeneratorMixedModel extends PDDLGenerator{
 
     return b;
   }
+  private StringBuilder buildActionCosts() {
+    StringBuilder b = new StringBuilder();
+    b.append("    ; Action costs\n");
+
+    for (Map.Entry<Pair<Activity, CostEnum>, Integer> cost : this.costs.entrySet()) {
+      switch (cost.getKey().getValue()) {
+        case CHANGE:
+          b.append("    (= (change_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          break;
+        case ADD:
+          b.append("    (= (add_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          break;
+        case SET:
+          b.append("    (= (set_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          break;
+        case DELETE:
+          b.append("    (= (delete_cost " + cost.getKey().getKey().getName() + ") " + cost.getValue() + ")\n");
+          break;
+      }
+    }
+    b.append("\n");
+
+    return b;
+  }
   private StringBuilder buildTraceDeclaration(List<Event> events, Map<Event, Map<Attribute, String>> assignments) {
     StringBuilder b = new StringBuilder();
     b.append("    ;; TRACE DECLARATION\n");
@@ -238,7 +260,7 @@ public class PDDLGeneratorMixedModel extends PDDLGenerator{
         String attName = singleAssignment.getKey().getName();
 
         if (!this.mixedModel.declareModel.params.contains(attName)) {
-          break;
+          continue;
         }
         value = value.replaceAll("[a-zA-Z]", ""); // Remove chars, use as if numbers (in case of enum types)
 

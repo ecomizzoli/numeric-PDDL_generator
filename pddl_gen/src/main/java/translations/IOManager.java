@@ -52,6 +52,20 @@ public class IOManager {
     this.inputFolder = resourcesFolder + "input" + File.separator;
     this.outputFolder = resourcesFolder + "output" + File.separator;
     this.pddlFolder = outputFolder + "pddl" + File.separator;
+
+    // Create folders if these don't exist.
+    File inputDir = new File(inputFolder);
+    if (!inputDir.exists()) {
+      inputDir.mkdirs();
+    }
+    File outputDir = new File(outputFolder);
+    if (!outputDir.exists()) {
+      outputDir.mkdirs();
+    }
+    File pddlDir = new File(pddlFolder);
+    if (!pddlDir.exists()) {
+      pddlDir.mkdirs();
+    }
   }
 
   public void setProjectPrefix(String projectPrefix) {
@@ -331,17 +345,18 @@ public class IOManager {
   
   
   //Section: Reading cost model
-  public String[] readCostModel(String costsFileName) {
+  public ArrayList<String[]> readCostModel(String costsFileName) {
     File costModel = new File(inputFolder + costsFileName);
-    String[] costs = new String[] {};
+    ArrayList<String[]> costsList = new ArrayList<>();
+
     try (Scanner scanner = new Scanner(costModel)) {
-      if (scanner.hasNextLine()) {
-        costs = scanner.nextLine().split(" ");
+      while (scanner.hasNextLine()) {
+        costsList.add(scanner.nextLine().split(" "));
       }
     } catch (IOException e) {
       System.out.println("Error reading the cost model");
     }
-    return costs;
+    return costsList;
   }
   
   public void exportEquivalenceClasses(HashMap<String, ArrayList<String>> classes) {
@@ -378,7 +393,7 @@ public class IOManager {
     try (FileWriter fileWriter = new FileWriter(outputFolder + "activityMapping_" + modelName + ".txt")) {
       fileWriter.write(activityMapping);
     } catch (IOException e) {
-      System.out.println("Error creating the activityMapping file");
+      System.out.println("Error creating the activityMapping file. \n" + e.toString());
     }
   }
 

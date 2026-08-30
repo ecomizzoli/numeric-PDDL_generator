@@ -38,7 +38,6 @@ public class Runner {
     // args = new String[5];
 
     findAlignments(args[0], args[1], args[2], args[3], args[4], args[5]);
-  
       
   }
   
@@ -59,7 +58,7 @@ public class Runner {
     ioManager.setProjectPrefix("pddl_gen");
     
     DeclareModel model = ioManager.readDeclareModel(modelString); // OKAY!
-    model.assignCosts(ioManager.readCostModel(costsString)); // OKAY!
+    //model.assignCosts(ioManager.readCostModel(costsString)); // OKAY!
 
     Map<String, Integer> variableAssignments = ioManager.readVariableAssignments(variablesString);
     Set<VariableSubstitution> substitutions = ioManager.readVariablesSubstitutions(substitutionsString);
@@ -68,7 +67,8 @@ public class Runner {
 
     
 
-    if ((petriNetString == "") | (petriNetString == null)) {
+    if ((petriNetString == "") | (petriNetString == null) | !(petriNetString.endsWith(".pnml"))) {
+      model.assignCosts(ioManager.readCostModel(costsString)); // OKAY!
       LogFile log = ioManager.readDeclareLog(traceString, model);
       PDDLGenerator pddlGenerator = new PDDLGenerator(model);
     String domain = pddlGenerator.defineDomain();
@@ -82,8 +82,10 @@ public class Runner {
     IOManager.getInstance().exportDomainPDDL(domain);
     }
     else {
+
       DataPetriNet petriNet = ioManager.readDataPetriNet(petriNetString);
       MixedModel myMixedModel = new MixedModel(petriNet, model);
+      myMixedModel.assignCosts(ioManager.readCostModel(costsString)); // OKAY!
 
       LogFile log = ioManager.readLog(traceString, myMixedModel); // OKAY!
       
